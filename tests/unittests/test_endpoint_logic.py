@@ -16,8 +16,8 @@ input_js_word_cloud = json.load(open(PROJECT_HOME + "/tests/test_input/word_clou
 
 # has fewer than 50 nodes
 input_js_author_network_small = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_small.json"))
-
 input_js_paper_network = json.load(open(PROJECT_HOME + "/tests/test_input/paper_network_before_groups_func_large.json"))
+input_js_data_parameter = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_second_parameter.json"))
 
 #result data
 
@@ -149,101 +149,33 @@ class TestEndpointLogic(unittest.TestCase):
 
     #if it receives fewer than 50 nodes, it should just return the graph in the form {fullgraph : graph}
 
-    processed_data_small = author_network.augment_graph_data(input_js_author_network_small, max_groups=max_groups)
+    processed_data_small = author_network.augment_graph_data(input_js_author_network_small, input_js_data_parameter)
 
     self.assertNotIn("summaryGraph", processed_data_small)
 
-    #otherwise, it should return two graphs, the fullgraph and the group node graph. 
+    # otherwise, it should return json containing three items :
+    # bibcode_dict, root (d3 structured data), and link_data
 
     input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
 
-    processed_data = author_network.augment_graph_data(input_js_author_network, max_groups=max_groups)
+    processed_data = author_network.augment_graph_data(input_js_author_network, input_js_data_parameter)
 
-    self.assertTrue("summaryGraph" in processed_data)
-    self.assertTrue("fullGraph" in processed_data)
+    self.assertTrue("bibcode_dict" in processed_data)
+    self.assertTrue("root" in processed_data)
+    self.assertTrue("link_data" in processed_data)
 
-
-    #The full graph will be filtered of nodes that didn't make it into one of the groups
-
-    allowed_groups = sorted([n["id"] for n in test_js_author_network_max_groups["summaryGraph"]["nodes"]])
-    allowed_groups = [a for a in allowed_groups if isinstance(a, int)]
-    group_nums =sorted(list(set([n["group"]for n in test_js_author_network_max_groups['fullGraph']['nodes']])))
-
-    self.assertEqual(allowed_groups, group_nums)
-
-    # And it will have no more than max_groups number of groups
-
-    groups = [d for d in processed_data["summaryGraph"]["nodes"] if not d.get("connector", None)]
-
-    self.assertLessEqual(len(groups), max_groups)
-
-    # #testing entire function
+    # testing entire function
 
     input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
 
-    processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, max_groups=max_groups), sort_keys=True))
+    # with open(PROJECT_HOME + "/tests/test_output/author_network_accomazzi,a.json", "w") as f:
+    #   processed_data = author_network.augment_graph_data(input_js_author_network, input_js_data_parameter)
+    #   json.dump(processed_data,f)
 
-
-
+    processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
     self.assertEqual(processed_data, test_js_author_network)
 
 
-    #doing a sanity check to make sure Alberto is linked to the proper people in the graph
-    #previously the way I calculated the connector node was causing issues
-
-    def testLinks(data):
-      alberto_index = [(i, n) for i, n in enumerate(data["nodes"]) if n.get("nodeName") == "Accomazzi, A"][0][0]
-      alinks = [(i, l) for i,l in enumerate(data["links"]) if l["source"] == alberto_index or l["target"] == alberto_index]
-      l = []
-      for a in alinks:
-        if a[1]["source"] != alberto_index:
-          l.append(data["nodes"][a[1]["source"]].get("nodeName", 0))
-        elif a[1]["target"] != alberto_index:
-          l.append(data["nodes"][a[1]["target"]].get("nodeName", 0))
-      return sorted(l)
-
-
-    self.assertEqual(testLinks(author_network.get_network_with_groups(test_js_author_network_alberto, 8)["fullGraph"]), [u'Bohlen, E',
-   u'Demleitner, M',
-   u'Eichhorn, G',
-   u'Elwell, B',
-   u'Ginsparg, P',
-   u'Grant, C',
-   u'Henneken, E',
-   u'Martimbeau, N',
-   u'Murray, S',
-   u'Thompson, D',
-   u'Warner, S',
-   u'Watson, J'])
-
-
-    #making sure Kurtz (the connector node) has been given the appropriate link weights
-    #this is calculated by me rather than by the summary graph generator
-
-    without_groups = author_network.get_network(test_js_author_network_alberto)
-
-    with_groups = author_network.get_network_with_groups(test_js_author_network_alberto, 8)
-
-    kurtzIndex = [i for i,m in enumerate(without_groups["nodes"]) if m["nodeName"] == "Kurtz, M"][0]
-
-    nodeNames = [n["nodeName"] for n in with_groups['fullGraph']["nodes"]]
-
-    #all names that kurtz is linked to in the final graph
-    connection_indexes = [i for i, m in enumerate(without_groups["nodes"]) if m["nodeName"] in nodeNames]
-
-    #the sum of the values of those links
-    total_link_vals = [l["value"] for l in without_groups["links"] if (l["source"] == kurtzIndex and l["target"] in connection_indexes) or (l["target"] == kurtzIndex and l["source"] in connection_indexes)]
-
-    total_link_vals = sum(total_link_vals)
-
-    #index of Kurtz in the summary nodes
-    kurtzSummaryIndex = [i for i,m in enumerate(with_groups["summaryGraph"]["nodes"]) if m["nodeName"].keys()[0] == "Kurtz, M"][0]
-
-    total_connections = [l for l in with_groups["summaryGraph"]["links"] if l["source"] == kurtzSummaryIndex or l["target"] == kurtzSummaryIndex]
-
-    sum_finished = sum([d["weight"] for d in total_connections])
-
-    self.assertEqual(int(sum_finished), int(total_link_vals))
 
   def test_paper_network_resource(self):
 
@@ -293,7 +225,7 @@ class TestEndpointLogic(unittest.TestCase):
     processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
 
 
-    #self.assertEqual(processed_data, test_js_paper_network)
+    self.assertEqual(processed_data, test_js_paper_network)
 
 
 

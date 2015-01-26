@@ -65,36 +65,62 @@ def _remap_dict_in_range(mydict, newrange=[1, 100]):
   return ret_dic
 
 
+
 #Alex's function that takes a generated graph and gives you back a graph with groups
 
-def augment_graph_data(data, max_groups):
-   
-  total_nodes = len(data['nodes'])   
+def augment_graph_data(author_graph, data):
 
-  if total_nodes < 50:
-    
-    return {"fullGraph" :data}
-    
-  connector_nodes = []
+  total_nodes = len(author_graph['nodes']) 
 
+  if total_nodes < 30:
+    return {"fullGraph" : author_graph}
+
+  # make two dicts: a dict with all info for a certain paper (bib_dict)
+  # and a dict for each author that lists all bibcodes they helped write
+  name_dict = defaultdict(list)
+  bib_dict= {}
+
+  for d in data:
+    #getting rid of None values
+    citation_count = d.get("citation_count")
+    if not citation_count:
+        citation_count = 0
+    read_count = d.get("read_count")
+    if not read_count:
+        read_count = 0
+    bib_dict[d.get("bibcode")] = {"title" : d.get("title", [""])[0],
+                                  "citation_count": citation_count,
+                                  "read_count": read_count,
+                                  "authors" : d.get("author_norm", [])}
+    for author in d.get("author_norm", []):
+        name_dict[author].append(d.get("bibcode"))
+
+  #don't allow any more than 200 author nodes
+  node_cutoff = sorted([d["nodeWeight"] for d in author_graph['nodes']], reverse=True)[:200]
+  node_cutoff = node_cutoff[len(node_cutoff) -1]
+    
   connector_nodes = []
 
   # checking to see if one node connects to all other nodes, and removing it from consideration
   # will be used as a special "connector node" below
-  for i, n in enumerate(data['nodes']):
-    links =  [l for l in data['links'] if l['source'] == i or l['target'] == i]
+  for i, n in enumerate(author_graph['nodes']):
+    links =  [l for l in author_graph['links'] if l['source'] == i or l['target'] == i]
     if len(links) == total_nodes -1:
       connector_nodes.append(n)
-      data['nodes'][i]["delete"] = True
+      author_graph['nodes'][i]["delete"] = True
     else:
-        data['nodes'][i]["delete"] = False
+      author_graph['nodes'][i]["delete"] = False
         
-  #create the networkx graph
+  # create the networkx graph
   G = nx.Graph()
-  for i,x in enumerate(data['nodes']):
+        
+  # create a backwards dict from name to index
+  index_dict = {x["nodeName"]: i for i, x in enumerate(author_graph['nodes'])}
+        
+  for i,x in enumerate(author_graph['nodes']):
     G.add_node(i, nodeName= x["nodeName"], nodeWeight = x["nodeWeight"], delete=x["delete"])
 
-  for i,x in enumerate(data['links']):
+  for i,x in enumerate(author_graph['links']):
     G.add_edge(x["source"], x["target"], weight = x["value"])
    
   all_nodes = G.nodes()
@@ -106,65 +132,49 @@ def augment_graph_data(data, max_groups):
         
   #attach group names to all nodes
   partition = community.best_partition(G)
-
-  for g in G.nodes():
-    G.node[g]["group"] = partition[g]
-
-  #with new group info, create the summary group graph
-  summary_graph = community.induced_graph(partition, G)
-
-  #enhance the information that will be in the json handed off to d3
-  for x in summary_graph.nodes():
-    summary_graph.node[x]["size"] = sum([G.node[auth].get("nodeWeight", 0) for auth in G.nodes() if G.node[auth]["group"] == x])
-    authors = sorted([G.node[auth] for auth in G.nodes() if G.node[auth]["group"] == x], key = lambda x: x.get("nodeWeight", 0), reverse = True)
-    num_names = max(min(int(math.ceil(len(authors) /10)), 4), 1)
-    summary_graph.node[x]["nodeName"] =  {d.get("nodeName"): d.get("nodeWeight") for d in authors[:num_names]}
-    summary_graph.node[x]["authorCount"] = len(authors)
-
- #remove all but top n groups from summary graph
-  top_nodes = sorted([n for n in summary_graph.nodes(data = True)], key= lambda x : x[1]["size"], reverse = True )[:max_groups]
-  top_node_ids = [n[0] for n in top_nodes]
-  for group_id in summary_graph.nodes():
-    if group_id not in top_node_ids:
-      summary_graph.remove_node(group_id);
-      
-#adding connector nodes
-  for c in connector_nodes:
-    summary_graph.add_node(c["nodeName"], nodeName = {c.get("nodeName") : c.get("nodeWeight")}, connector = True, size = c.get("nodeWeight"))
-    oldConIndex = [i for i,m in enumerate(data["nodes"]) if m["nodeName"] == c["nodeName"]][0]
-    for x in summary_graph.nodes():
-        group_weight = 0
-        members =  [m[1]["nodeName"] for m in G.nodes(True) if m[1]["group"] == x]
-        for m in members:
-            oldIndex = [i for i, author in enumerate(data["nodes"]) if m == author["nodeName"]][0]
-            for l in data["links"]:
-                if (l["source"] == oldConIndex and l["target"] == oldIndex) or (l["source"] ==  oldIndex and l["target"] == oldConIndex ):
-                    group_weight+=l["value"]
-        summary_graph.add_edge(c["nodeName"], x, weight= group_weight)
-
-       
- #remove nodes from full graph that aren't in top group
- #this automatically takes care of edges, too
-  for node in G.nodes(data = True):
-    if node[1]["group"] not in top_node_ids:
-      G.remove_node(node[0])
-
-#remove self links from summary graph
-  # for edge in summary_graph.edges(data = True):
-  #   if edge[0] == edge[1]:
-  #     summary_graph.remove_edge(edge[0], edge[1])
-    
-
-  final_data = {"summaryGraph" : json_graph.node_link_data(summary_graph), "fullGraph" : json_graph.node_link_data(G) }
-
   
-  return final_data
+  #make dict from group to list of items
+  group_to_author_dict = defaultdict(list)
+  for author in partition:
+      group = partition[author]
+      group_to_author_dict[group].append(author)
+                
+ #create two level structure
+  #add groups
+  groups = []
+  for g in group_to_author_dict:
+    children = []
+    for child in group_to_author_dict[g]:
+        if G.node[child].get("nodeWeight") >= node_cutoff:
+           name = G.node[child].get("nodeName")
+           size = G.node[child].get("nodeWeight")
+           bibs = sorted(name_dict[name], key=lambda x:bib_dict[x]["citation_count"], reverse=True)
+           total_citations = sum([bib_dict[bibcode]["citation_count"] for bibcode in name_dict[name]])
+           total_reads = sum([bib_dict[bibcode]["read_count"] for bibcode in name_dict[name]])
+           children.append({"name":name, "size": size, "papers":bibs, "citation_count" : total_citations, "read_count" : total_reads, "numberName" : child})
+        else:
+            G.remove_node(child)
+    groups.append({"name" : g, "children" : children})
+    
+  #make the group names nicer for presentation purposes
+  groups = [g for g in groups if g["children"]]
+  sorted_groups = sorted(groups, key=lambda x:sum([c["size"]for c in x["children"]]), reverse=True)
+  for i, g in enumerate(sorted_groups):
+        sorted_groups[i]["name"] = i + 1
+ 
+  top_level = {"name" : connector_nodes, "children" : sorted_groups}
 
+  link_data = G.edges(data=True)
+  link_data = [[l[0], l[1], l[2]["weight"]] for l in link_data]
+  #remove inter-group links
+  link_data = [l for l in link_data if partition[l[0]] != partition[l[1]]]
+  return {"root": top_level, "bibcode_dict":bib_dict, "link_data" : link_data}
+    
 
 #Giovanni's original author network building function, with data processed by the group function 
 #right before it is returned to the user
 
-def get_network_with_groups(authors_lists, max_groups):
+def get_network_with_groups(authors_lists, data):
   """Function that builds the authors network"""
 
   if not authors_lists:
@@ -308,7 +318,7 @@ def get_network_with_groups(authors_lists, max_groups):
     
   authors = {'nodes': nodes, 'links': links}
     
-  return augment_graph_data(authors, max_groups)
+  return augment_graph_data(authors, data)
 
 
 

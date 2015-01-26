@@ -82,11 +82,11 @@ class AuthorNetwork(Resource):
 
   def get(self):
 
-    solr_args = {k : v for k,v in request.args.items() if k != "max_groups"}
+    solr_args = {k : v for k,v in request.args.items()}
 
     solr_args["rows"] = min(solr_args.get("rows", current_app.config.get("AN_MAX_RECORDS")), current_app.config.get("AN_MAX_RECORDS"))
 
-    solr_args['fl'] = ['author_norm']
+    solr_args['fl'] = ['author_norm', 'title', 'citation_count', 'read_count','bibcode', 'pubdate']
     solr_args['wt'] ='json'
 
     response = current_app.client.session.get(current_app.config.get("SOLR_PATH") , params = solr_args)
@@ -97,8 +97,8 @@ class AuthorNetwork(Resource):
       return {"Error": "There was a connection error. Please try again later", "Error Info": response.text}, response.status_code
 
     #get_network_with_groups expects a list of normalized authors
-    data = [d.get("author_norm", []) for d in data["response"]["docs"]]
-    author_network_json = author_network.get_network_with_groups(data, request.args.get("max_groups", current_app.config.get("AN_MAX_GROUPS")))
+    author_norm = [d.get("author_norm", []) for d in data["response"]["docs"]]
+    author_network_json = author_network.get_network_with_groups(author_norm, data["response"]["docs"])
 
     if author_network_json:
       return author_network_json, 200
@@ -130,7 +130,6 @@ class PaperNetwork(Resource):
     #get_network_with_groups expects a list of normalized authors
     data = data["response"]["docs"]
     author_network_json = paper_network.get_papernetwork(data, request.args.get("max_groups", current_app.config.get("AN_MAX_GROUPS")))
-
     if author_network_json:
       return author_network_json, 200
     else:

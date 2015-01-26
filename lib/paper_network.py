@@ -80,14 +80,15 @@ def augment_graph_data(data, max_groups):
   #create the networkx graph
   G = nx.Graph()
   for i,x in enumerate(data['nodes']):
-    G.add_node(i, nodeName= x["nodeName"], nodeWeight = x["nodeWeight"], title=x["title"], citation_count=x["citation_count"], first_author = x["first_author"], read_count = x["read_count"])
+    G.add_node(i, node_name= x["node_name"], nodeWeight = x["nodeWeight"], title=x["title"], citation_count=x["citation_count"], first_author = x["first_author"], read_count = x["read_count"])
 
   for i,x in enumerate(data['links']):
     G.add_edge(x["source"], x["target"], weight = x["value"], overlap = list(x["overlap"]))
    
   all_nodes = G.nodes()
   
-  #attach group names to all nodes
+  #partition is a dictionary with group names as keys
+  # and individual node indexes as values
   partition = community.best_partition(G)
 
   for g in G.nodes():
@@ -101,41 +102,48 @@ def augment_graph_data(data, max_groups):
 
   #enhance the information that will be in the json handed off to d3
   for x in summary_graph.nodes():
-    #size of each node is cumulative citations
-    summary_graph.node[x]["size"] = sum([G.node[paper].get("citation_count", 0) for paper in G.nodes() if G.node[paper]["group"] == x])
-
+    summary_graph.node[x]["total_citations"] = sum([G.node[paper].get("citation_count", 0) for paper in G.nodes() if G.node[paper]["group"] == x])
     summary_graph.node[x]["total_reads"] = sum([G.node[paper].get("read_count", 0) for paper in G.nodes() if G.node[paper]["group"] == x])
-
     papers = sorted([G.node[paper] for paper in G.nodes() if G.node[paper]["group"] == x], key = lambda x: x.get("nodeWeight", 0), reverse = True)
-
     titles[x] = [p["title"]for p in papers]
+    summary_graph.node[x]["paper_count"] = len(papers)
 
-    summary_graph.node[x]["paperCount"] = len(papers)
+  return titles
+
+
 
   #attaching title 'word clouds' to the nodes
   significant_words = tf_idf.get_tf_idf_vals(titles)
   for x in summary_graph.nodes():
     #remove the ones with only 1 paper
-    if summary_graph.node[x]["paperCount"] == 1:
+    if summary_graph.node[x]["paper_count"] == 1:
       summary_graph.remove_node(x)
     else:
       #otherwise, give them a title
       #how many words should we show on the group? max 6, otherwise 1 per every 2 papers
-      summary_graph.node[x]["nodeName"] =  dict(sorted(significant_words[x].items(), key = lambda x: x[1], reverse = True)[:6])
+      summary_graph.node[x]["node_label"] =  dict(sorted(significant_words[x].items(), key = lambda x: x[1], reverse = True)[:6])
 
 
  #remove all but top n groups from summary graph
-  top_nodes = sorted([n for n in summary_graph.nodes(data = True)], key= lambda x : x[1]["size"], reverse = True )[:max_groups]
+ #where top n is measured by total citations from a group
+  top_nodes = sorted([n for n in summary_graph.nodes(data = True)], key= lambda x : x[1]["total_citations"], reverse = True )[:max_groups]
   top_nodes = [t for t in top_nodes if t >=1]
   top_node_ids = [n[0] for n in top_nodes]
   for group_id in summary_graph.nodes():
     if group_id not in top_node_ids:
       summary_graph.remove_node(group_id)
 
+ #remove nodes from full graph that aren't in top group
+ #this automatically takes care of edges, too
+  for node in G.nodes(data = True):
+    if node[1]["group"] not in top_node_ids:
+      G.remove_node(node[0])
+
+
  #continuing to enhance the information: add to group info about the most common co-references
   for x in summary_graph.nodes():
     #make a float so division later to get a percent makes sense
-    num_papers =  float(summary_graph.node[x]["paperCount"])
+    num_papers =  float(summary_graph.node[x]["paper_count"])
     references = {}
     #find all members of group x
     indexes =  [paperIndex for paperIndex in G.nodes() if G.node[paperIndex]["group"] == x]
@@ -150,29 +158,35 @@ def augment_graph_data(data, max_groups):
                     references[bib].update([paper_one, paper_two])
                 else:
                     references[bib] = set([paper_one, paper_two])
-    
 
     count_references = sorted(references.items(), key=lambda x:len(x[1]), reverse = True)[:5]
     top_common_references = [(tup[0], float("{0:.2f}".format(len(tup[1])/num_papers))) for tup in count_references]
     top_common_references = dict(top_common_references)
-    summary_graph.node[x]["topCommonReferences"] = top_common_references
+    summary_graph.node[x]["top_common_references"] = top_common_references
 
-  
- #remove nodes from full graph that aren't in top group
- #this automatically takes care of edges, too
-  for node in G.nodes(data = True):
-    if node[1]["group"] not in top_node_ids:
-      G.remove_node(node[0])
 
 #remove self links from summary graph
-  # for edge in summary_graph.edges(data = True):
-  #   if edge[0] == edge[1]:
-  #     summary_graph.remove_edge(edge[0], edge[1])
-    
+  for edge in summary_graph.edges(data = True):
+    if edge[0] == edge[1]:
+      summary_graph.remove_edge(edge[0], edge[1])
 
-  final_data = {"summaryGraph" : json_graph.node_link_data(summary_graph), "fullGraph" : json_graph.node_link_data(G) }
 
-  
+  summary_json = json_graph.node_link_data(summary_graph)
+
+  # giving groups node_names based on size of groups
+  for i, n in enumerate(sorted(summary_json["nodes"], key=lambda x:x["paper_count"], reverse=True)):
+    for possible_real_index, node in enumerate(summary_json["nodes"]):
+      if node == n:
+        real_index = possible_real_index 
+    summary_json["nodes"][real_index]["node_name"] = i +1
+
+
+  for i, n in enumerate(summary_json["nodes"]):
+    #cache this so graph manipulation later is easier
+    summary_json["nodes"][i]["stable_index"] = i
+    #find the node
+
+  final_data = {"summaryGraph" : summary_json, "fullGraph" : json_graph.node_link_data(G) }
   return final_data
 
 
@@ -284,7 +298,7 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     for paper in solr_data:
         if paper['bibcode'] not in selected_papers:
             continue
-        nodes.append({'nodeName':paper['bibcode'], 
+        nodes.append({'node_name':paper['bibcode'], 
                       'nodeWeight':paper.get('citation_count',1),
                       'citation_count':paper.get('citation_count',0),
                       'read_count':paper.get('read_count',0),
