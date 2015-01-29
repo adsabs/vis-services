@@ -16,8 +16,9 @@ input_js_word_cloud = json.load(open(PROJECT_HOME + "/tests/test_input/word_clou
 
 # has fewer than 50 nodes
 input_js_author_network_small = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_small.json"))
-input_js_paper_network = json.load(open(PROJECT_HOME + "/tests/test_input/paper_network_before_groups_func_large.json"))
 input_js_data_parameter = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_second_parameter.json"))
+input_js_paper_network = json.load(open(PROJECT_HOME + "/tests/test_input/paper_network_before_groups_func_large.json"))
+
 
 #result data
 
@@ -146,7 +147,6 @@ class TestEndpointLogic(unittest.TestCase):
 
 
     #testing group aggregation function
-
     #if it receives fewer than 50 nodes, it should just return the graph in the form {fullgraph : graph}
 
     processed_data_small = author_network.augment_graph_data(input_js_author_network_small, input_js_data_parameter)
@@ -167,10 +167,6 @@ class TestEndpointLogic(unittest.TestCase):
     # testing entire function
 
     input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
-
-    # with open(PROJECT_HOME + "/tests/test_output/author_network_accomazzi,a.json", "w") as f:
-    #   processed_data = author_network.augment_graph_data(input_js_author_network, input_js_data_parameter)
-    #   json.dump(processed_data,f)
 
     processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
     self.assertEqual(processed_data, test_js_author_network)
@@ -195,7 +191,7 @@ class TestEndpointLogic(unittest.TestCase):
 
     processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
 
-    topCommonReferences = processed_data["summaryGraph"]["nodes"][0]["topCommonReferences"].items().sort()
+    topCommonReferences = processed_data["summaryGraph"]["nodes"][0]["top_common_references"].items().sort()
 
     def get_group_references(group):
       indexes =[i for i,n in enumerate(processed_data["fullGraph"]["nodes"]) if n["group"] == group]
@@ -210,11 +206,10 @@ class TestEndpointLogic(unittest.TestCase):
         
       final = sorted(freq_dict.items(), key=lambda x:x[1], reverse=True)[:5]
 
-      num_papers = processed_data["summaryGraph"]["nodes"][0]["paperCount"]
+      num_papers = processed_data["summaryGraph"]["nodes"][0]["paper_count"]
 
       final = [(f[0], f[1]/float(num_papers)) for f in final].sort()
       return final
-
 
     self.assertEqual(topCommonReferences, get_group_references(0))
 
@@ -223,8 +218,6 @@ class TestEndpointLogic(unittest.TestCase):
     test_js_paper_network =  json.load(open(PROJECT_HOME + "/tests/test_output/paper_network_star.json"))
 
     processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
-
-
     self.assertEqual(processed_data, test_js_paper_network)
 
 

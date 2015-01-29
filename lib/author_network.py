@@ -96,8 +96,10 @@ def augment_graph_data(author_graph, data):
         name_dict[author].append(d.get("bibcode"))
 
   #don't allow any more than 200 author nodes
-  node_cutoff = sorted([d["nodeWeight"] for d in author_graph['nodes']], reverse=True)[:200]
-  node_cutoff = node_cutoff[len(node_cutoff) -1]
+  if len(author_graph['nodes'])>200:
+    node_cutoff = sorted([d["nodeWeight"] for d in author_graph['nodes']], reverse=True)[:201][-1]
+  else:
+    node_cutoff = sorted([d["nodeWeight"] for d in author_graph['nodes']], reverse=True)[-1]+1
     
   connector_nodes = []
 
@@ -145,7 +147,7 @@ def augment_graph_data(author_graph, data):
   for g in group_to_author_dict:
     children = []
     for child in group_to_author_dict[g]:
-        if G.node[child].get("nodeWeight") >= node_cutoff:
+        if G.node[child].get("nodeWeight") > node_cutoff:
            name = G.node[child].get("nodeName")
            size = G.node[child].get("nodeWeight")
            bibs = sorted(name_dict[name], key=lambda x:bib_dict[x]["citation_count"], reverse=True)

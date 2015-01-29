@@ -67,31 +67,35 @@ def _sort_and_cut_results(resdict,cutoff=1500):
 
 def augment_graph_data(data, max_groups):
 
-  total_nodes = len(data['nodes'])   
+  total_nodes = len(data['nodes']) 
 
   #lowering the necessary node count
   #since in some cases node count is greatly reduced after processing
   # first author kurtz,m goes from ~60 to 19 for instance
 
-  if total_nodes < 15:
-    
+  if total_nodes < 15:   
+    #just get rid of the sets
+    for i, l in enumerate(data["links"]):
+      data["links"][i]["overlap"] = list(l["overlap"])
+
     return {"fullGraph" :data}
-  
+
   #create the networkx graph
   G = nx.Graph()
   for i,x in enumerate(data['nodes']):
-    G.add_node(i, node_name= x["node_name"], nodeWeight = x["nodeWeight"], title=x["title"], citation_count=x["citation_count"], first_author = x["first_author"], read_count = x["read_count"])
+    G.add_node(i, node_name= x["nodeName"], nodeWeight = x["nodeWeight"], title=x["title"], citation_count=x["citation_count"], first_author = x["first_author"], read_count = x["read_count"])
 
   for i,x in enumerate(data['links']):
     G.add_edge(x["source"], x["target"], weight = x["value"], overlap = list(x["overlap"]))
    
   all_nodes = G.nodes()
-  
+
   #partition is a dictionary with group names as keys
   # and individual node indexes as values
   partition = community.best_partition(G)
 
   for g in G.nodes():
+
     G.node[g]["group"] = partition[g]
 
   #with new group info, create the summary group graph
@@ -107,10 +111,6 @@ def augment_graph_data(data, max_groups):
     papers = sorted([G.node[paper] for paper in G.nodes() if G.node[paper]["group"] == x], key = lambda x: x.get("nodeWeight", 0), reverse = True)
     titles[x] = [p["title"]for p in papers]
     summary_graph.node[x]["paper_count"] = len(papers)
-
-  return titles
-
-
 
   #attaching title 'word clouds' to the nodes
   significant_words = tf_idf.get_tf_idf_vals(titles)
@@ -139,7 +139,6 @@ def augment_graph_data(data, max_groups):
     if node[1]["group"] not in top_node_ids:
       G.remove_node(node[0])
 
-
  #continuing to enhance the information: add to group info about the most common co-references
   for x in summary_graph.nodes():
     #make a float so division later to get a percent makes sense
@@ -164,13 +163,6 @@ def augment_graph_data(data, max_groups):
     top_common_references = dict(top_common_references)
     summary_graph.node[x]["top_common_references"] = top_common_references
 
-
-#remove self links from summary graph
-  for edge in summary_graph.edges(data = True):
-    if edge[0] == edge[1]:
-      summary_graph.remove_edge(edge[0], edge[1])
-
-
   summary_json = json_graph.node_link_data(summary_graph)
 
   # giving groups node_names based on size of groups
@@ -188,6 +180,7 @@ def augment_graph_data(data, max_groups):
 
   final_data = {"summaryGraph" : summary_json, "fullGraph" : json_graph.node_link_data(G) }
   return final_data
+
 
 
 # Main machinery
@@ -291,24 +284,27 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
         force = link_dict[link]
         links.append({'source':ref_papers.get(paper1), 'target': ref_papers.get(paper2), 'value':force, 'overlap':overlap})
     
-    
     # Compile node information
     selected_papers = {}.fromkeys(papers)
-    nodes = []
+    #because the nodes must be inserted at the proper index
+    nodes = [None]*len(ref_papers)
     for paper in solr_data:
         if paper['bibcode'] not in selected_papers:
             continue
-        nodes.append({'node_name':paper['bibcode'], 
+        index = ref_papers[paper["bibcode"]]
+        nodes[index] ={'nodeName':paper['bibcode'], 
                       'nodeWeight':paper.get('citation_count',1),
                       'citation_count':paper.get('citation_count',0),
                       'read_count':paper.get('read_count',0),
                       'title':paper.get('title','NA')[0],
                       'year':paper.get('year','NA'),
                       'first_author':paper.get('first_author','NA')
-                  })
+                  }
     # That's all folks!
     paper_network = {'nodes': nodes, 'links': links}
 
     # not quite all...
     return augment_graph_data(paper_network, max_groups)
+
+
                 
