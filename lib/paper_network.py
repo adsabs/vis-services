@@ -20,7 +20,7 @@ import networkx as nx
 import community
 import math
 from networkx.readwrite import json_graph
-from collections import defaultdict 
+from collections import defaultdict
 
 import tf_idf
 

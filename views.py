@@ -45,7 +45,8 @@ class WordCloud(Resource):
   def get(self):
 
     solr_args = {k : v for k, v in request.args.items() if k not in ["min_percent_word", "min_occurrences_word"]}
-    solr_args["rows"] = min(int(solr_args.get("rows", current_app.config.get("WC_MAX_RECORDS"))), current_app.config.get("WC_MAX_RECORDS"))
+    solr_args.setdefault("rows", current_app.config.get("WC_MAX_RECORDS"))
+    solr_args["rows"] = min(int(solr_args.get("rows")), current_app.config.get("WC_MAX_RECORDS"))
     solr_args['fields'] = ['id']
     solr_args['defType'] = 'aqp'
     solr_args['tv'] = 'true'
@@ -55,11 +56,12 @@ class WordCloud(Resource):
     solr_args['tf.offsets'] = 'false'
     solr_args['tv.fl'] ='abstract,title'
     solr_args['fl'] ='id,abstract,title'
-    solr_args['wt'] = 'json' 
+    solr_args['wt'] = 'json'
 
     headers = {'X-Forwarded-Authorization' : request.headers.get('Authorization')}
 
     response = current_app.client.session.get(current_app.config.get("TVRH_SOLR_PATH") , params = solr_args, headers=headers)
+    return solr_args, ", ", headers, ", ", response
 
     if response.status_code == 200:
         data = response.json()
@@ -70,7 +72,8 @@ class WordCloud(Resource):
         min_percent_word = request.args.get("min_percent_word", current_app.config.get("WC_MIN_PERCENT_WORD"))
         min_occurrences_word = request.args.get("min_occurrences_word", current_app.config.get("WC_MIN_OCCURRENCES_WORD"))
 
-        word_cloud_json = word_cloud.generate_wordcloud(data, min_percent_word = min_percent_word, min_occurrences_word = min_occurrences_word)
+        word_cloud_json = word_cloud.generate_wordcloud(
+            data, min_percent_word = min_percent_word, min_occurrences_word = min_occurrences_word)
     if word_cloud_json:
         return word_cloud_json, 200
     else:
@@ -84,8 +87,9 @@ class AuthorNetwork(Resource):
   def get(self):
 
     solr_args = {k : v for k,v in request.args.items()}
-
-    solr_args["rows"] = min(int(solr_args.get("rows", current_app.config.get("AN_MAX_RECORDS"))), current_app.config.get("AN_MAX_RECORDS"))
+    
+    solr_args.setdefault("rows", current_app.config.get("AN_MAX_RECORDS"))
+    solr_args["rows"] = min(int(solr_args.get("rows")), current_app.config.get("AN_MAX_RECORDS"))
     solr_args['fl'] = ['author_norm', 'title', 'citation_count', 'read_count','bibcode', 'pubdate']
     solr_args['wt'] ='json'
 
@@ -119,23 +123,23 @@ class PaperNetwork(Resource):
   def get(self):
 
     solr_args = {k : v for k,v in request.args.items() if k != "max_groups"}
-    solr_args["rows"] = min(int(solr_args.get("rows", current_app.config.get("PN_MAX_RECORDS"))), current_app.config.get("PN_MAX_RECORDS"))
-
+    
+    solr_args.setdefault("rows", current_app.config.get("PN_MAX_RECORDS"))
+    solr_args["rows"] = min(int(solr_args.get("rows")), current_app.config.get("PN_MAX_RECORDS"))
     solr_args['fl'] = ['bibcode,title,first_author,year,citation_count,read_count,reference']
     solr_args['wt'] ='json'
 
+    assert "q" in solr_args and solr_args["q"] is not None
     headers = {'X-Forwarded-Authorization' : request.headers.get('Authorization')}
-
     response = current_app.client.session.get(current_app.config.get("SOLR_PATH") , params = solr_args, headers=headers)
 
     if response.status_code == 200:
       full_response = response.json()
-
     else:
       return {"Error": "There was a connection error. Please try again later", "Error Info": response.text}, response.status_code
-
     #get_network_with_groups expects a list of normalized authors
     data = full_response["response"]["docs"]
+    return data
     paper_network_json = paper_network.get_papernetwork(data, request.args.get("max_groups", current_app.config.get("PN_MAX_GROUPS")))
     if paper_network_json:
       return {"msg" : {"numFound" : full_response["response"]["numFound"],

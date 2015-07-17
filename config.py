@@ -1,13 +1,11 @@
-SECRET_KEY = 'this should be changed'
-
-SOLR_PATH = 'http://0.0.0.0:9000/solr/select'
+SOLR_PATH = 'api.adsabs.harvard.edu/v1/search/query'
 
 TVRH_SOLR_PATH = 'http://0.0.0.0:9000/solr/tvrh/'
 
 
 #This section configures this application to act as a client, for example to query solr via adsws
 CLIENT = {
-  'TOKEN': 'we will provide an api key token for this application'
+  'TOKEN': 'BzPWOPni1pfR1KAiu7y9GBf6gU4zrwIOy2RyFY76bJDm6lPyNWGb7t8n6DU0'
 }
 
 
