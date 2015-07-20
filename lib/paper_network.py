@@ -211,6 +211,13 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     papers = reference_dictionary.keys()
     # Compile a unique list of cited papers
     ref_list = list(set([ref for sublist in reference_dictionary.values() for ref in sublist]))
+    #same as:
+    #test_list = []
+    #for sublist in reference_dictionary.values():
+        #for ref in sublist:
+            #test_list.append(ref)
+    #ref_list = list(set(test_list))
+            
     # transform that list into a dictionary for fast lookup
     ref_list = dict(zip(ref_list, range(len(ref_list))))
     empty_vec = [0]*len(ref_list)
@@ -222,7 +229,7 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
         for entry in ref_ind:
             vec[entry] = 1
         entries.append(vec)
-    
+    print entries
     #done with ref_list
     ref_list = None
     

@@ -16,12 +16,16 @@ import math
 from networkx.readwrite import json_graph
 from collections import defaultdict 
 import tf_idf
+from paper_network import get_papernetwork
+import unittest
+import json
 #cd ..
 from views import PaperNetwork
 from app import create_app
+app = create_app()
 #cd lib
-app = create_app
+%load_ext memory_profiler
 r=app.test_client().get("/paper-network?q=star")
-d = rson.loads(r.data)
+d = json.loads(r.data)
 with app.app_context():
     %mprun -f get_papernetwork get_papernetwork(d, 10)
