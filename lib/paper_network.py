@@ -218,6 +218,9 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
             #test_list.append(ref)
     #ref_list = list(set(test_list))
             
+            # set([u'1975A&A....38..239M', u'1970MNRAS.147..161H', u'1975A&A....40..277H', u'1968ioc..book.....L', u'1974ApJ...193..147T', u'1968ApJ...154..297S', u'1973ApJ...185..213D', u'1974AcA....24..245D', u'1970AcA....20...47P', u'1975ApJ...200..675D', u'1971PASP...83..271E', u'1971Ap&SS..11..284D', u'1963ApJ...137..914W', u'1952RSPSA.211..564L', u'1975ApJ...196..525I', u'1974A&A....34..355C', u'1975ApJ...199..436T', u'1967ApJ...147.1017M', u'1974MNRAS.168..291O', u'1975MNRAS.172..631O', u'1973ApJ...184..815R'])
+
+            
     # transform that list into a dictionary for fast lookup
     ref_list = dict(zip(ref_list, range(len(ref_list))))
     empty_vec = [0]*len(ref_list)
@@ -225,11 +228,14 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     entries = []
     for p in papers:
         vec = empty_vec[:]
-        ref_ind = map(lambda a: ref_list.get(a), reference_dictionary[p])
-        for entry in ref_ind:
-            vec[entry] = 1
-        entries.append(vec)
-    print entries
+#        ref_ind = map(lambda a: ref_list.get(a), reference_dictionary[p])
+#        for entry in ref_ind:
+        for entry in ref_list: 
+            if entry in list(reference_dictionary[p]):
+                entry = ref_list.get(entry)
+                vec[entry] = 1
+    entries.append(vec)
+        
     #done with ref_list
     ref_list = None
     
@@ -314,4 +320,11 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     return augment_graph_data(paper_network, max_groups)
 
 
+
+#def prep_array():
+#    entries = []
+#    for p in papers:
+#        vec = vec_empty[:]
+#        [entry for entry in ref_list if entry in list(reference_dictionary[p])]
+        
                 
