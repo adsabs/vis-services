@@ -201,6 +201,8 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
               the force between nodes with a factor proportional to the inverse square root of the product
               of the number of references in the linked nodes.
     '''
+    #Note: all matrixes are now arrays (less memory-intensive and easier to work with)
+    
     # Get get paper list from the Solr data
     papers_list = map(lambda a: a['bibcode'], solr_data)
     number_of_papers = len(papers_list)
@@ -210,36 +212,34 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     # From now on we'll only work with publications that actually have references
     papers = reference_dictionary.keys()
     # Compile a unique list of cited papers
-    ref_list = list(set([ref for sublist in reference_dictionary.values() for ref in sublist]))
-    # transform that list into a dictionary for fast lookup
-    ref_list = dict(zip(ref_list, range(len(ref_list))))
-    empty_vec = [0]*len(ref_list)
+    unique_ref_list = set([ref for sublist in reference_dictionary.values() for ref in sublist])
     # Construct the paper-citation occurence matrix R
-    entries = []
-    for p in papers:
-        vec = empty_vec[:]
-        ref_ind = map(lambda a: ref_list.get(a), reference_dictionary[p])
-        for entry in ref_ind:
-            vec[entry] = 1
-        entries.append(vec)
+    R = array([[]], dtype=int)
+    for key, value in reference_dictionary.iteritems():
+        matrix_row = []
+        for unique_reference in unique_ref_list:
+            if unique_reference in value: #rename
+                matrix_row.append(1)
+            else:
+                matrix_row.append(0)
+        R = numpy.append(R, [matrix_row]) # puts all data in one dimension
+    R.shape = (len(reference_dictionary), len(unique_ref_list)) # changes array to the right shape (two dimensions)
     
     #done with ref_list
-    ref_list = None
+    unique_ref_list = None
     
-    R = mat(entries).T
+    R = R.T
     # Contruct the weights matrix, in case we are working with normalized strengths
-    if weighted:
+    if weighted and len(R) >= 2: # len(R) == len(weights)
         lpl = float(len(papers_list))
-        weights = []
+        W = []
         for row in R:
-            weights.append(array(row) * ((row * row.T / lpl).item()))
-        if (len(weights) < 2):
-            W = zeros(shape=R.shape)
-        else:
-            W = numpy.concatenate(weights)
+            W.append(row * (numpy.dot(row, row.T) / lpl).item()) # using row as an array causes the array to be one-dimensional
+        W = numpy.concatenate(W)
+        W.shape = R.shape # makes W the right shape (like line 226)
         
         # Note for Edwin, weight elements are suspiciously uniform (does the wighting even have any sense?)
-        # they are always filled with 1s - so onen could accomplish the same (on line 214) by doing 1/len(papers)
+        # they are always filled with 1s - so onen could accomplish the same (on line 239) by doing 1/len(papers)
         
         # this is just an attempt to do it using numpy parallelism, it was actually awfully slow :) maybe you see way to improve it? 
         #diagonal = (R * R.T).diagonal() # these are the weights, because dot product will sum ones (and ignore zeroes)
@@ -251,8 +251,9 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
         W = zeros(shape=R.shape)
     # Now construct the co-occurence matrix
     # In practice we don't need to fill the diagonal with zeros, because we won't be using it
-    C = R.T*(R-W)
-    fill_diagonal(C, 0)
+    R = numpy.dot(R.T, (R-W))
+    W = None # now that we have the co-occurrence matrix, we do not need the weights array
+    fill_diagonal(R, 0)
     # Compile the list of links
     links = []
     link_dict = {}
@@ -265,7 +266,7 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     for i in range(Npapers):
         for j in range(i+1,Npapers):
             scale = sqrt(len(reference_dictionary[papers[i]])*len(reference_dictionary[papers[j]]))
-            force = 100*C[ref_papers.get(papers[i]),ref_papers.get(papers[j])] / scale
+            force = 100*R[ref_papers.get(papers[i]),ref_papers.get(papers[j])] / scale
             if force > 0:
                 link_dict["%s\t%s"%(papers[i],papers[j])] = int(round(force))
                 link_dict["%s\t%s"%(papers[j],papers[i])] = int(round(force))
