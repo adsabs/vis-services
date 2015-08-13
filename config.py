@@ -3,7 +3,7 @@ VIS_SERVICE_SOLR_PATH = 'http://api.adsabs.harvard.edu/v1/search/query'
 VIS_SERVICE_TVRH_PATH = 'http://0.0.0.0:9000/solr/tvrh/'
 
 #This section configures this application to act as a client, for example to query solr via adsws
-VIS_SERVICE_API_TOKEN = 'BzPWOPni1pfR1KAiu7y9GBf6gU4zrwIOy2RyFY76bJDm6lPyNWGb7t8n6DU0'
+VIS_SERVICE_API_TOKEN = 'This should be changed'
 
 #word cloud config
 VIS_SERVICE_WC_MAX_RECORDS = 500

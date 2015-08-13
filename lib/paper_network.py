@@ -215,10 +215,10 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     unique_ref_list = set([ref for sublist in reference_dictionary.values() for ref in sublist])
     # Construct the paper-citation occurence matrix R
     R = array([[]], dtype=int)
-    for key, value in reference_dictionary.iteritems():
+    for key, reference_list in reference_dictionary.iteritems():
         matrix_row = []
         for unique_reference in unique_ref_list:
-            if unique_reference in value: #rename
+            if unique_reference in reference_list: #rename
                 matrix_row.append(1)
             else:
                 matrix_row.append(0)
