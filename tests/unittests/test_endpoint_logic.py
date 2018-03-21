@@ -29,191 +29,191 @@ test_js_author_network_alberto = json.load(open(PROJECT_HOME + "/tests/test_inpu
 
 class TestEndpointLogic(unittest.TestCase):
 
-  def test_word_cloud_resource(self):
+    def test_word_cloud_resource(self):
 
-    self.maxDiff = None
+        self.maxDiff = None
 
-    # function: add_punc_and_remove_redundancies 
-    # uses the text returned from solr to do some cleaning up of the idf info returned by solr,
-    # reducing counts of token components of slashed or dashed words
-    # after this point the solr text is ignored, only the tf/idf data is used
+        # function: add_punc_and_remove_redundancies
+        # uses the text returned from solr to do some cleaning up of the idf info returned by solr,
+        # reducing counts of token components of slashed or dashed words
+        # after this point the solr text is ignored, only the tf/idf data is used
 
-    tf_idf_dict = {'word':{'tf' :[3], 'tf-idf' : [0.5]}, 'dashed' : {'tf' :[1], 'tf-idf' : [0.5]}, 'slashed' : {'tf' :[1], 'tf-idf' : [0.5]}, 'dashedword' : {'tf' :[1], 'tf-idf' : [0.5]}, 'slashedword' : {'tf' :[1], 'tf-idf' : [0.5]}}
+        tf_idf_dict = {'word':{'tf' :[3], 'tf-idf' : [0.5]}, 'dashed' : {'tf' :[1], 'tf-idf' : [0.5]}, 'slashed' : {'tf' :[1], 'tf-idf' : [0.5]}, 'dashedword' : {'tf' :[1], 'tf-idf' : [0.5]}, 'slashedword' : {'tf' :[1], 'tf-idf' : [0.5]}}
 
-    text_list = ['word', 'dashed-word', 'slashed/word']
+        text_list = ['word', 'dashed-word', 'slashed/word']
 
-    updated_info_dict = word_cloud.add_punc_and_remove_redundancies(tf_idf_dict, text_list)
+        updated_info_dict = word_cloud.add_punc_and_remove_redundancies(tf_idf_dict, text_list)
 
-    expected_outcome_info_dict = {'word':{'tf' :[1], 'tf-idf' : [0.5]}, 'dashed-word': {'tf' :[1], 'tf-idf' : [0.5]}, 'slashed/word' : {'tf' :[1], 'tf-idf' : [0.5]}, 'dashed' : {'tf' :[-1], 'tf-idf' : [0.5]}, 'slashed' : {'tf' :[0], 'tf-idf' : [0.5]}}
+        expected_outcome_info_dict = {'word':{'tf' :[1], 'tf-idf' : [0.5]}, 'dashed-word': {'tf' :[1], 'tf-idf' : [0.5]}, 'slashed/word' : {'tf' :[1], 'tf-idf' : [0.5]}, 'dashed' : {'tf' :[-1], 'tf-idf' : [0.5]}, 'slashed' : {'tf' :[0], 'tf-idf' : [0.5]}}
 
-    self.assertEqual(updated_info_dict, expected_outcome_info_dict)
+        self.assertEqual(updated_info_dict, expected_outcome_info_dict)
 
-    # function: build_dict 
-    # is a parent function to add_punc_and_remove_redundancies that takes an tf idf info and text info
-    # and returns a token and acronym dictionary. The token dictionary is grouped by stem and includes
-    # a list of idf for each different word
+        # function: build_dict
+        # is a parent function to add_punc_and_remove_redundancies that takes an tf idf info and text info
+        # and returns a token and acronym dictionary. The token dictionary is grouped by stem and includes
+        # a list of idf for each different word
 
 
-    tf_idf_dict = {
-      'fakeId': {
-      'abstract': {
-        'word': {
-        'tf': [3],
-        'tf-idf': [0.5]
-        },
-        'dashed': {
-        'tf': [1],
-        'tf-idf': [0.5]
-        },
-        'slashed': {
-        'tf': [1],
-        'tf-idf': [0.5]
-        },
-        'dashedword': {
-        'tf': [1],
-        'tf-idf': [0.5]
-        },
-        'slashedword': {
-        'tf': [1],
-        'tf-idf': [0.5]
+        tf_idf_dict = {
+            'fakeId': {
+            'abstract': {
+                'word': {
+                'tf': [3],
+                'tf-idf': [0.5]
+                },
+                'dashed': {
+                'tf': [1],
+                'tf-idf': [0.5]
+                },
+                'slashed': {
+                'tf': [1],
+                'tf-idf': [0.5]
+                },
+                'dashedword': {
+                'tf': [1],
+                'tf-idf': [0.5]
+                },
+                'slashedword': {
+                'tf': [1],
+                'tf-idf': [0.5]
+                }
+            },
+            'title': {
+                'research': {
+                'tf': [1],
+                'tf-idf': [0.1]
+                },
+                'researcher': {
+                'tf': [1],
+                'tf-idf': [0.9]
+                },
+                'acr::fake': {
+                'tf': [1],
+                'tf-idf': [0.5]
+                }
+            }
+            }
         }
-      },
-      'title': {
-        'research': {
-        'tf': [1],
-        'tf-idf': [0.1]
-        },
-        'researcher': {
-        'tf': [1],
-        'tf-idf': [0.9]
-        },
-        'acr::fake': {
-        'tf': [1],
-        'tf-idf': [0.5]
+
+        text_list = [{'id': 'fakeId', 'abstract': 'word dashed-word slashed/word', 'title' : 'research researcher FAKE'}]
+
+
+        expected_outcome_info_dict = ({'dashedword': {'idf': [0.5], 'tokens': {'dashed-word': 1},  'record_count' : ['fakeId']},
+        'research': {'idf': [0.9, 0.1], 'tokens': {'research': 1, 'researcher': 1},  'record_count' : ['fakeId', 'fakeId']},
+        'slashedword': {'idf': [0.5], 'tokens': {'slashed/word': 1},  'record_count' : ['fakeId']},
+        'word': {'idf': [0.5], 'tokens': {'word': 1}, 'record_count' : ['fakeId']}},
+        {'FAKE': {'idf': [0.5], 'total_occurrences': 1, 'record_count' : ['fakeId']}})
+
+
+        updated_info_dict = word_cloud.build_dict(tf_idf_dict, text_list)
+
+        self.assertEqual(updated_info_dict, expected_outcome_info_dict)
+
+
+        #function: combine_and_process_dicts
+        #uses the expected outcome from the previous function
+
+        combined_dict = word_cloud.combine_and_process_dicts(expected_outcome_info_dict[0], expected_outcome_info_dict[1])
+
+        expected_combined_dict = {
+        'dashed-word': {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
+        'research' : {'idf': 0.5, 'total_occurrences' :2, 'record_count' :1 },
+        'slashed/word':{'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
+        'word': {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
+        'FAKE' : {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 }
         }
-      }
-      }
-    }
 
-    text_list = [{'id': 'fakeId', 'abstract': 'word dashed-word slashed/word', 'title' : 'research researcher FAKE'}]
+        self.assertEqual(combined_dict, expected_combined_dict)
 
-    
-    expected_outcome_info_dict = ({'dashedword': {'idf': [0.5], 'tokens': {'dashed-word': 1},  'record_count' : ['fakeId']},
-    'research': {'idf': [0.9, 0.1], 'tokens': {'research': 1, 'researcher': 1},  'record_count' : ['fakeId', 'fakeId']},
-    'slashedword': {'idf': [0.5], 'tokens': {'slashed/word': 1},  'record_count' : ['fakeId']},
-    'word': {'idf': [0.5], 'tokens': {'word': 1}, 'record_count' : ['fakeId']}},
-    {'FAKE': {'idf': [0.5], 'total_occurrences': 1, 'record_count' : ['fakeId']}})
+         #testing the main word cloud generation function with large data
 
+        processed_data = word_cloud.generate_wordcloud(input_js_word_cloud, min_occurrences_word=2, min_percent_word=3)
 
-    updated_info_dict = word_cloud.build_dict(tf_idf_dict, text_list)
+        self.assertEqual(json.loads(json.dumps(processed_data)), test_js_word_cloud)
 
-    self.assertEqual(updated_info_dict, expected_outcome_info_dict)
+        processed_data = word_cloud.generate_wordcloud(input_js_word_cloud, min_occurrences_word=5, min_percent_word=3)
 
-
-    #function: combine_and_process_dicts
-    #uses the expected outcome from the previous function
-
-    combined_dict = word_cloud.combine_and_process_dicts(expected_outcome_info_dict[0], expected_outcome_info_dict[1])
-
-    expected_combined_dict = {
-    'dashed-word': {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
-    'research' : {'idf': 0.5, 'total_occurrences' :2, 'record_count' :1 },
-    'slashed/word':{'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
-    'word': {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 },
-    'FAKE' : {'idf': 0.5, 'total_occurrences' :1, 'record_count' :1 }
-    }
-
-    self.assertEqual(combined_dict, expected_combined_dict)
-
-     #testing the main word cloud generation function with large data
-
-    processed_data = word_cloud.generate_wordcloud(input_js_word_cloud, min_occurrences_word=2, min_percent_word=3)
-
-    self.assertEqual(json.loads(json.dumps(processed_data)), test_js_word_cloud)
-
-    processed_data = word_cloud.generate_wordcloud(input_js_word_cloud, min_occurrences_word=5, min_percent_word=3)
-
-    self.assertEqual(json.loads(json.dumps(processed_data)), test_json_word_cloud_min_occurrences)
+        self.assertEqual(json.loads(json.dumps(processed_data)), test_json_word_cloud_min_occurrences)
 
 
 
-  def test_author_network_resource(self):
+    def test_author_network_resource(self):
 
-    #current default
-    max_groups = 8
-    self.maxDiff = None
-
-
-    #testing group aggregation function
-    #if it receives fewer than 50 nodes, it should just return the graph in the form {fullgraph : graph}
-
-    processed_data_small = author_network.augment_graph_data(input_js_author_network_small, input_js_data_parameter)
-
-    self.assertNotIn("summaryGraph", processed_data_small)
-
-    # otherwise, it should return json containing three items :
-    # bibcode_dict, root (d3 structured data), and link_data
-
-    input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
-
-    processed_data = author_network.augment_graph_data(input_js_author_network, input_js_data_parameter)
-
-    self.assertTrue("bibcode_dict" in processed_data)
-    self.assertTrue("root" in processed_data)
-    self.assertTrue("link_data" in processed_data)
-
-    # testing entire function
-
-    input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
-
-    processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
-    self.assertEqual(processed_data, test_js_author_network)
+        #current default
+        max_groups = 8
+        self.maxDiff = None
 
 
+        #testing group aggregation function
+        #if it receives fewer than 50 nodes, it should just return the graph in the form {fullgraph : graph}
 
-  def test_paper_network_resource(self):
+        processed_data_small = author_network.augment_graph_data(input_js_author_network_small, input_js_data_parameter)
 
-    #first, test the tf-idf library
+        self.assertNotIn("summaryGraph", processed_data_small)
 
-    self.maxDiff = None
+        # otherwise, it should return json containing three items :
+        # bibcode_dict, root (d3 structured data), and link_data
 
-    input_js_tf_idf = json.load(open(PROJECT_HOME + "/tests/test_input/tf_idf_input.json"))
+        input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
 
-    test_js_tf_idf = json.load(open(PROJECT_HOME + "/tests/test_output/tf_idf_output.json"))
+        processed_data = author_network.augment_graph_data(input_js_author_network, input_js_data_parameter)
 
-    processed_data = json.loads(json.dumps(tf_idf.get_tf_idf_vals(input_js_tf_idf), sort_keys=True))
+        self.assertTrue("bibcode_dict" in processed_data)
+        self.assertTrue("root" in processed_data)
+        self.assertTrue("link_data" in processed_data)
 
-    self.assertEqual(processed_data, test_js_tf_idf)
+        # testing entire function
 
-    #now test reference counting function
+        input_js_author_network = json.load(open(PROJECT_HOME + "/tests/test_input/author_network_before_groups_func_large.json"))
 
-    processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
+        processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
+        self.assertEqual(processed_data, test_js_author_network)
 
-    topCommonReferences = processed_data["summaryGraph"]["nodes"][0]["top_common_references"].items().sort()
 
-    def get_group_references(group):
-      indexes =[i for i,n in enumerate(processed_data["fullGraph"]["nodes"]) if n["group"] == group]
-      links =[l for l in processed_data["fullGraph"]["links"] if l["source"] in indexes and l["target"] in indexes]
-      freq_dict = defaultdict(list)
-      for l in links:
-        for o in l["overlap"]:
-          freq_dict[o].extend([l["source"], l["target"]])
-          
-      for f in freq_dict:
-        freq_dict[f] = len(list(set(freq_dict[f])))
-        
-      final = sorted(freq_dict.items(), key=lambda x:x[1], reverse=True)[:5]
 
-      num_papers = processed_data["summaryGraph"]["nodes"][0]["paper_count"]
+    def test_paper_network_resource(self):
 
-      final = [(f[0], f[1]/float(num_papers)) for f in final].sort()
-      return final
+        #first, test the tf-idf library
 
-    self.assertEqual(topCommonReferences, get_group_references(0))
+        self.maxDiff = None
 
-    # now just test input/output
+        input_js_tf_idf = json.load(open(PROJECT_HOME + "/tests/test_input/tf_idf_input.json"))
 
-    test_js_paper_network =  json.load(open(PROJECT_HOME + "/tests/test_output/paper_network_star.json"))
+        test_js_tf_idf = json.load(open(PROJECT_HOME + "/tests/test_output/tf_idf_output.json"))
 
-    processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
-    self.assertEqual(processed_data, test_js_paper_network)
+        processed_data = json.loads(json.dumps(tf_idf.get_tf_idf_vals(input_js_tf_idf), sort_keys=True))
+
+        self.assertEqual(processed_data, test_js_tf_idf)
+
+        #now test reference counting function
+
+        processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
+
+        topCommonReferences = processed_data["summaryGraph"]["nodes"][0]["top_common_references"].items().sort()
+
+        def get_group_references(group):
+            indexes =[i for i,n in enumerate(processed_data["fullGraph"]["nodes"]) if n["group"] == group]
+            links =[l for l in processed_data["fullGraph"]["links"] if l["source"] in indexes and l["target"] in indexes]
+            freq_dict = defaultdict(list)
+            for l in links:
+                for o in l["overlap"]:
+                    freq_dict[o].extend([l["source"], l["target"]])
+
+            for f in freq_dict:
+                freq_dict[f] = len(list(set(freq_dict[f])))
+
+            final = sorted(freq_dict.items(), key=lambda x:x[1], reverse=True)[:5]
+
+            num_papers = processed_data["summaryGraph"]["nodes"][0]["paper_count"]
+
+            final = [(f[0], f[1]/float(num_papers)) for f in final].sort()
+            return final
+
+        self.assertEqual(topCommonReferences, get_group_references(0))
+
+        # now just test input/output
+
+        test_js_paper_network =  json.load(open(PROJECT_HOME + "/tests/test_output/paper_network_star.json"))
+
+        processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
+        self.assertEqual(processed_data, test_js_paper_network)
