@@ -1,3 +1,7 @@
+### 1.0.10
+
+* Added content-type for bigquery requests
+
 ### 1.0.9
 
 * Removed unnecessary requirements

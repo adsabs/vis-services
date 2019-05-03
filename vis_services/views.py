@@ -32,7 +32,10 @@ def make_request(request, service_string, required_fields):
 
         #we have bibcodes, which might be up to 1000 ( too long for solr using GET),
         #so use bigquery
-        headers = {'X-Forwarded-Authorization' : request.headers.get('Authorization')}
+        headers = {
+            'X-Forwarded-Authorization' : request.headers.get('Authorization'),
+            'Content-Type': 'big-query/csv',
+        }
         big_query_params = {'q':'*:*', 'wt':'json', 'fl': required_fields, 'fq': '{!bitset}', 'rows' : len(bibcodes)}
 
         response = client().post(   current_app.config.get("VIS_SERVICE_BIGQUERY_PATH"),
