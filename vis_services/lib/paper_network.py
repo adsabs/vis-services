@@ -172,9 +172,15 @@ def augment_graph_data(data, max_groups):
         summary_json["nodes"][real_index]["node_name"] = i +1
 
 
+    # NOTE: From Python 2 to 3 transition
+    # Older networkx versions were producing a links structure using positional ids
+    # so we created the artificial key 'stable_index' to make things easier on the front-end side
+    # But newer networkx versions using node ids for the links structure, therefore 'stable_index'
+    # has become redundant, but BBB uses it
     for i, n in enumerate(summary_json["nodes"]):
         #cache this so graph manipulation later is easier
-        summary_json["nodes"][i]["stable_index"] = i
+        #summary_json["nodes"][i]["stable_index"] = i # For older networkx versions
+        summary_json["nodes"][i]["stable_index"] = summary_json["nodes"][i]["id"]
         #find the node
 
     final_data = {"summaryGraph" : summary_json, "fullGraph" : json_graph.node_link_data(G) }
