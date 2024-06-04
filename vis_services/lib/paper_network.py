@@ -5,22 +5,20 @@ Created on Mar 4, 2014
 '''
 
 # general module imports
-import sys
 import os
-import time
 import operator
 from . import histeq
 from numpy import mat
 from numpy import zeros
 from numpy import fill_diagonal
-from numpy import sqrt, ones, multiply, array
+from numpy import sqrt, array
 import numpy
+import json
 
 import networkx as nx
 import community
 import math
 from networkx.readwrite import json_graph
-from collections import defaultdict
 
 from . import tf_idf
 
@@ -92,7 +90,7 @@ def augment_graph_data(data, max_groups):
 
     #partition is a dictionary with group names as keys
     # and individual node indexes as values
-    partition = community.best_partition(G)
+    partition = community.best_partition(G, random_state=0)
 
     for g in G.nodes():
         G.nodes[g]["group"] = partition[g]
@@ -157,7 +155,7 @@ def augment_graph_data(data, max_groups):
                     else:
                         references[bib] = set([paper_one, paper_two])
 
-        count_references = sorted(references.items(), key=lambda x:len(x[1]), reverse = True)[:5]
+        count_references = sorted(references.items(), key=lambda x:(len(x[1]), x[0]), reverse = True)[:5]
         top_common_references = [(tup[0], float("{0:.2f}".format(len(tup[1])/num_papers))) for tup in count_references]
         top_common_references = dict(top_common_references)
         summary_graph.nodes[x]["top_common_references"] = top_common_references
@@ -169,9 +167,9 @@ def augment_graph_data(data, max_groups):
         for possible_real_index, node in enumerate(summary_json["nodes"]):
             if node == n:
                 real_index = possible_real_index
-        summary_json["nodes"][real_index]["node_name"] = i +1
+        summary_json["nodes"][real_index]["node_name"] = i + 1
 
-
+    # NOTE: We should remove this altogether and take the opportunity to change this in Nectar
     # NOTE: From Python 2 to 3 transition
     # Older networkx versions were producing a links structure using positional ids
     # so we created the artificial key 'stable_index' to make things easier on the front-end side
@@ -208,7 +206,6 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     '''
     # Get get paper list from the Solr data
     papers_list = [a['bibcode'] for a in solr_data]
-    number_of_papers = len(papers_list)
     # First construct the reference dictionary, and a unique list of cited papers
     reference_dictionary = _get_reference_mapping(solr_data)
     # From now on we'll only work with publications that actually have references
@@ -218,12 +215,12 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     # transform that list into a dictionary for fast lookup
     ref_list = dict(zip(ref_list, list(range(len(ref_list)))))
     empty_vec = [0]*len(ref_list)
-    # Construct the paper-citation occurence matrix R
+    # Construct the paper-citation occurrence matrix R
     entries = []
-    for p in papers:
+    for paper in papers:
         vec = empty_vec[:]
-        ref_ind = [ref_list.get(a) for a in reference_dictionary[p]]
-        for entry in ref_ind:
+        ref_indexes = [ref_list.get(reference) for reference in reference_dictionary[paper]]
+        for entry in ref_indexes:
             vec[entry] = 1
         entries.append(vec)
     #done with ref_list
@@ -247,7 +244,7 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
             W = numpy.concatenate(weights)
         # Done with weights
         del weights
-        # Get the co-occurence matrix C
+        # Get the co-occurrence matrix C
         C = R.T*(R-W)
     else:
         C = R.T*R

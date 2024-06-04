@@ -9,7 +9,6 @@ from itertools import combinations
 import networkx as nx
 import community
 import math
-from networkx.readwrite import json_graph
 from collections import defaultdict
 
 
@@ -55,7 +54,8 @@ def _remap_dict_in_range(mydict, newrange=[1, 100]):
     #I define a new dictionary where to put the results
     ret_dic = {}
     #I extract the values from the dictionary
-    dict_values = list(mydict.values())
+    dict_values = mydict.values()
+    
     if len(dict_values) > 0:
         #and the max and min
         minvalue = min(dict_values)
@@ -116,24 +116,20 @@ def augment_graph_data(author_graph, data):
     # create the networkx graph
     G = nx.Graph()
 
-    # create a backwards dict from name to index
-    index_dict = {x["nodeName"]: i for i, x in enumerate(author_graph['nodes'])}
-
     for i,x in enumerate(author_graph['nodes']):
         G.add_node(i, nodeName= x["nodeName"], nodeWeight = x["nodeWeight"], delete=x["delete"])
 
     for i,x in enumerate(author_graph['links']):
         G.add_edge(x["source"], x["target"], weight = x["value"])
 
-    all_nodes = G.nodes()
-
+    
     #remove nodes marked "delete" before we generate the groups!
     for x in list(G.nodes(True)):
         if x[1]["delete"] == True:
             G.remove_node(x[0])
 
     #attach group names to all nodes
-    partition = community.best_partition(G)
+    partition = community.best_partition(G, random_state=0)
 
     #make dict from group to list of items
     group_to_author_dict = defaultdict(list)
@@ -141,7 +137,7 @@ def augment_graph_data(author_graph, data):
         group = partition[author]
         group_to_author_dict[group].append(author)
 
- #  create two level structure
+    #create two level structure
     #add groups
     groups = []
     for g in group_to_author_dict:
@@ -170,7 +166,7 @@ def augment_graph_data(author_graph, data):
     link_data = [[l[0], l[1], l[2]["weight"]] for l in link_data]
     #remove inter-group links
     link_data = [l for l in link_data if partition[l[0]] != partition[l[1]]]
-    return {"root": top_level, "bibcode_dict":bib_dict, "link_data" : link_data}
+    return {"root": top_level, "bibcode_dict":bib_dict, "link_data" : sorted(link_data)}
 
 
 #Giovanni's original author network building function, with data processed by the group function
