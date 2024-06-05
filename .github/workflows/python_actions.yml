@@ -23,9 +23,10 @@ jobs:
         
     - name: Test with pytest
       run: |
-        py.test
+        py.test --cov=.
         
-    - uses: actions/upload-artifact@v2
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
       with:
         name: coverage-vis
         path: .coverage
@@ -47,7 +48,9 @@ jobs:
         python -m pip install --upgrade wheel setuptools pip
         pip install coverage==5.2.1
         pip install coveralls==2.2.0
-    - uses: actions/download-artifact@master
+    
+    - name: Download coverage report
+      uses: actions/download-artifact@v4
       with:
         name: coverage-vis
 

@@ -1,11 +1,10 @@
-import sys, os, copy
+import sys, os
 from flask_testing import TestCase
 import httpretty
 import json
 from collections import defaultdict
 PROJECT_HOME = os.path.abspath(os.path.join(os.path.dirname(__file__),'../../'))
 sys.path.append(PROJECT_HOME)
-import requests
 from vis_services import app
 from vis_services.lib import word_cloud
 from vis_services.lib import author_network
@@ -78,13 +77,8 @@ class TestEndpointLogic(TestCase):
         # testing entire function
 
         processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
-        # self.assertEqual(processed_data, test_js_author_network)
-        self.assertEqual(processed_data['bibcode_dict'], test_js_author_network['bibcode_dict'])
-        self.assertEqual(processed_data['root'], test_js_author_network['root'])
-        # order of link data doesn't match, but should that matter?
-        self.assertEqual(len(processed_data['link_data']), len(test_js_author_network['link_data']))
-        for e in test_js_author_network['link_data']:
-            self.assertTrue(e in processed_data['link_data'])
+
+        self.assertEqual(processed_data, test_js_author_network)
         
     def test_paper_network_resource(self):
 
@@ -129,40 +123,9 @@ class TestEndpointLogic(TestCase):
         # now just test input/output
 
         test_js_paper_network =  json.load(open(STUBDATA_DIR + "/test_output/paper_network_star.json"))
-
         processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
-        # note for the reviewer:
-        # keys in 'fullGraph' dict: 
-        # 'directed', 'graph', 'links', 'multigraph', 'nodes'
-        links_values = processed_data['fullGraph']['links']
-        self.assertEqual(processed_data['fullGraph']['directed'], test_js_paper_network['fullGraph']['directed'])
-        self.assertEqual(processed_data['fullGraph']['graph'], test_js_paper_network['fullGraph']['graph'])
-        self.assertEqual(processed_data['fullGraph']['multigraph'], test_js_paper_network['fullGraph']['multigraph'])
-        # for 'nodes', the value for group doesn't match, for example:
-        # {'citation_count': 21, 'first_author': 'Katz, J.', 'group': 6, 'id': 7, 'nodeWeight': 21, 'node_name': '1978ApJ...223..299K', 'read_count': 8, 'title': 'Steepest descent technique and stellar equilibrium statistical mechanics. IV. Gravitating systems with an energy cutoff.'}
-        # {'citation_count': 21, 'first_author': 'Katz, J.', 'group': 3, 'id': 7, 'nodeWeight': 21, 'node_name': '1978ApJ...223..299K', 'read_count': 8, 'title': 'Steepest descent technique and stellar equilibrium statistical mechanics. IV. Gravitating systems with an energy cutoff.'}]
-        processed_data_tmp = copy.deepcopy(processed_data['fullGraph']['nodes'])
-        for x in processed_data_tmp:
-            x.pop('group')
-        test_js_paper_network_tmp = copy.deepcopy(test_js_paper_network['fullGraph']['nodes'])
-        for x in test_js_paper_network_tmp:
-            x.pop('group')
-        for x in processed_data_tmp:
-            self.assertTrue(x in test_js_paper_network_tmp)
-        
-        # links comparison test fails when a value for overlap is not found
-        # for example, this is not found:
-        # {'overlap': ['1985A&A...150...33B', '1986A&AS...66..191B', '1988AJ.....96..635E'], 'source': 1, 'target': 44, 'weight': 4}
 
-        # self.assertEqual(processed_data['fullGraph']['links'], test_js_paper_network['fullGraph']['links'])
-        for x in test_js_paper_network['fullGraph']['links']:
-            if x['overlap'] == ['1988A&A...196...84C', '1985ApJ...299..211E']:
-                print(x)
-        mismatch_count = 0
-        for x in test_js_paper_network['fullGraph']['links']:
-           if x not in links_values:
-               mismatch_count += 1
-        print('fullGraph.links mismatch count: {}'.format(mismatch_count))
+        self.assertCountEqual(processed_data, test_js_paper_network)
 
 class TestAppLogic(TestCase):
     
