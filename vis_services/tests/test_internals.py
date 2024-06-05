@@ -1,26 +1,16 @@
-import sys, os, copy
+import sys, os
 from flask_testing import TestCase
 import httpretty
 import json
 from collections import defaultdict
 PROJECT_HOME = os.path.abspath(os.path.join(os.path.dirname(__file__),'../../'))
 sys.path.append(PROJECT_HOME)
-import requests
 from vis_services import app
 from vis_services.lib import word_cloud
 from vis_services.lib import author_network
 from vis_services.lib import paper_network
 from vis_services.lib import tf_idf
-import logging
 
-
-log_directory = os.path.join(os.getcwd(), 'logs')
-os.makedirs(log_directory, exist_ok=True)
-
-file_handler = logging.FileHandler(os.path.join(log_directory, 'logfile.log'))
-logger = logging.getLogger(__name__)
-logger.addHandler(file_handler)
-logger.setLevel(logging.DEBUG)
 #input data
 
 STUBDATA_DIR = PROJECT_HOME + "/vis_services/tests/stubdata"
@@ -135,7 +125,7 @@ class TestEndpointLogic(TestCase):
         test_js_paper_network =  json.load(open(STUBDATA_DIR + "/test_output/paper_network_star.json"))
         processed_data = json.loads(json.dumps(paper_network.get_papernetwork(input_js_paper_network["response"]["docs"], 10), sort_keys=True))
 
-        self.assertEqual(sorted(processed_data), sorted(test_js_paper_network))
+        self.assertCountEqual(processed_data, test_js_paper_network)
 
 class TestAppLogic(TestCase):
     
