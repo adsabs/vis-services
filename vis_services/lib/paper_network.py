@@ -27,12 +27,12 @@ __all__ = ['get_papersnetwork']
 # Helper functions
 def _get_reference_mapping(data):
     '''
-    Construct the reference dictionary for a set of bibcodes
+    Construct the reference dictionary for a set of SciX IDs
     '''
     refdict = {}
     for doc in data:
         if 'reference' in doc:
-            refdict[doc['bibcode']] = set(doc['reference'])
+            refdict[doc['scix_id']] = set(doc['reference'])
     return refdict
 
 def _get_paper_data(data):
@@ -41,7 +41,7 @@ def _get_paper_data(data):
     '''
     infodict = {}
     for doc in data:
-        infodict[doc['bibcode']] = doc
+        infodict[doc['scix_id']] = doc
     return infodict
 
 def _sort_and_cut_results(resdict,cutoff=1500):
@@ -189,7 +189,7 @@ def augment_graph_data(data, max_groups):
 # Main machinery
 def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, do_cutoff=False):
     '''
-    Given a list of bibcodes, this function builds the papers network based on co-citations
+    Given a list of identifiers, this function builds the papers network based on co-citations
     If 'weighted' is true, we will normalize the co-occurence frequency with the total number
     of papers in the set, otherwise we will work with the actual co-occurence frequencies.
     If 'equalization' is true, histogram equalization will be applied to the force values in
@@ -205,7 +205,7 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
               of the number of references in the linked nodes.
     '''
     # Get get paper list from the Solr data
-    papers_list = [a['bibcode'] for a in solr_data]
+    papers_list = [a['scix_id'] for a in solr_data]
     # First construct the reference dictionary, and a unique list of cited papers
     reference_dictionary = _get_reference_mapping(solr_data)
     # From now on we'll only work with publications that actually have references
@@ -287,11 +287,11 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     #because the nodes must be inserted at the proper index
     nodes = [None]*len(ref_papers)
     for paper in solr_data:
-        if paper['bibcode'] not in selected_papers:
+        if paper['scix_id'] not in selected_papers:
             continue
-        index = ref_papers[paper["bibcode"]]
-        nodes[index] ={'nodeName':paper['bibcode'],
-                        'nodeWeight':paper.get('citation_count',1),
+        index = ref_papers[paper["scix_id"]]
+        nodes[index] ={'nodeName':paper['scix_id'],
+                       'nodeWeight':paper.get('citation_count',1),
                         'citation_count':paper.get('citation_count',0),
                         'read_count':paper.get('read_count',0),
                         'title':paper.get('title','NA')[0],

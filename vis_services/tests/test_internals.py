@@ -77,7 +77,6 @@ class TestEndpointLogic(TestCase):
         # testing entire function
 
         processed_data = json.loads(json.dumps(author_network.augment_graph_data(input_js_author_network, input_js_data_parameter), sort_keys=True))
-
         self.assertEqual(processed_data, test_js_author_network)
         
     def test_paper_network_resource(self):
@@ -319,7 +318,7 @@ class TestAppLogic(TestCase):
                 err = e
             except Exception as e:
                 err = e
-            self.assertEqual(str(err), 'No bibcodes found in POST body')
+            self.assertEqual(str(err), 'No identifiers found in POST body')
         # Too many bibcodes should result in an Exception
         max_recs = self.app.config.get("VIS_SERVICE_PN_MAX_RECORDS")
         params = {}
@@ -332,7 +331,7 @@ class TestAppLogic(TestCase):
                 err = e
             except Exception as e:
                 err = e
-            self.assertEqual(str(err), 'No results: number of submitted bibcodes exceeds maximum number')
+            self.assertEqual(str(err), 'No results: number of submitted identifiers exceeds maximum number')
         # Wrongly encoded JSON for a query should result in an exception
         params = {}
         params['query'] = {'q':'author:"Henneken,E"'}

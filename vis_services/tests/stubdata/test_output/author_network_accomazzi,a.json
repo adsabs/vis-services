@@ -1,1 +1,3442 @@
-{"bibcode_dict": {"2011ApSSP...1.....A": {"read_count": 0, "authors": ["Accomazzi, A"], "citation_count": 0, "title": "Future Professional Communication in Astronomy II"}, "1998LPI....29.1514E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Planetary Literature in the ADS Abstract Service"}, "2007ASPC..376..467A": {"read_count": 13.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Rots, A"], "citation_count": 1, "title": "Closing the Loop: Linking Datasets to Publications and Back"}, "2014arXiv1406.4542H": {"read_count": 22.0, "authors": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Holachek, A", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Computing and Using Metrics in the ADS"}, "1994AAS...185.4104E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 6, "title": "Full Journal Articles in the ADS Astrophysics Science Information and Abstract Service"}, "2003APS..MARX31001E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "References and Citations in the ADS Abstract Service"}, "1999AAS...194.4407K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "A Model for Readership of Astronomical Journals, From an Analysis of ADS Readership"}, "2009arad.workE..32A": {"read_count": 0, "authors": ["Accomazzi, A", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Towards a Resource-Centric Data Network for Astronomy"}, "1995DPS....27.3609E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Astrophysics Data System (ADS) Abstracts and Articles On-line through the World Wide Web"}, "2009ASPC..410..160O": {"read_count": 3.0, "authors": ["Accomazzi, A", "Castelaz, M", "Cline, J", "Cudworth, K", "Griffin, R", "Grindlay, J", "Henden, A", "Osborn, W", "Rees, R", "Templeton, M"], "citation_count": 0, "title": "Making Archival Data Available for Research in the Next Decade and Beyond"}, "1997ASPC..125..357A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 3, "title": "Astronomical Information Discovery and Access: Design and Implementation of the ADS Bibliographic Services"}, "2007ASPC..377...69A": {"read_count": 10.0, "authors": ["Accomazzi, A", "Bohlen, E", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 2, "title": "Creation and Use of Citations in the ADS"}, "1999AAS...19410305D": {"read_count": 0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "ADS in a Nutshell"}, "1995IntR....5...25N": {"read_count": 0, "authors": ["Accomazzi, A", "Beaumont, C", "Bianco, D", "Binkley, R", "Gottlich, G", "Kellogg, Y", "Kurtz, M", "Nelson, M", "Paulson, S", "Schmunk, R", "Syed, O"], "citation_count": 0, "title": "The NASA Technical Report Server"}, "1998ASPC..153..277E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"], "citation_count": 1, "title": "The Astrophysics Data System"}, "2009LPI....40.1873H": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The SAO/NASA Astrophysics Data System: A Gateway to the Planetary Sciences Literature"}, "1999AAS...19510005E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The Astrophysics Data System Web Services"}, "1997AAS...190.1403E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "New Features of the ADS Abstract Service"}, "1996ASPC..101..558A": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 4, "title": "The ADS Article Service Data Holdings and Access Methods"}, "2013AAS...22124030A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "New Features in ADS Labs"}, "1999AAS...195.8209D": {"read_count": 2.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 3, "title": "Looking at 3,000,000 References Without Growing Grey Hair"}, "2004AGUFMED13D0746E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "New Features in the ADS Abstract Service"}, "1998BAAS...30.1080E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"], "citation_count": 0, "title": "Accessing the Planetary Literature through the ADS Abstract and Article Services"}, "2012opsa.book..253H": {"read_count": 5.0, "authors": ["Accomazzi, A", "Henneken, E", "Kurtz, M"], "citation_count": 3, "title": "The ADS in the Information Age - Impact on Discovery"}, "2012ASPC..461..867A": {"read_count": 16.0, "authors": ["Accomazzi, A", "Biemesderfer, C", "Derriere, S", "Gray, N"], "citation_count": 0, "title": "Why Don't We Already Have an Integrated Framework for the Publication and Preservation of All Data Products?"}, "2009AAS...21347301A": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Goal-Oriented Subject Search in the NASA Astrophysics Data System"}, "2001AAS...199.1001E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "citation_count": 0, "title": "From the Literature to the Data: Linking to On-line Data from the ADS"}, "1998ASPC..145..378E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 5, "title": "New Capabilities of the ADS Abstract and Article Service"}, "2004DPS....36.1314E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "New Features in the ADS"}, "2007APS..MARU20009K": {"read_count": 6.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "myADS-arXiv: A fully customized, open access virtual journal"}, "2011ApSSP...1..125H": {"read_count": 7.0, "authors": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 4, "title": "Finding Your Literature Match - A Recommender System"}, "1998AAS...193.1311K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "ADS on WWW: Doubling Yearly for Five Years"}, "2010ASPC..434..155K": {"read_count": 8.0, "authors": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M"], "citation_count": 3, "title": "Using Multipartite Graphs for Recommendation and Discovery"}, "2003lisa.conf..173E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Access to the Astronomical Literature through the NASA Astrophysics Data System from Developing Countries"}, "2006AAS...20917302H": {"read_count": 3.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Finding Astronomical Communities Through Co-readership Analysis"}, "2004tivo.conf..294M": {"read_count": 2.0, "authors": ["Accomazzi, A", "Berriman, B", "Borne, K", "Eichhorn, G", "Good, J", "Kimball, T", "Mazzerella, J", "McGlynn, T", "Rots, A", "Thomas, B"], "citation_count": 0, "title": "Building Interoperable NASA Archives"}, "2011ApSSP...1..135A": {"read_count": 7.0, "authors": ["Accomazzi, A"], "citation_count": 3, "title": "Linking Literature and Data: Status Report and Future Efforts"}, "2006AAS...20921808E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "New Searching Capability and OpenURL Linking in the ADS"}, "2005LPI....36.1207E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "New Features in the ADS Abstract Service"}, "2011AAS...21714501C": {"read_count": 0, "authors": ["Accomazzi, A", "Conti, A", "Di Milia, G", "Lowe, S"], "citation_count": 1, "title": "The Astronomer's H-R diagram"}, "1998HiA....11..516E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Connectivity in the Astronomy Digital Library through the ADS"}, "2003AAS...203.2005K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 4, "title": "The myADS Update Service"}, "2007ASPC..377...36E": {"read_count": 8.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 1, "title": "Connectivity in the Astronomy Digital Library"}, "2015AAS...22533655A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Holachek, A", "Kurtz, M", "Murray, S", "Sudilovsky, V", "Thompson, D"], "citation_count": 0, "title": "Improved Functionality and Curation Support in the ADS"}, "1995ASSL..203..175M": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Kurtz, M", "Murray, S", "Stern Grant, C"], "citation_count": 1, "title": "Data holdings in the ADS."}, "2007AAS...211.4730K": {"read_count": 0, "authors": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"], "citation_count": 1, "title": "Mapping The Astronomy Literature"}, "2002AAS...201.7602T": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Observatory Publications in the ADS"}, "1997DPS....29.2705K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Green, D", "Kurtz, M", "Marsden, B", "Murray, S", "Williams, G"], "citation_count": 0, "title": "The IAU Circulars and Minor Planet Electronic Circulars are Now Available Through the NASA Astrophysics Data System"}, "2002SPIE.4847..238K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 7, "title": "Second order bibliometric operators in the Astrophysics Data System"}, "2002DPS....34.3210E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Formatting and Retrieval Options in the Astrophysics Data System (ADS)"}, "2009astro2010P..34L": {"read_count": 0, "authors": ["Accomazzi, A", "Bloom, J", "Borne, K", "Brunner, R", "Burke, D", "Butler, N", "Chernoff, D", "Connolly, A", "Connolly, B", "Cutler, C", "Desai, S", "Djorgovski, G", "Loredo, T"], "citation_count": 0, "title": "The Astronomical Information Sciences: A Keystone for 21st-Century Astronomy"}, "2012LPI....43.1022H": {"read_count": 0, "authors": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thiell, B", "Thompson, D"], "citation_count": 0, "title": "Online Discovery: Search Paradigms and the Art of Literature Exploration"}, "2002AGUSMED22C..07E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaicoa, V"], "citation_count": 0, "title": "The ADS Abstract Service: A Free Search System for Literature in Astronomy, Planetary Sciences, Physics, Geophysics, and Instrumentation."}, "2003DPS....35.3302E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "What's New in the ADS Abstract Service"}, "2003lisa.conf..223K": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 3, "title": "The NASA Astrophysics Data System: Obsolescence of Reads and Cites"}, "2005DPS....37.1302E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Customizations of the ADS"}, "2007ASPC..377...23K": {"read_count": 8.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The Future of Technical Libraries"}, "1998AAS...19312004E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Astronomical Journal On-line Back to Volume 1; 1849"}, "2007ASPC..377...93E": {"read_count": 6.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Full Text Searching in the Astrophysics Data System"}, "2001AAS...198.0307E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Second Order Operators in the ADS Abstract Service"}, "1989daa..conf..245A": {"read_count": 0, "authors": ["Accomazzi, A", "Bordogna, G", "Mussio, P", "Rampini, A"], "citation_count": 0, "title": "Rule-Based Description and Plausible Classification of Objects in Digitized Astronomical Images"}, "2000ASPC..216..255E": {"read_count": 0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "XML in the ADS"}, "2011AAS...21711608H": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Automatic Recommendation of Astronomy Literature"}, "2009astro2010P..64W": {"read_count": 0, "authors": ["Accomazzi, A", "Berriman, G", "Fabbiano, G", "Madore, B", "Mazzarella, J", "Rots, A", "Smale, A", "Storrie, L", "White, R", "Winkelman, S"], "citation_count": 1, "title": "The High Impact of Astronomical Data Archives"}, "2006JEPub...9....2H": {"read_count": 24.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 8, "title": "Effect of E-printing on Citation Rates in Astronomy and Physics"}, "2006DPS....38.4605E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Google The ADS"}, "2007BASI...35..717E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Access to the literature and connection to on-line data"}, "2010ASPC..433..273A": {"read_count": 6.0, "authors": ["Accomazzi, A"], "citation_count": 2, "title": "Astronomy 3.0 Style"}, "2010ihy..work..141H": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "How the Literature is Used A View Through Citation and Usage Statistics of the ADS"}, "2003AfrSk...8....7E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through E-mail"}, "2000AAS...196.5301E": {"read_count": 0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "NASA Astrophysics Data System's New Data"}, "2003AAS...203.2006H": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Searching the full text in the ADS article service"}, "1995ASPC...77...32G": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Development of an ADS Data Dictionary Standard"}, "2003ASPC..295..309A": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "ADS Web Services for the Discovery and Linking of Bibliographic Records"}, "1999AAS...194.1004E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "All AAS Journals On-Line from Volume 1 to the Present"}, "2003IAUSS...4E...7E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Access to the Astronomical Literature Through the NASA ADS"}, "2003AGUFMED32C1207E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Sophisticated Search Capabilities in the ADS Abstract Service"}, "2007ASPC..377..106H": {"read_count": 7.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 6, "title": "myADS-arXiv -- a Tailor-made, Open Access, Virtual Journal"}, "2005JASIS..56...36K": {"read_count": 15.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 12, "title": "Worldwide Use and Impact of the NASA Astrophysics Data System Digital Library"}, "2011AAS...21813105A": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Introducing ADS Labs"}, "2000A&AS..143...61E": {"read_count": 98.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 17, "title": "The NASA Astrophysics Data System: The search engine and its user interface"}, "2012AGUFMED21A0703H": {"read_count": 2.0, "authors": ["Accomazzi, A", "Henneken, E"], "citation_count": 0, "title": "Search the AGU journals in the ADS Full Text Service"}, "1996dkcw.proc..123K": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The NASA Astrophysics Data System: A Heterogeneous Distributed Data Environment"}, "2000A&AS..143..111G": {"read_count": 7.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 20, "title": "The NASA Astrophysics Data System: Data holdings"}, "2007AAS...211.4732A": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The Astronomical Literature in its Full Glory"}, "2012ASPC..461..763H": {"read_count": 125.0, "authors": ["Accomazzi, A", "Henneken, E"], "citation_count": 2, "title": "Linking to Data: Effect on Citation Rates in Astronomy"}, "2005coas.conf...80E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaico, V"], "citation_count": 0, "title": "The Astrophysics Data System: Discovery Tool and Literature Archive"}, "2013ASPC..475....7M": {"read_count": 4.0, "authors": ["Accomazzi, A", "Budavari, T", "Fluke, C", "Gray, N", "Mann, R", "O'Mullane, W", "Wicenec, A", "Wise, M"], "citation_count": 0, "title": "Astronomy and Computing: A New Journal for the Astronomical Computing Community"}, "2002APS..APRI11007E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Reybacaicoa, V"], "citation_count": 0, "title": "The ADS Abstract Service: A Free NASA Service"}, "1995VA.....39...63A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "The Astrophysics Data System Abstract and Article Services"}, "2007LPI....38.1240E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 2, "title": "The ADS for Planetary Sciences"}, "2009AAS...21347302H": {"read_count": 0, "authors": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"], "citation_count": 0, "title": "A Tool to Explore the Landscape of Astronomy Literature"}, "2013AAS...22124028G": {"read_count": 2.0, "authors": ["Accomazzi, A", "Biemesderfer, C", "Cassar, M", "Erdmann, C", "Gray, N", "McCann, G", "Soles, J"], "citation_count": 0, "title": "Creation and Maintenance of a Unified Astronomy Thesaurus"}, "2009AGUFM.P43B1437H": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Access to the Online Planetary Research Literature"}, "2006LPI....37.1691E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "New Capabilities of the ADS Abstract Service"}, "2002AAS...201.0904K": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The NASA Astrophysics Data System: Bibliometrics Investigations"}, "2007ASPC..377..102T": {"read_count": 5.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 1, "title": "Paper to Screen: Processing Historical Scans in the ADS"}, "2011AAS...21813102E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Blom, H", "Eichhorn, G"], "citation_count": 0, "title": "Full-text Indexing Of All Springer Astronomy And Physics Journals In The ADS"}, "2002SPIE.4846...81E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Access to the Astrophysics Data System: What, how, who, and where"}, "2002AAS...201.0903E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Linking From the ADS to Other On-line Resources"}, "2004tivo.conf..267E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The Astronomy Digital Library and the VO"}, "2005AAS...207.3405K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The significance of e-printed papers in Astronomy and Physics"}, "1997LPI....28..325E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Planetary Sciences References in the ADS Abstract Service"}, "2002AAS...200.5807E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "citation_count": 0, "title": "Advanced Retrieval Options in the Astrophysics Data System (ADS)"}, "2002rict.confE..17E": {"read_count": 5.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The Digital Library in Astronomy: an Example of a Worldwide Collaboration of Information Providers."}, "2001ASPC..238..321D": {"read_count": 4.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 22, "title": "ADS's Dexter Data Extraction Applet"}, "2003EAEJA....12295E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Combined Searching of Astronomy, Physics and Instrumentation Literature in the ADS Abstract Service"}, "2003lisa.conf..145E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Current and Future Holdings of the Historical Literature in the ADS"}, "2001AAS...199.0108E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "citation_count": 0, "title": "Current and Future Holdings of the Historical Literature in the ADS"}, "2003LPI....34.1949E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Expanded Citations Database in the NASA ADS Abstract Service"}, "1995AAS...186.0203E": {"read_count": 5.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The Astrophysical Journal On-line in the Astrophysics Science Information and Abstract Service (ASIAS)"}, "1997DPS....29.2704E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Hughes, J", "Kurtz, M", "McMahon, S", "Mortellaro, J", "Murray, S"], "citation_count": 0, "title": "Connecting the Astrophysics Data System and Planetary Data System"}, "2002Ap&SS.282..299E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 3, "title": "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through Email"}, "1992SPIE.1657..535A": {"read_count": 0, "authors": ["Accomazzi, A"], "citation_count": 0, "title": "Syntactic approach to the segmentation and classification of morphological features of galaxies"}, "2007AAS...211.4731G": {"read_count": 0, "authors": ["Accomazzi, A", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The Recent Data Explosion in the ADS"}, "2007DPS....39.2708H": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 1, "title": "Staying Up-to-date In The Planetary Sciences With myADS"}, "2003AAS...203.2004E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Improving Linking from the Literature to On-line Data"}, "2005JASIS..56..111K": {"read_count": 10.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Elwell, B", "Grant, C", "Kurtz, M", "Martimbeau, N", "Murray, S"], "citation_count": 9, "title": "The Bibliometric Properties of Article Readership Information"}, "1998AAS...192.3801E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "New Data and Features in the ADS Abstract and Article Services"}, "2009JInfo...3....1H": {"read_count": 27.0, "authors": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 5, "title": "Use of astronomical literature - A report on usage patterns"}, "2000AAS...19712008E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Facilitating Astronomy Research in Developing Countries through Improved Literature Access"}, "2001AAS...199.1002R": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "citation_count": 0, "title": "Physical Review Journals in ADS"}, "1998ASPC..145..395A": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Mirroring the ADS Bibliographic Databases"}, "1995VA.....39..217E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 6, "title": "Access to the Astrophysics Science Information and Abstract System"}, "1988spta.conf.1601A": {"read_count": 0, "authors": ["Accomazzi, A", "Bordogna, G", "Fresta, F", "Mussio, P", "Rampini, A"], "citation_count": 0, "title": "A Structural Method for Celestial Object Extraction in Digitized Astronomical Images"}, "1996AAS...189.0601E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Egret, D", "Eichhorn, G", "Genova, F", "Grant, C", "Kurtz, M", "Lesteven, S", "Murray, S", "Wenger, M"], "citation_count": 0, "title": "It's All Done With Mirrors: Improving Information Access"}, "2014AAS...22325503A": {"read_count": 4.0, "authors": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Introducing ADS 2.0"}, "2003ASSL..285..157E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The Development of the Astronomy Digital Library"}, "2002LPI....33.1298E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaicoa, V"], "citation_count": 0, "title": "New Data and Search Features in the NASA ADS Abstract Service"}, "1997AGAb...13..149E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"], "citation_count": 0, "title": "NASA's Astrophysics Data System: new abstract service and article service features."}, "2004LPI....35.1267E": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Full Text Searching and Customization in the NASA ADS Abstract Service"}, "2005AAS...207.3404E": {"read_count": 0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Enhancements to the ADS Abstract Service"}, "2004ASPC..314..181A": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G"], "citation_count": 6, "title": "Publishing Links to Astronomical Data On-line"}, "1992ASSL..178..459A": {"read_count": 0, "authors": ["Accomazzi, A", "Delfini, D", "Kurtz, M", "Mussio, P"], "citation_count": 0, "title": "Towards a Precise Definition of the Morphological Structure of Galaxies as a Basis for their Automatic Classification"}, "2000DPS....32.2702E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Access to Journal Information in the Planetary Sciences through the Astrophysical Data System (ADS)"}, "1995AAS...186.0202K": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Enhancements to the NASA Astrophysics Science Information and Abstract Service"}, "1998ASPC..145..478K": {"read_count": 3.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Keeping Bibliographies using ADS"}, "1989LNP...329..191A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Bordogna, G", "Mussio, P", "Rampini, A"], "citation_count": 0, "title": "An Approach to Heuristic Exploitation of Astronomers Knowledge in Automatic Interpretation of Optical Pictures"}, "2009ASPC..411..384H": {"read_count": 0, "authors": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"], "citation_count": 1, "title": "Exploring the Astronomy Literature Landscape"}, "2004ccdm.conf..521D": {"read_count": 4.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Automated resolution of noisy bibliographic references"}, "2009astro2010P..28K": {"read_count": 13.0, "authors": ["Accomazzi, A", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "The Smithsonian/NASA Astrophysics Data System (ADS) Decennial Report"}, "2001DPS....33.1316E": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "ReyBacaicoa, V"], "citation_count": 0, "title": "New Features in the ADS Abstract Service"}, "2009astro2010P...6B": {"read_count": 135.0, "authors": ["Accomazzi, A", "Anderes, E", "Babu, J", "Becla, J", "Berger, J", "Bickel, P", "Bloom, J", "Borne, K", "Brunner, R", "Burke, D", "Butler, N", "Chernoff, D", "Clyde, M", "Connolly, A", "Connolly, B", "Connors, A", "Cutler, C", "Davidson, I", "Desai, S", "Djorgovski, G", "Eastman, T", "Efron, B", "Feigelson, E", "Finn, L", "Freeman, P", "Genovese, C", "Graham, M", "Gray, A", "Gray, N", "Graziani, C", "Guinan, E", "Hakkila, J", "Jacoby, S", "Jang, W", "Jefferys, W", "Kashyap,", "Kelly, B", "Knuth, K", "Kolaczyk, E", "Kubica, J", "Lamb, D", "Lee, H", "Loh, J", "Loredo, T", "Mahabal, A", "Mateo, M", "McCollum, B", "Meng, X", "Moore, A", "Morris, R", "Muench, A", "Park, T", "Pesenson, M", "Petrosian, V", "Pike, R", "Primini, F", "Protopapas, P", "Ptak, A", "Quashnock, J", "Raddick, M", "Rice, J", "Richards, J", "Rocha, G", "Ross, N", "Rottler, L", "Ruppert, D", "Saito, N", "Scargle, J", "Schafer, C", "Siemiginowska, A", "Song, I", "Stark, P", "Stein, M", "Sun, J", "Szalay, A", "Tyson, J", "Vestrand, T", "Wallin, J", "Wandelt, B", "Wang, D", "Wang, Z", "Wasserman, I", "Wasserman, L", "Way, M", "Wegman, E", "Weinberg, M", "Willett, R", "Wolpert, R", "Woodroofe, M", "Zezas, A", "van Dyk, D"], "citation_count": 7, "title": "Astroinformatics: A 21st Century Approach to Astronomy"}, "1997AAS...191.3502E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"], "citation_count": 3, "title": "Historical Literature in the ADS"}, "2012SPIE.8448E..0KA": {"read_count": 23.0, "authors": ["Accomazzi, A", "Erdmann, C", "Henneken, E", "Rots, A"], "citation_count": 1, "title": "Telescope bibliographies: an essential component of archival data management and operations"}, "2005AGUFMIN33A1162E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Customized Open Access Journal for Astronomy and Physics/Geosciences"}, "2005Msngr.119...50D": {"read_count": 2.0, "authors": ["Accomazzi, A", "Delmotte, N", "Grothkopf, U", "Micol, A", "Treumann, A"], "citation_count": 3, "title": "The ESO Telescope Bibliography Web Interface - Linking Publications and Observations"}, "2014AAS...22325525A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Allen, A", "Berriman, G", "DuPrie, K", "Hanisch, R", "Mink, J", "Nemiroff, R", "Shamir, L", "Shortridge, K", "Taylor, M", "Teuben, P", "Wallin, J"], "citation_count": 0, "title": "You've Written a Cool Astronomy Code! Now What Do You Do with It?"}, "2006AAS...20921809K": {"read_count": 4.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The New Physics and Astronomy Education Portal of the Smithsonian/NASA Astrophysics Data System"}, "2000A&AS..143...41K": {"read_count": 18.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Watson, J"], "citation_count": 60, "title": "The NASA Astrophysics Data System: Overview"}, "1997AAS...191.1701K": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "The Relative Effectiveness of Astronomy Journals"}, "2009astro2010P..44O": {"read_count": 3.0, "authors": ["Accomazzi, A", "Castelaz, M", "Cline, J", "Cudworth, K", "Griffin, R", "Grindlay, J", "Henden, A", "Osborn, W", "Rees, R", "Templeton, M"], "citation_count": 0, "title": "Making Archival Data Available for Research in the Next Decade and Beyond"}, "2001LPI....32.1139E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "On-line Literature Search and Full Articles in the NASA ADS"}, "2011ASPC..442.....E": {"read_count": 0, "authors": ["Accomazzi, A", "Evans, I", "Mink, D", "Rots, A"], "citation_count": 0, "title": "Astronomical Data Analysis Software and Systems XX (ADASSXX)"}, "2006ASPC..351..653K": {"read_count": 6.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Intelligent Information Retrieval"}, "2004LPI....35.1602T": {"read_count": 3.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "The NASA ADS: Searching, Linking and More"}, "2005IPM....41.1395K": {"read_count": 34.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 15, "title": "The Effect of Use and Access on Citations"}, "2000A&AS..143...85A": {"read_count": 18.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 20, "title": "The NASA Astrophysics Data System: Architecture"}, "2007LePub..20...16H": {"read_count": 12.0, "authors": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Ginsparg, P", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D", "Warner, S"], "citation_count": 4, "title": "E-prints and journal articles in astronomy: a productive co-existence"}, "1999ASPC..172..291A": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 6, "title": "The ADS Bibliographic Reference Resolver"}, "1995ASPC...77...28E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 11, "title": "The New Astrophysics Data System"}, "2013A&C.....1....1A": {"read_count": 15.0, "authors": ["Accomazzi, A", "Budavari, T", "Fluke, C", "Gray, N", "Mann, R", "O'Mullane, W", "Wicenec, A", "Wise, M"], "citation_count": 1, "title": "Astronomy and Computing: A new journal for the astronomical computing community"}, "1994AAS...185.4102A": {"read_count": 5.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 3, "title": "The World Wide Web and ADS Services"}, "1996ASPC..101..569E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 8, "title": "Various Access Methods to the Abstracts in the Astrophysics Data System"}, "1995ASPC...77...36A": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 6, "title": "ADS Abstract Service Enhancements"}, "1999Dlib....5.....K": {"read_count": 2.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "The NASA ADS Abstract Service and the Distributed Astronomy Digital Library"}, "1996AAS...188.8508E": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "New Data in the ADS Abstract and Article Service"}, "2006ASPC..351..715A": {"read_count": 8.0, "authors": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"], "citation_count": 0, "title": "Bibliographic Classification using the ADS Databases"}, "2002ASPC..281..471R": {"read_count": 0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Rey-Bakaikoa, V"], "citation_count": 0, "title": "Managing the ADS Citation Database"}, "2015AAS...22533656H": {"read_count": 0, "authors": ["Accomazzi, A", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Online Activity Around Scholarly Astronomy Literature - A Discussion of Altmetrics"}, "2014ASPC..485..461A": {"read_count": 42.0, "authors": ["Accomazzi, A", "Biemesderfer, C", "Erdmann, C", "Frey, K", "Gray, N", "Soles, J"], "citation_count": 0, "title": "The Unified Astronomy Thesaurus"}, "1996AAS...189.0607K": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "citation_count": 1, "title": "Journal Citations: An ADS-AAS Collaboration"}, "2007ASPC..377...97G": {"read_count": 4.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Data in the ADS -- Understanding How to Use it Better"}, "1995VA.....39..235A": {"read_count": 2.0, "authors": ["Accomazzi, A", "Murtagh, F", "Rasmussen, B"], "citation_count": 0, "title": "Information Retrieval Tools and Techniques"}, "2007HiA....14..605E": {"read_count": 2.0, "authors": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "citation_count": 0, "title": "Connecting the literature with on-line data"}}, "root": {"name": [{"nodeName": "Accomazzi, A", "nodeWeight": 150.0, "delete": true}], "children": [{"name": 1, "children": [{"read_count": 0, "name": "Rey Bacaicoa, V", "citation_count": 0, "numberName": 0, "papers": ["2002AGUSMED22C..07E", "2002LPI....33.1298E"], "size": 6.040970723198951}, {"read_count": 564.0, "name": "Murray, S", "citation_count": 301, "numberName": 2, "papers": ["2000A&AS..143...41K", "2001ASPC..238..321D", "2000A&AS..143..111G", "2000A&AS..143...85A", "2000A&AS..143...61E", "2005IPM....41.1395K", "2005JASIS..56...36K", "1995ASPC...77...28E", "2005JASIS..56..111K", "1996ASPC..101..569E", "2006JEPub...9....2H", "2002SPIE.4847..238K", "1995ASPC...77...36A", "1995VA.....39..217E", "2007ASPC..377..106H", "1994AAS...185.4104E", "1999ASPC..172..291A", "1998ASPC..145..378E", "2009JInfo...3....1H", "2003AAS...203.2005K", "1996ASPC..101..558A", "2011ApSSP...1..125H", "2007LePub..20...16H", "1997ASPC..125..357A", "1999AAS...195.8209D", "1994AAS...185.4102A", "2003lisa.conf..223K", "2002Ap&SS.282..299E", "2007LPI....38.1240E", "2007ASPC..377...69A", "2009ASPC..411..384H", "2009arad.workE..32A", "2007DPS....39.2708H", "2006ASPC..351..653K", "1997AAS...191.1701K", "2003AfrSk...8....7E", "2007AAS...211.4730K", "1995ASSL..203..175M", "1995ASPC...77...32G", "1995VA.....39...63A", "2004ccdm.conf..521D", "2007ASPC..377...36E", "2007ASPC..377..102T", "1996AAS...189.0607K", "2003lisa.conf..173E", "2003lisa.conf..145E", "2009astro2010P..28K", "2002AAS...200.5807E", "2002AAS...201.0904K", "2002AGUSMED22C..07E", "1995DPS....27.3609E", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2003LPI....34.1949E", "2006AAS...20921808E", "2003ASSL..285..157E", "2003DPS....35.3302E", "2004LPI....35.1602T", "1997LPI....28..325E", "1997DPS....29.2704E", "2003ASPC..295..309A", "2000ASPC..216..255E", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2011AAS...21711608H", "2005AAS...207.3404E", "2004AGUFMED13D0746E", "2007AAS...211.4731G", "1998LPI....29.1514E", "1998ASPC..145..395A", "1999AAS...19410305D", "2001AAS...198.0307E", "2001AAS...199.1001E", "1999AAS...194.1004E", "2001DPS....33.1316E", "2002LPI....33.1298E", "1998AAS...19312004E", "1998AAS...192.3801E", "1998AAS...193.1311K", "1998ASPC..145..478K", "1997AAS...190.1403E", "2001AAS...199.1002R", "1997DPS....29.2705K", "1999AAS...19510005E", "2003AAS...203.2006H", "2003AAS...203.2004E", "2003AGUFMED32C1207E", "2003EAEJA....12295E", "2006LPI....37.1691E", "1998HiA....11..516E", "2012LPI....43.1022H", "2000AAS...196.5301E", "1995AAS...186.0202K", "1996dkcw.proc..123K", "2000AAS...19712008E", "1996AAS...188.8508E", "2004LPI....35.1267E", "2002AAS...201.0903E", "2002AAS...201.7602T", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2001AAS...199.0108E", "2006ASPC..351..715A", "2002DPS....34.3210E", "2000DPS....32.2702E", "2006AAS...20917302H", "2006AAS...20921809K", "2001LPI....32.1139E", "1999AAS...194.4407K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "1995AAS...186.0203E", "1996AAS...189.0601E", "2002SPIE.4846...81E", "2009AAS...21347301A", "2003APS..MARX31001E", "2004tivo.conf..267E", "2004DPS....36.1314E", "2005coas.conf...80E", "2011AAS...21813105A", "2014AAS...22325503A", "2002rict.confE..17E", "2007AAS...211.4732A", "2007BASI...35..717E", "2007HiA....14..605E", "2007APS..MARU20009K", "1999Dlib....5.....K", "2010ihy..work..141H", "2003IAUSS...4E...7E", "2002APS..APRI11007E", "2015AAS...22533655A", "2015AAS...22533656H", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 98.69397442583058}, {"read_count": 35.0, "name": "Luker, J", "citation_count": 4, "numberName": 9, "papers": ["2011ApSSP...1..125H", "2011AAS...21711608H", "2012LPI....43.1022H", "2011AAS...21813105A", "2014AAS...22325503A", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 8.007248755908082}, {"read_count": 0, "name": "Bergstrom, C", "citation_count": 2, "numberName": 16, "papers": ["2009ASPC..411..384H", "2007AAS...211.4730K", "2009AAS...21347302H"], "size": 6.040970723198951}, {"read_count": 565.0, "name": "Grant, C", "citation_count": 305, "numberName": 19, "papers": ["2000A&AS..143...41K", "2001ASPC..238..321D", "2000A&AS..143..111G", "2000A&AS..143...85A", "2000A&AS..143...61E", "2005IPM....41.1395K", "2005JASIS..56...36K", "1995ASPC...77...28E", "2005JASIS..56..111K", "1996ASPC..101..569E", "2006JEPub...9....2H", "2002SPIE.4847..238K", "1995ASPC...77...36A", "1995VA.....39..217E", "2007ASPC..377..106H", "1994AAS...185.4104E", "1999ASPC..172..291A", "1998ASPC..145..378E", "2009JInfo...3....1H", "2003AAS...203.2005K", "1996ASPC..101..558A", "2011ApSSP...1..125H", "2007LePub..20...16H", "1997ASPC..125..357A", "1997AAS...191.3502E", "1999AAS...195.8209D", "2010ASPC..434..155K", "1994AAS...185.4102A", "2003lisa.conf..223K", "2002Ap&SS.282..299E", "2007LPI....38.1240E", "2007ASPC..377...69A", "2009ASPC..411..384H", "2007DPS....39.2708H", "2006ASPC..351..653K", "1997AAS...191.1701K", "2003AfrSk...8....7E", "2007AAS...211.4730K", "1995ASPC...77...32G", "1995VA.....39...63A", "2004ccdm.conf..521D", "2007ASPC..377...36E", "2007ASPC..377..102T", "1996AAS...189.0607K", "2003lisa.conf..173E", "2003lisa.conf..145E", "1998ASPC..153..277E", "2002ASPC..281..471R", "1997AGAb...13..149E", "2002AAS...200.5807E", "2002AAS...201.0904K", "2002AGUSMED22C..07E", "1995DPS....27.3609E", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2003LPI....34.1949E", "2006AAS...20921808E", "2003ASSL..285..157E", "2003DPS....35.3302E", "2004LPI....35.1602T", "1997LPI....28..325E", "1997DPS....29.2704E", "2003ASPC..295..309A", "2000ASPC..216..255E", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2011AAS...21711608H", "2005AAS...207.3404E", "2004AGUFMED13D0746E", "2007AAS...211.4731G", "1998LPI....29.1514E", "1998BAAS...30.1080E", "1998ASPC..145..395A", "1999AAS...19410305D", "2001AAS...198.0307E", "2001AAS...199.1001E", "1999AAS...194.1004E", "2001DPS....33.1316E", "2002LPI....33.1298E", "1998AAS...19312004E", "1998AAS...192.3801E", "1998AAS...193.1311K", "1998ASPC..145..478K", "1997AAS...190.1403E", "2001AAS...199.1002R", "1997DPS....29.2705K", "1999AAS...19510005E", "2003AAS...203.2006H", "2003AAS...203.2004E", "2003AGUFMED32C1207E", "2003EAEJA....12295E", "2006LPI....37.1691E", "1998HiA....11..516E", "2012LPI....43.1022H", "2000AAS...196.5301E", "1995AAS...186.0202K", "1996dkcw.proc..123K", "2000AAS...19712008E", "1996AAS...188.8508E", "2004LPI....35.1267E", "2002AAS...201.0903E", "2002AAS...201.7602T", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2001AAS...199.0108E", "2006ASPC..351..715A", "2002DPS....34.3210E", "2000DPS....32.2702E", "2006AAS...20917302H", "2006AAS...20921809K", "2001LPI....32.1139E", "1999AAS...194.4407K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "1995AAS...186.0203E", "1996AAS...189.0601E", "2002SPIE.4846...81E", "2009AAS...21347301A", "2003APS..MARX31001E", "2004tivo.conf..267E", "2004DPS....36.1314E", "2005coas.conf...80E", "2011AAS...21813105A", "2014AAS...22325503A", "2002rict.confE..17E", "2007AAS...211.4732A", "2007BASI...35..717E", "2007HiA....14..605E", "2007APS..MARU20009K", "1999Dlib....5.....K", "2010ihy..work..141H", "2003IAUSS...4E...7E", "2002APS..APRI11007E", "2015AAS...22533655A", "2015AAS...22533656H", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 101.1229061132948}, {"read_count": 5.0, "name": "Rey Bakaikoa, V", "citation_count": 0, "numberName": 31, "papers": ["2002AAS...200.5807E", "2001AAS...199.1001E", "2001AAS...199.1002R", "2001AAS...199.0108E"], "size": 7.428931687464219}, {"read_count": 4.0, "name": "Blom, H", "citation_count": 0, "numberName": 32, "papers": ["2011AAS...21813102E"], "size": 6.040970723198951}, {"read_count": 17.0, "name": "Di Milia, G", "citation_count": 8, "numberName": 39, "papers": ["2011ApSSP...1..125H", "2010ASPC..434..155K", "2011AAS...21714501C", "2009AGUFM.P43B1437H", "2011AAS...21711608H", "2012LPI....43.1022H", "2011AAS...21813105A", "2013AAS...22124030A"], "size": 9.418342402911104}, {"read_count": 419.0, "name": "Henneken, E", "citation_count": 65, "numberName": 41, "papers": ["2005IPM....41.1395K", "2006JEPub...9....2H", "2007ASPC..377..106H", "2009JInfo...3....1H", "2003AAS...203.2005K", "2011ApSSP...1..125H", "2007LePub..20...16H", "2010ASPC..434..155K", "2012opsa.book..253H", "2007LPI....38.1240E", "2007ASPC..377...69A", "2012ASPC..461..763H", "2009ASPC..411..384H", "2007DPS....39.2708H", "2006ASPC..351..653K", "2007AAS...211.4730K", "2007ASPC..377...36E", "2007ASPC..377..102T", "2012SPIE.8448E..0KA", "2012AGUFMED21A0703H", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2003LPI....34.1949E", "2006AAS...20921808E", "2003DPS....35.3302E", "2004LPI....35.1602T", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2011AAS...21711608H", "2005AAS...207.3404E", "2004AGUFMED13D0746E", "2007AAS...211.4731G", "2003AAS...203.2006H", "2003AAS...203.2004E", "2003AGUFMED32C1207E", "2003EAEJA....12295E", "2006LPI....37.1691E", "2012LPI....43.1022H", "2004LPI....35.1267E", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2006ASPC..351..715A", "2006AAS...20917302H", "2006AAS...20921809K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "2009AAS...21347301A", "2003APS..MARX31001E", "2004DPS....36.1314E", "2011AAS...21813105A", "2014AAS...22325503A", "2007AAS...211.4732A", "2007HiA....14..605E", "2007APS..MARU20009K", "2010ihy..work..141H", "2003IAUSS...4E...7E", "2015AAS...22533655A", "2015AAS...22533656H", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 44.095886161286295}, {"read_count": 585.0, "name": "Kurtz, M", "citation_count": 311, "numberName": 48, "papers": ["2000A&AS..143...41K", "2001ASPC..238..321D", "2000A&AS..143..111G", "2000A&AS..143...85A", "2000A&AS..143...61E", "2005IPM....41.1395K", "2005JASIS..56...36K", "1995ASPC...77...28E", "2005JASIS..56..111K", "1996ASPC..101..569E", "2006JEPub...9....2H", "2002SPIE.4847..238K", "1995ASPC...77...36A", "1995VA.....39..217E", "2007ASPC..377..106H", "1994AAS...185.4104E", "1999ASPC..172..291A", "1998ASPC..145..378E", "2009JInfo...3....1H", "2003AAS...203.2005K", "1996ASPC..101..558A", "2011ApSSP...1..125H", "2007LePub..20...16H", "1997ASPC..125..357A", "1997AAS...191.3502E", "1999AAS...195.8209D", "2010ASPC..434..155K", "1994AAS...185.4102A", "2012opsa.book..253H", "2003lisa.conf..223K", "2002Ap&SS.282..299E", "2007LPI....38.1240E", "2007ASPC..377...69A", "2009ASPC..411..384H", "2009arad.workE..32A", "2007DPS....39.2708H", "2006ASPC..351..653K", "1997AAS...191.1701K", "2003AfrSk...8....7E", "2007AAS...211.4730K", "1995ASSL..203..175M", "1995ASPC...77...32G", "1995VA.....39...63A", "2004ccdm.conf..521D", "2007ASPC..377...36E", "2007ASPC..377..102T", "1996AAS...189.0607K", "2003lisa.conf..173E", "2003lisa.conf..145E", "1998ASPC..153..277E", "2009astro2010P..28K", "1995IntR....5...25N", "1997AGAb...13..149E", "2002AAS...200.5807E", "2002AAS...201.0904K", "2002AGUSMED22C..07E", "1995DPS....27.3609E", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2003LPI....34.1949E", "2006AAS...20921808E", "2003ASSL..285..157E", "2003DPS....35.3302E", "2004LPI....35.1602T", "1997LPI....28..325E", "1997DPS....29.2704E", "2003ASPC..295..309A", "2000ASPC..216..255E", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2011AAS...21711608H", "2005AAS...207.3404E", "2004AGUFMED13D0746E", "2007AAS...211.4731G", "1992ASSL..178..459A", "1998LPI....29.1514E", "1998BAAS...30.1080E", "1998ASPC..145..395A", "1999AAS...19410305D", "2001AAS...198.0307E", "2001AAS...199.1001E", "1999AAS...194.1004E", "2001DPS....33.1316E", "2002LPI....33.1298E", "1998AAS...19312004E", "1998AAS...192.3801E", "1998AAS...193.1311K", "1998ASPC..145..478K", "1997AAS...190.1403E", "2001AAS...199.1002R", "1997DPS....29.2705K", "1999AAS...19510005E", "2003AAS...203.2006H", "2003AAS...203.2004E", "2003AGUFMED32C1207E", "2003EAEJA....12295E", "2006LPI....37.1691E", "1998HiA....11..516E", "2012LPI....43.1022H", "2000AAS...196.5301E", "1995AAS...186.0202K", "1996dkcw.proc..123K", "2000AAS...19712008E", "1996AAS...188.8508E", "2004LPI....35.1267E", "2002AAS...201.0903E", "2002AAS...201.7602T", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2001AAS...199.0108E", "2006ASPC..351..715A", "2002DPS....34.3210E", "2000DPS....32.2702E", "2006AAS...20917302H", "2006AAS...20921809K", "2001LPI....32.1139E", "1999AAS...194.4407K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "1995AAS...186.0203E", "1996AAS...189.0601E", "2002SPIE.4846...81E", "2009AAS...21347301A", "2003APS..MARX31001E", "2004tivo.conf..267E", "2004DPS....36.1314E", "2005coas.conf...80E", "2011AAS...21813105A", "2014AAS...22325503A", "2002rict.confE..17E", "2007AAS...211.4732A", "2007BASI...35..717E", "2007HiA....14..605E", "2007APS..MARU20009K", "1999Dlib....5.....K", "2010ihy..work..141H", "2003IAUSS...4E...7E", "2002APS..APRI11007E", "2015AAS...22533655A", "2015AAS...22533656H", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 106.49810039308574}, {"read_count": 98.0, "name": "Bohlen, E", "citation_count": 34, "numberName": 51, "papers": ["2007ASPC..377..106H", "2009JInfo...3....1H", "2003AAS...203.2005K", "2011ApSSP...1..125H", "2007LePub..20...16H", "2003lisa.conf..223K", "2007LPI....38.1240E", "2007ASPC..377...69A", "2009ASPC..411..384H", "2007DPS....39.2708H", "2007AAS...211.4730K", "2007ASPC..377..102T", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2004LPI....35.1602T", "2011AAS...21711608H", "2005AAS...207.3404E", "2006LPI....37.1691E", "2006AAS...20917302H", "2006AAS...20921809K", "2007ASPC..377...23K", "2009AAS...21347301A", "2011AAS...21813105A", "2007AAS...211.4732A", "2007APS..MARU20009K", "2010ihy..work..141H"], "size": 18.643325811831332}, {"read_count": 98.0, "name": "Demleitner, M", "citation_count": 64, "numberName": 57, "papers": ["2001ASPC..238..321D", "2005IPM....41.1395K", "2005JASIS..56...36K", "2005JASIS..56..111K", "1999AAS...195.8209D", "2007ASPC..377...69A", "2004ccdm.conf..521D", "2000ASPC..216..255E", "1999AAS...19410305D", "1999AAS...19510005E", "2000AAS...196.5301E", "2000AAS...19712008E", "2006ASPC..351..715A", "2000DPS....32.2702E", "1999AAS...194.4407K", "1999Dlib....5.....K"], "size": 15.153595387392944}, {"read_count": 0, "name": "Rosvall, M", "citation_count": 2, "numberName": 71, "papers": ["2009ASPC..411..384H", "2007AAS...211.4730K", "2009AAS...21347302H"], "size": 6.040970723198951}, {"read_count": 191.0, "name": "Thompson, D", "citation_count": 43, "numberName": 100, "papers": ["2006JEPub...9....2H", "2007ASPC..377..106H", "2009JInfo...3....1H", "2003AAS...203.2005K", "2011ApSSP...1..125H", "2007LePub..20...16H", "2003lisa.conf..223K", "2007LPI....38.1240E", "2007ASPC..377...69A", "2009ASPC..411..384H", "2007DPS....39.2708H", "2007AAS...211.4730K", "2007ASPC..377...36E", "2007ASPC..377..102T", "2009AGUFM.P43B1437H", "2009AAS...21347302H", "2009LPI....40.1873H", "2006AAS...20921808E", "2004LPI....35.1602T", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2011AAS...21711608H", "2005AAS...207.3404E", "2007AAS...211.4731G", "2006LPI....37.1691E", "2012LPI....43.1022H", "2004LPI....35.1267E", "2002AAS...201.7602T", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2006AAS...20917302H", "2006AAS...20921809K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "2009AAS...21347301A", "2011AAS...21813105A", "2014AAS...22325503A", "2007AAS...211.4732A", "2007BASI...35..717E", "2007HiA....14..605E", "2007APS..MARU20009K", "2010ihy..work..141H", "2015AAS...22533655A", "2015AAS...22533656H", "2013AAS...22124030A", "2014arXiv1406.4542H"], "size": 29.82963025001689}, {"read_count": 517.0, "name": "Eichhorn, G", "citation_count": 298, "numberName": 122, "papers": ["2000A&AS..143...41K", "2001ASPC..238..321D", "2000A&AS..143..111G", "2000A&AS..143...85A", "2000A&AS..143...61E", "2005IPM....41.1395K", "2005JASIS..56...36K", "1995ASPC...77...28E", "2005JASIS..56..111K", "1996ASPC..101..569E", "2006JEPub...9....2H", "2002SPIE.4847..238K", "1995ASPC...77...36A", "2004ASPC..314..181A", "1995VA.....39..217E", "2007ASPC..377..106H", "1994AAS...185.4104E", "1999ASPC..172..291A", "1998ASPC..145..378E", "2003AAS...203.2005K", "1996ASPC..101..558A", "2007LePub..20...16H", "1997ASPC..125..357A", "1997AAS...191.3502E", "1999AAS...195.8209D", "1994AAS...185.4102A", "2003lisa.conf..223K", "2002Ap&SS.282..299E", "2007LPI....38.1240E", "2007ASPC..377...69A", "2006ASPC..351..653K", "1997AAS...191.1701K", "2003AfrSk...8....7E", "1995ASSL..203..175M", "1995ASPC...77...32G", "1995VA.....39...63A", "2004ccdm.conf..521D", "2007ASPC..376..467A", "2007ASPC..377...36E", "2007ASPC..377..102T", "1996AAS...189.0607K", "2003lisa.conf..173E", "2003lisa.conf..145E", "1998ASPC..153..277E", "2002ASPC..281..471R", "1997AGAb...13..149E", "2002AAS...200.5807E", "2002AAS...201.0904K", "2002AGUSMED22C..07E", "1995DPS....27.3609E", "2003LPI....34.1949E", "2006AAS...20921808E", "2003ASSL..285..157E", "2003DPS....35.3302E", "2004LPI....35.1602T", "1997LPI....28..325E", "1997DPS....29.2704E", "2003ASPC..295..309A", "2000ASPC..216..255E", "2005DPS....37.1302E", "2005AGUFMIN33A1162E", "2005AAS...207.3404E", "2004AGUFMED13D0746E", "1998LPI....29.1514E", "1998BAAS...30.1080E", "1998ASPC..145..395A", "1999AAS...19410305D", "2001AAS...198.0307E", "2001AAS...199.1001E", "1999AAS...194.1004E", "2001DPS....33.1316E", "2002LPI....33.1298E", "1998AAS...19312004E", "1998AAS...192.3801E", "1998AAS...193.1311K", "1998ASPC..145..478K", "1997AAS...190.1403E", "2001AAS...199.1002R", "1997DPS....29.2705K", "1999AAS...19510005E", "2003AAS...203.2006H", "2003AAS...203.2004E", "2003AGUFMED32C1207E", "2003EAEJA....12295E", "2006LPI....37.1691E", "1998HiA....11..516E", "2011AAS...21813102E", "2000AAS...196.5301E", "1995AAS...186.0202K", "1996dkcw.proc..123K", "2000AAS...19712008E", "1996AAS...188.8508E", "2004LPI....35.1267E", "2002AAS...201.0903E", "2002AAS...201.7602T", "2005AAS...207.3405K", "2005LPI....36.1207E", "2006DPS....38.4605E", "2001AAS...199.0108E", "2006ASPC..351..715A", "2002DPS....34.3210E", "2000DPS....32.2702E", "2006AAS...20917302H", "2006AAS...20921809K", "2001LPI....32.1139E", "1999AAS...194.4407K", "2007ASPC..377...23K", "2007ASPC..377...93E", "2007ASPC..377...97G", "1995AAS...186.0203E", "1996AAS...189.0601E", "2002SPIE.4846...81E", "2003APS..MARX31001E", "2004tivo.conf..267E", "2004tivo.conf..294M", "2004DPS....36.1314E", "2005coas.conf...80E", "2002rict.confE..17E", "2007BASI...35..717E", "2007HiA....14..605E", "2007APS..MARU20009K", "1999Dlib....5.....K", "2010ihy..work..141H", "2003IAUSS...4E...7E", "2002APS..APRI11007E"], "size": 97.46628990624835}]}, {"name": 2, "children": [{"read_count": 44.0, "name": "Soles, J", "citation_count": 0, "numberName": 22, "papers": ["2013AAS...22124028G", "2014ASPC..485..461A"], "size": 6.635811136455494}, {"read_count": 214.0, "name": "Gray, N", "citation_count": 8, "numberName": 36, "papers": ["2009astro2010P...6B", "2013A&C.....1....1A", "2013AAS...22124028G", "2013ASPC..475....7M", "2014ASPC..485..461A", "2012ASPC..461..867A"], "size": 8.763509537719285}, {"read_count": 60.0, "name": "Biemesderfer, C", "citation_count": 0, "numberName": 37, "papers": ["2013AAS...22124028G", "2014ASPC..485..461A", "2012ASPC..461..867A"], "size": 7.6767818596544455}, {"read_count": 67.0, "name": "Erdmann, C", "citation_count": 1, "numberName": 67, "papers": ["2012SPIE.8448E..0KA", "2013AAS...22124028G", "2014ASPC..485..461A"], "size": 7.6767818596544455}, {"read_count": 42.0, "name": "Frey, K", "citation_count": 0, "numberName": 123, "papers": ["2014ASPC..485..461A"], "size": 6.040970723198951}]}, {"name": 3, "children": [{"read_count": 2.0, "name": "Mussio, P", "citation_count": 0, "numberName": 24, "papers": ["1989daa..conf..245A", "1988spta.conf.1601A", "1989LNP...329..191A", "1992ASSL..178..459A"], "size": 8.608698507089697}, {"read_count": 2.0, "name": "Rampini, A", "citation_count": 0, "numberName": 98, "papers": ["1989daa..conf..245A", "1988spta.conf.1601A", "1989LNP...329..191A"], "size": 7.567727783890746}, {"read_count": 2.0, "name": "Bordogna, G", "citation_count": 0, "numberName": 99, "papers": ["1989daa..conf..245A", "1988spta.conf.1601A", "1989LNP...329..191A"], "size": 7.567727783890746}]}, {"name": 4, "children": [{"read_count": 2.0, "name": "Rasmussen, B", "citation_count": 0, "numberName": 105, "papers": ["1995VA.....39..235A"], "size": 6.040970723198951}, {"read_count": 2.0, "name": "Murtagh, F", "citation_count": 0, "numberName": 116, "papers": ["1995VA.....39..235A"], "size": 6.040970723198951}]}, {"name": 5, "children": [{"read_count": 38.0, "name": "Rots, A", "citation_count": 3, "numberName": 66, "papers": ["2007ASPC..376..467A", "2009astro2010P..64W", "2012SPIE.8448E..0KA", "2011ASPC..442.....E", "2004tivo.conf..294M"], "size": 8.955688748156014}]}, {"name": 6, "children": [{"read_count": 0, "name": "Dave, R", "citation_count": 0, "numberName": 54, "papers": [], "size": 6.734951205331585}]}]}, "link_data": [[24, 48, 32.029761904761905], [41, 66, 32.029761904761905], [41, 67, 32.029761904761905], [66, 67, 32.029761904761905], [66, 122, 34.583333333333336]]}
+{
+    "bibcode_dict": {
+        "scix:01YR-4ESM-PCPU": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Access to the Online Planetary Research Literature"
+        },
+        "scix:03G7-GNSF-JTCF": {
+            "authors": [
+                "Accomazzi, A",
+                "Henneken, E"
+            ],
+            "citation_count": 2,
+            "read_count": 125.0,
+            "title": "Linking to Data: Effect on Citation Rates in Astronomy"
+        },
+        "scix:056E-BHSW-ZMSE": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The Astrophysics Data System Web Services"
+        },
+        "scix:05CN-C6E5-YXWY": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Introducing ADS Labs"
+        },
+        "scix:063A-D8A1-W80N": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The NASA ADS Abstract Service and the Distributed Astronomy Digital Library"
+        },
+        "scix:07YB-NWA3-CFBM": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "The NASA ADS: Searching, Linking and More"
+        },
+        "scix:0940-9K5B-RZFM": {
+            "authors": [
+                "Accomazzi, A",
+                "Biemesderfer, C",
+                "Derriere, S",
+                "Gray, N"
+            ],
+            "citation_count": 0,
+            "read_count": 16.0,
+            "title": "Why Don't We Already Have an Integrated Framework for the Publication and Preservation of All Data Products?"
+        },
+        "scix:094S-2MP5-924D": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Sophisticated Search Capabilities in the ADS Abstract Service"
+        },
+        "scix:0A8E-Q6H7-7MZX": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 8,
+            "read_count": 4.0,
+            "title": "Various Access Methods to the Abstracts in the Astrophysics Data System"
+        },
+        "scix:0BFR-KQFM-4E0V": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bacaico, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The Astrophysics Data System: Discovery Tool and Literature Archive"
+        },
+        "scix:0E8Q-M797-DETB": {
+            "authors": [
+                "Accomazzi, A",
+                "Anderes, E",
+                "Babu, J",
+                "Becla, J",
+                "Berger, J",
+                "Bickel, P",
+                "Bloom, J",
+                "Borne, K",
+                "Brunner, R",
+                "Burke, D",
+                "Butler, N",
+                "Chernoff, D",
+                "Clyde, M",
+                "Connolly, A",
+                "Connolly, B",
+                "Connors, A",
+                "Cutler, C",
+                "Davidson, I",
+                "Desai, S",
+                "Djorgovski, G",
+                "Eastman, T",
+                "Efron, B",
+                "Feigelson, E",
+                "Finn, L",
+                "Freeman, P",
+                "Genovese, C",
+                "Graham, M",
+                "Gray, A",
+                "Gray, N",
+                "Graziani, C",
+                "Guinan, E",
+                "Hakkila, J",
+                "Jacoby, S",
+                "Jang, W",
+                "Jefferys, W",
+                "Kashyap,",
+                "Kelly, B",
+                "Knuth, K",
+                "Kolaczyk, E",
+                "Kubica, J",
+                "Lamb, D",
+                "Lee, H",
+                "Loh, J",
+                "Loredo, T",
+                "Mahabal, A",
+                "Mateo, M",
+                "McCollum, B",
+                "Meng, X",
+                "Moore, A",
+                "Morris, R",
+                "Muench, A",
+                "Park, T",
+                "Pesenson, M",
+                "Petrosian, V",
+                "Pike, R",
+                "Primini, F",
+                "Protopapas, P",
+                "Ptak, A",
+                "Quashnock, J",
+                "Raddick, M",
+                "Rice, J",
+                "Richards, J",
+                "Rocha, G",
+                "Ross, N",
+                "Rottler, L",
+                "Ruppert, D",
+                "Saito, N",
+                "Scargle, J",
+                "Schafer, C",
+                "Siemiginowska, A",
+                "Song, I",
+                "Stark, P",
+                "Stein, M",
+                "Sun, J",
+                "Szalay, A",
+                "Tyson, J",
+                "Vestrand, T",
+                "Wallin, J",
+                "Wandelt, B",
+                "Wang, D",
+                "Wang, Z",
+                "Wasserman, I",
+                "Wasserman, L",
+                "Way, M",
+                "Wegman, E",
+                "Weinberg, M",
+                "Willett, R",
+                "Wolpert, R",
+                "Woodroofe, M",
+                "Zezas, A",
+                "van Dyk, D"
+            ],
+            "citation_count": 7,
+            "read_count": 135.0,
+            "title": "Astroinformatics: A 21st Century Approach to Astronomy"
+        },
+        "scix:0FSC-9BG1-0AVW": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The SAO/NASA Astrophysics Data System: A Gateway to the Planetary Sciences Literature"
+        },
+        "scix:0HBG-G4NY-N442": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Features in the ADS Abstract Service"
+        },
+        "scix:0J70-8D8D-ZABB": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "What's New in the ADS Abstract Service"
+        },
+        "scix:0VFS-MVM8-PG3A": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through E-mail"
+        },
+        "scix:0XXW-JX3Z-Y45Y": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Full Text Searching and Customization in the NASA ADS Abstract Service"
+        },
+        "scix:11KJ-8A2A-GR0G": {
+            "authors": [
+                "Accomazzi, A",
+                "Biemesderfer, C",
+                "Cassar, M",
+                "Erdmann, C",
+                "Gray, N",
+                "McCann, G",
+                "Soles, J"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Creation and Maintenance of a Unified Astronomy Thesaurus"
+        },
+        "scix:127S-JYYY-EWG4": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Goal-Oriented Subject Search in the NASA Astrophysics Data System"
+        },
+        "scix:13D3-M376-G108": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "XML in the ADS"
+        },
+        "scix:15PC-DA7V-W95D": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 15,
+            "read_count": 34.0,
+            "title": "The Effect of Use and Access on Citations"
+        },
+        "scix:19F0-39MH-609K": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 11,
+            "read_count": 4.0,
+            "title": "The New Astrophysics Data System"
+        },
+        "scix:1FBK-SDFD-47ZM": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Mirroring the ADS Bibliographic Databases"
+        },
+        "scix:1HGX-GG1R-FWKM": {
+            "authors": [
+                "Accomazzi, A",
+                "Budavari, T",
+                "Fluke, C",
+                "Gray, N",
+                "Mann, R",
+                "O'Mullane, W",
+                "Wicenec, A",
+                "Wise, M"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "Astronomy and Computing: A New Journal for the Astronomical Computing Community"
+        },
+        "scix:1KQD-EW1D-XQQW": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Planetary Sciences References in the ADS Abstract Service"
+        },
+        "scix:1PA9-TFNB-0S8H": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bacaicoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The ADS Abstract Service: A Free Search System for Literature in Astronomy, Planetary Sciences, Physics, Geophysics, and Instrumentation."
+        },
+        "scix:1PP6-PNGE-VZKD": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Astronomical Journal On-line Back to Volume 1; 1849"
+        },
+        "scix:1S1B-8QRK-7EN3": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 3,
+            "read_count": 2.0,
+            "title": "Looking at 3,000,000 References Without Growing Grey Hair"
+        },
+        "scix:1VJ5-GZNR-Q07U": {
+            "authors": [
+                "Accomazzi, A",
+                "Budavari, T",
+                "Fluke, C",
+                "Gray, N",
+                "Mann, R",
+                "O'Mullane, W",
+                "Wicenec, A",
+                "Wise, M"
+            ],
+            "citation_count": 1,
+            "read_count": 15.0,
+            "title": "Astronomy and Computing: A new journal for the astronomical computing community"
+        },
+        "scix:1VP0-ZQ3P-ZT9U": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Elwell, B",
+                "Grant, C",
+                "Kurtz, M",
+                "Martimbeau, N",
+                "Murray, S"
+            ],
+            "citation_count": 9,
+            "read_count": 10.0,
+            "title": "The Bibliometric Properties of Article Readership Information"
+        },
+        "scix:1W18-DYJT-4DCA": {
+            "authors": [
+                "Accomazzi, A",
+                "Berriman, G",
+                "Fabbiano, G",
+                "Madore, B",
+                "Mazzarella, J",
+                "Rots, A",
+                "Smale, A",
+                "Storrie, L",
+                "White, R",
+                "Winkelman, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "The High Impact of Astronomical Data Archives"
+        },
+        "scix:1Z83-Q054-W6QB": {
+            "authors": [
+                "Accomazzi, A",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "Towards a Resource-Centric Data Network for Astronomy"
+        },
+        "scix:221A-BPQ4-06WN": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Keeping Bibliographies using ADS"
+        },
+        "scix:277R-R1VC-8WVQ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 2.0,
+            "title": "The Astrophysics Data System Abstract and Article Services"
+        },
+        "scix:2CG5-2KW6-XRMZ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Searching Capability and OpenURL Linking in the ADS"
+        },
+        "scix:2D7W-DCH9-69BJ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Hughes, J",
+                "Kurtz, M",
+                "McMahon, S",
+                "Mortellaro, J",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Connecting the Astrophysics Data System and Planetary Data System"
+        },
+        "scix:2JP6-BAD8-VZJM": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 4.0,
+            "title": "Journal Citations: An ADS-AAS Collaboration"
+        },
+        "scix:2JZH-RT5X-9AWU": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 2,
+            "read_count": 2.0,
+            "title": "The ADS for Planetary Sciences"
+        },
+        "scix:2K98-XKSF-G1N7": {
+            "authors": [
+                "Accomazzi, A",
+                "Bordogna, G",
+                "Mussio, P",
+                "Rampini, A"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "An Approach to Heuristic Exploitation of Astronomers Knowledge in Automatic Interpretation of Optical Pictures"
+        },
+        "scix:2RQK-6JJ6-B2H8": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bakaikoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Advanced Retrieval Options in the Astrophysics Data System (ADS)"
+        },
+        "scix:2T8F-B7YM-CZA7": {
+            "authors": [
+                "Accomazzi, A"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Future Professional Communication in Astronomy II"
+        },
+        "scix:2WDF-DEGV-VT0V": {
+            "authors": [
+                "Accomazzi, A",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Features in ADS Labs"
+        },
+        "scix:2YX9-YZ7Y-BCDD": {
+            "authors": [
+                "Accomazzi, A",
+                "Bordogna, G",
+                "Fresta, F",
+                "Mussio, P",
+                "Rampini, A"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "A Structural Method for Celestial Object Extraction in Digitized Astronomical Images"
+        },
+        "scix:30CY-SD7Z-1865": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Astrophysics Data System (ADS) Abstracts and Articles On-line through the World Wide Web"
+        },
+        "scix:30QJ-KVB7-XAB1": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 3,
+            "read_count": 3.0,
+            "title": "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through Email"
+        },
+        "scix:341D-91CG-X14Q": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 4,
+            "read_count": 4.0,
+            "title": "The ADS Article Service Data Holdings and Access Methods"
+        },
+        "scix:38HK-1F86-CB2H": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Formatting and Retrieval Options in the Astrophysics Data System (ADS)"
+        },
+        "scix:3CZD-BZBM-XX4H": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Customized Open Access Journal for Astronomy and Physics/Geosciences"
+        },
+        "scix:3E5H-ACPH-2MXR": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Observatory Publications in the ADS"
+        },
+        "scix:3G03-PQ0R-H4W0": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The significance of e-printed papers in Astronomy and Physics"
+        },
+        "scix:3G1N-0TWE-QB77": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The Development of the Astronomy Digital Library"
+        },
+        "scix:3H9E-2XZJ-AWGZ": {
+            "authors": [
+                "Accomazzi, A",
+                "Henneken, E",
+                "Kurtz, M"
+            ],
+            "citation_count": 3,
+            "read_count": 5.0,
+            "title": "The ADS in the Information Age - Impact on Discovery"
+        },
+        "scix:3Q58-K3M2-63N2": {
+            "authors": [
+                "Accomazzi, A"
+            ],
+            "citation_count": 3,
+            "read_count": 7.0,
+            "title": "Linking Literature and Data: Status Report and Future Efforts"
+        },
+        "scix:3XVY-2ASK-3TN0": {
+            "authors": [
+                "Accomazzi, A",
+                "Blom, H",
+                "Eichhorn, G"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "Full-text Indexing Of All Springer Astronomy And Physics Journals In The ADS"
+        },
+        "scix:419F-H0SC-15C2": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bakaikoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "From the Literature to the Data: Linking to On-line Data from the ADS"
+        },
+        "scix:425H-154D-N5VM": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G"
+            ],
+            "citation_count": 6,
+            "read_count": 3.0,
+            "title": "Publishing Links to Astronomical Data On-line"
+        },
+        "scix:4BHQ-BBJC-7QAM": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 8.0,
+            "title": "Bibliographic Classification using the ADS Databases"
+        },
+        "scix:4F9H-BHM9-ZMGD": {
+            "authors": [
+                "Accomazzi, A",
+                "Conti, A",
+                "Di Milia, G",
+                "Lowe, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "The Astronomer's H-R diagram"
+        },
+        "scix:4G5P-M3SE-K1CX": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "Current and Future Holdings of the Historical Literature in the ADS"
+        },
+        "scix:4HS2-HK6R-TB38": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Access to the Astrophysics Data System: What, how, who, and where"
+        },
+        "scix:4P2D-1AT9-ZTG0": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Features of the ADS Abstract Service"
+        },
+        "scix:4Q2R-M3W6-49TK": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 6,
+            "read_count": 4.0,
+            "title": "Full Journal Articles in the ADS Astrophysics Science Information and Abstract Service"
+        },
+        "scix:4R9C-74KF-74P9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 3,
+            "read_count": 2.0,
+            "title": "Astronomical Information Discovery and Access: Design and Implementation of the ADS Bibliographic Services"
+        },
+        "scix:4RKA-9V2Y-Q9C2": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Combined Searching of Astronomy, Physics and Instrumentation Literature in the ADS Abstract Service"
+        },
+        "scix:4WZH-YPXJ-782A": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Kurtz, M",
+                "Murray, S",
+                "Stern Grant, C"
+            ],
+            "citation_count": 1,
+            "read_count": 2.0,
+            "title": "Data holdings in the ADS."
+        },
+        "scix:4YXJ-TAP6-G1MK": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bakaikoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Physical Review Journals in ADS"
+        },
+        "scix:4Z1B-BD1H-ZVP4": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 5.0,
+            "title": "The Digital Library in Astronomy: an Example of a Worldwide Collaboration of Information Providers."
+        },
+        "scix:560G-68WM-KE4Z": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Connectivity in the Astronomy Digital Library through the ADS"
+        },
+        "scix:567B-NFQT-ZFBS": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "ADS Web Services for the Discovery and Linking of Bibliographic Records"
+        },
+        "scix:59JY-T7EW-50ME": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Data and Features in the ADS Abstract and Article Services"
+        },
+        "scix:5DNN-F0QZ-7M8V": {
+            "authors": [
+                "Accomazzi, A",
+                "Allen, A",
+                "Berriman, G",
+                "DuPrie, K",
+                "Hanisch, R",
+                "Mink, J",
+                "Nemiroff, R",
+                "Shamir, L",
+                "Shortridge, K",
+                "Taylor, M",
+                "Teuben, P",
+                "Wallin, J"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "You've Written a Cool Astronomy Code! Now What Do You Do with It?"
+        },
+        "scix:5G23-Y6XT-K2WV": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 3,
+            "read_count": 0,
+            "title": "The NASA Astrophysics Data System: Obsolescence of Reads and Cites"
+        },
+        "scix:5TDG-Z2EQ-ABQJ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The NASA Astrophysics Data System: A Heterogeneous Distributed Data Environment"
+        },
+        "scix:5TDW-JZGR-0HKB": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 2.0,
+            "title": "Development of an ADS Data Dictionary Standard"
+        },
+        "scix:5TZ5-92VX-RYJP": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The NASA Astrophysics Data System: Bibliometrics Investigations"
+        },
+        "scix:5WW3-1Q4A-K34V": {
+            "authors": [
+                "Accomazzi, A",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M"
+            ],
+            "citation_count": 3,
+            "read_count": 8.0,
+            "title": "Using Multipartite Graphs for Recommendation and Discovery"
+        },
+        "scix:5WWZ-97M2-WMQS": {
+            "authors": [
+                "Accomazzi, A",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Online Activity Around Scholarly Astronomy Literature - A Discussion of Altmetrics"
+        },
+        "scix:5Y2B-7MT5-ZAJD": {
+            "authors": [
+                "Accomazzi, A",
+                "Biemesderfer, C",
+                "Erdmann, C",
+                "Frey, K",
+                "Gray, N",
+                "Soles, J"
+            ],
+            "citation_count": 0,
+            "read_count": 42.0,
+            "title": "The Unified Astronomy Thesaurus"
+        },
+        "scix:5YTW-V75D-WH1Y": {
+            "authors": [
+                "Accomazzi, A",
+                "Bloom, J",
+                "Borne, K",
+                "Brunner, R",
+                "Burke, D",
+                "Butler, N",
+                "Chernoff, D",
+                "Connolly, A",
+                "Connolly, B",
+                "Cutler, C",
+                "Desai, S",
+                "Djorgovski, G",
+                "Loredo, T"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The Astronomical Information Sciences: A Keystone for 21st-Century Astronomy"
+        },
+        "scix:60MA-XXBX-G04J": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Access to the literature and connection to on-line data"
+        },
+        "scix:613D-QZ86-XKMK": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 6,
+            "read_count": 7.0,
+            "title": "myADS-arXiv -- a Tailor-made, Open Access, Virtual Journal"
+        },
+        "scix:633T-EDE0-NQHA": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 8.0,
+            "title": "The Future of Technical Libraries"
+        },
+        "scix:63P7-NTZ1-F5N8": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Customizations of the ADS"
+        },
+        "scix:66ZQ-V6JD-JM32": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bakaikoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Current and Future Holdings of the Historical Literature in the ADS"
+        },
+        "scix:671X-HS8P-D6G5": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 3,
+            "read_count": 5.0,
+            "title": "The World Wide Web and ADS Services"
+        },
+        "scix:6AV6-3Q7N-30ZH": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Reybacaicoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The ADS Abstract Service: A Free NASA Service"
+        },
+        "scix:6J3J-X93V-PZ81": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "New Data in the ADS Abstract and Article Service"
+        },
+        "scix:6R11-5TG3-53FR": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 2,
+            "read_count": 10.0,
+            "title": "Creation and Use of Citations in the ADS"
+        },
+        "scix:6Y6E-MVJR-6E9P": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Automatic Recommendation of Astronomy Literature"
+        },
+        "scix:6Z8C-1RA1-V0BW": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 5.0,
+            "title": "The Astrophysical Journal On-line in the Astrophysics Science Information and Abstract Service (ASIAS)"
+        },
+        "scix:6ZYC-W5AZ-T5M3": {
+            "authors": [
+                "Accomazzi, A",
+                "Delmotte, N",
+                "Grothkopf, U",
+                "Micol, A",
+                "Treumann, A"
+            ],
+            "citation_count": 3,
+            "read_count": 2.0,
+            "title": "The ESO Telescope Bibliography Web Interface - Linking Publications and Observations"
+        },
+        "scix:70QT-8ZY5-54FP": {
+            "authors": [
+                "Accomazzi, A",
+                "Bergstrom, C",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Rosvall, M",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "A Tool to Explore the Landscape of Astronomy Literature"
+        },
+        "scix:7B13-EGSD-8815": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 5,
+            "read_count": 27.0,
+            "title": "Use of astronomical literature - A report on usage patterns"
+        },
+        "scix:7B2F-66HJ-H71T": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "NASA Astrophysics Data System's New Data"
+        },
+        "scix:7BEF-1HAN-7C62": {
+            "authors": [
+                "Accomazzi, A",
+                "Chyla, R",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "Introducing ADS 2.0"
+        },
+        "scix:7DKS-QB2H-SKSG": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "ADS on WWW: Doubling Yearly for Five Years"
+        },
+        "scix:7E1T-EX7P-PNX1": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "Staying Up-to-date In The Planetary Sciences With myADS"
+        },
+        "scix:7E4P-AB9W-QSE0": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 4.0,
+            "title": "Access to the Astronomical Literature through the NASA Astrophysics Data System from Developing Countries"
+        },
+        "scix:7GXC-8EV7-B1A9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 1,
+            "read_count": 8.0,
+            "title": "Connectivity in the Astronomy Digital Library"
+        },
+        "scix:7HSD-FJ34-39VK": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 20,
+            "read_count": 18.0,
+            "title": "The NASA Astrophysics Data System: Architecture"
+        },
+        "scix:7J5X-17S7-TH2N": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Connecting the literature with on-line data"
+        },
+        "scix:7KW9-4AVB-5W82": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Expanded Citations Database in the NASA ADS Abstract Service"
+        },
+        "scix:7MAV-XXHJ-DHXV": {
+            "authors": [
+                "Accomazzi, A",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 13.0,
+            "title": "The Smithsonian/NASA Astrophysics Data System (ADS) Decennial Report"
+        },
+        "scix:7MCB-HT2T-4H08": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "NASA's Astrophysics Data System: new abstract service and article service features."
+        },
+        "scix:7T13-E6B7-6ZA9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Linking From the ADS to Other On-line Resources"
+        },
+        "scix:7THT-3X9Y-Y5P5": {
+            "authors": [
+                "Accomazzi, A",
+                "Bergstrom, C",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Rosvall, M",
+                "Thompson, D"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "Exploring the Astronomy Literature Landscape"
+        },
+        "scix:7TV0-WH8B-D1D8": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 22,
+            "read_count": 4.0,
+            "title": "ADS's Dexter Data Extraction Applet"
+        },
+        "scix:81DJ-NE5B-7F61": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Ginsparg, P",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D",
+                "Warner, S"
+            ],
+            "citation_count": 4,
+            "read_count": 12.0,
+            "title": "E-prints and journal articles in astronomy: a productive co-existence"
+        },
+        "scix:86R4-KKQ9-60PZ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Rey-Bakaikoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Managing the ADS Citation Database"
+        },
+        "scix:8818-DVY1-0ND0": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "ADS in a Nutshell"
+        },
+        "scix:881X-ZG8S-MRNM": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "How the Literature is Used A View Through Citation and Usage Statistics of the ADS"
+        },
+        "scix:8963-Y09S-PQEX": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "New Features in the ADS Abstract Service"
+        },
+        "scix:89MF-71P7-RWSD": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "New Features in the ADS"
+        },
+        "scix:8ANB-658B-V330": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "Data in the ADS -- Understanding How to Use it Better"
+        },
+        "scix:8BHF-EFVG-QV7C": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The Astronomical Literature in its Full Glory"
+        },
+        "scix:8DMS-S3TE-G810": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Enhancements to the NASA Astrophysics Science Information and Abstract Service"
+        },
+        "scix:8E69-DYHK-K2K8": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 1,
+            "read_count": 5.0,
+            "title": "Paper to Screen: Processing Historical Scans in the ADS"
+        },
+        "scix:8F4P-644H-Y72P": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 4,
+            "read_count": 7.0,
+            "title": "Finding Your Literature Match - A Recommender System"
+        },
+        "scix:8G7D-K9SM-EFHH": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Improving Linking from the Literature to On-line Data"
+        },
+        "scix:8GDV-KY4H-FQGW": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Access to the Astronomical Literature Through the NASA ADS"
+        },
+        "scix:8K3X-78EY-JEH0": {
+            "authors": [
+                "Accomazzi, A",
+                "Henneken, E"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Search the AGU journals in the ADS Full Text Service"
+        },
+        "scix:8KHN-ZT8D-G5D9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 17,
+            "read_count": 98.0,
+            "title": "The NASA Astrophysics Data System: The search engine and its user interface"
+        },
+        "scix:8M26-Z4KB-KVJX": {
+            "authors": [
+                "Accomazzi, A",
+                "Evans, I",
+                "Mink, D",
+                "Rots, A"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Astronomical Data Analysis Software and Systems XX (ADASSXX)"
+        },
+        "scix:8N16-G12D-AE2H": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "The Astronomy Digital Library and the VO"
+        },
+        "scix:8PKW-MNYX-DBHX": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M"
+            ],
+            "citation_count": 1,
+            "read_count": 3.0,
+            "title": "The Astrophysics Data System"
+        },
+        "scix:8PPN-F53F-5WE9": {
+            "authors": [
+                "Accomazzi, A"
+            ],
+            "citation_count": 2,
+            "read_count": 6.0,
+            "title": "Astronomy 3.0 Style"
+        },
+        "scix:8R2K-FX9Y-1KFW": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Enhancements to the ADS Abstract Service"
+        },
+        "scix:8RCH-G40K-29DB": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M"
+            ],
+            "citation_count": 3,
+            "read_count": 2.0,
+            "title": "Historical Literature in the ADS"
+        },
+        "scix:8SYA-9E5F-FWRU": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Planetary Literature in the ADS Abstract Service"
+        },
+        "scix:8VPW-8EKQ-5FE2": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Accessing the Planetary Literature through the ADS Abstract and Article Services"
+        },
+        "scix:8WNP-8H7D-0041": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 7,
+            "read_count": 2.0,
+            "title": "Second order bibliometric operators in the Astrophysics Data System"
+        },
+        "scix:8X21-ZGKW-82JA": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Finding Astronomical Communities Through Co-readership Analysis"
+        },
+        "scix:8XJJ-74BW-5Q1E": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 4.0,
+            "title": "Automated resolution of noisy bibliographic references"
+        },
+        "scix:8YZ3-WYJF-95P0": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Facilitating Astronomy Research in Developing Countries through Improved Literature Access"
+        },
+        "scix:8ZVG-815H-SGQF": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 6,
+            "read_count": 4.0,
+            "title": "The ADS Bibliographic Reference Resolver"
+        },
+        "scix:9069-FF3H-BDTG": {
+            "authors": [
+                "Accomazzi, A",
+                "Egret, D",
+                "Eichhorn, G",
+                "Genova, F",
+                "Grant, C",
+                "Kurtz, M",
+                "Lesteven, S",
+                "Murray, S",
+                "Wenger, M"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "It's All Done With Mirrors: Improving Information Access"
+        },
+        "scix:90Y5-00VX-JMKG": {
+            "authors": [
+                "Accomazzi, A",
+                "Di Milia, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thiell, B",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Online Discovery: Search Paradigms and the Art of Literature Exploration"
+        },
+        "scix:9159-CFC5-TSZ7": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Rots, A"
+            ],
+            "citation_count": 1,
+            "read_count": 13.0,
+            "title": "Closing the Loop: Linking Datasets to Publications and Back"
+        },
+        "scix:91X3-TT9E-CMVF": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 4,
+            "read_count": 2.0,
+            "title": "The myADS Update Service"
+        },
+        "scix:95TW-CKSV-FWX9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 20,
+            "read_count": 7.0,
+            "title": "The NASA Astrophysics Data System: Data holdings"
+        },
+        "scix:9ANY-RDG6-DVRN": {
+            "authors": [
+                "Accomazzi, A",
+                "Delfini, D",
+                "Kurtz, M",
+                "Mussio, P"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Towards a Precise Definition of the Morphological Structure of Galaxies as a Basis for their Automatic Classification"
+        },
+        "scix:9FKH-NKGJ-TJMR": {
+            "authors": [
+                "Accomazzi, A",
+                "Beaumont, C",
+                "Bianco, D",
+                "Binkley, R",
+                "Gottlich, G",
+                "Kellogg, Y",
+                "Kurtz, M",
+                "Nelson, M",
+                "Paulson, S",
+                "Schmunk, R",
+                "Syed, O"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The NASA Technical Report Server"
+        },
+        "scix:9FSV-AYS1-BW7K": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "The New Physics and Astronomy Education Portal of the Smithsonian/NASA Astrophysics Data System"
+        },
+        "scix:9JD3-BYSY-26AG": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Green, D",
+                "Kurtz, M",
+                "Marsden, B",
+                "Murray, S",
+                "Williams, G"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "The IAU Circulars and Minor Planet Electronic Circulars are Now Available Through the NASA Astrophysics Data System"
+        },
+        "scix:9JWP-S4H1-QRQQ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 5,
+            "read_count": 2.0,
+            "title": "New Capabilities of the ADS Abstract and Article Service"
+        },
+        "scix:9KBT-0W6H-KM45": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 8,
+            "read_count": 24.0,
+            "title": "Effect of E-printing on Citation Rates in Astronomy and Physics"
+        },
+        "scix:9NT9-P3X9-B0E3": {
+            "authors": [
+                "Accomazzi, A",
+                "Castelaz, M",
+                "Cline, J",
+                "Cudworth, K",
+                "Griffin, R",
+                "Grindlay, J",
+                "Henden, A",
+                "Osborn, W",
+                "Rees, R",
+                "Templeton, M"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Making Archival Data Available for Research in the Next Decade and Beyond"
+        },
+        "scix:9P8H-Y47E-XT22": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Access to Journal Information in the Planetary Sciences through the Astrophysical Data System (ADS)"
+        },
+        "scix:9THJ-GH5T-D5XY": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "The Relative Effectiveness of Astronomy Journals"
+        },
+        "scix:9TMA-07CS-VGEZ": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Searching the full text in the ADS article service"
+        },
+        "scix:9V3D-WDSZ-FWTV": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Watson, J"
+            ],
+            "citation_count": 60,
+            "read_count": 18.0,
+            "title": "The NASA Astrophysics Data System: Overview"
+        },
+        "scix:9X6F-WTS0-ZADU": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "Rey Bacaicoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "New Data and Search Features in the NASA ADS Abstract Service"
+        },
+        "scix:9XBM-5A3W-T86Z": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Second Order Operators in the ADS Abstract Service"
+        },
+        "scix:9YT7-G9FE-MA5N": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 6,
+            "read_count": 0,
+            "title": "ADS Abstract Service Enhancements"
+        },
+        "scix:A4XH-K0JM-T40R": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 6.0,
+            "title": "Full Text Searching in the Astrophysics Data System"
+        },
+        "scix:A6P0-W8D5-N0QU": {
+            "authors": [
+                "Accomazzi, A",
+                "Chyla, R",
+                "Grant, C",
+                "Henneken, E",
+                "Holachek, A",
+                "Kurtz, M",
+                "Luker, J",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 22.0,
+            "title": "Computing and Using Metrics in the ADS"
+        },
+        "scix:A890-GFQZ-4JYM": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S",
+                "ReyBacaicoa, V"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "New Features in the ADS Abstract Service"
+        },
+        "scix:ABR5-AN6J-1W01": {
+            "authors": [
+                "Accomazzi, A",
+                "Bordogna, G",
+                "Mussio, P",
+                "Rampini, A"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Rule-Based Description and Plausible Classification of Objects in Digitized Astronomical Images"
+        },
+        "scix:ACAP-HZPM-AA8F": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "New Capabilities of the ADS Abstract Service"
+        },
+        "scix:AE0F-3YY8-ZKBU": {
+            "authors": [
+                "Accomazzi, A",
+                "Berriman, B",
+                "Borne, K",
+                "Eichhorn, G",
+                "Good, J",
+                "Kimball, T",
+                "Mazzerella, J",
+                "McGlynn, T",
+                "Rots, A",
+                "Thomas, B"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Building Interoperable NASA Archives"
+        },
+        "scix:AERT-TKTF-4VAU": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "All AAS Journals On-Line from Volume 1 to the Present"
+        },
+        "scix:AH8F-QDZF-KKN0": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 6,
+            "read_count": 0,
+            "title": "Access to the Astrophysics Science Information and Abstract System"
+        },
+        "scix:AM5Q-59FH-VJNX": {
+            "authors": [
+                "Accomazzi, A",
+                "Chyla, R",
+                "Grant, C",
+                "Henneken, E",
+                "Holachek, A",
+                "Kurtz, M",
+                "Murray, S",
+                "Sudilovsky, V",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Improved Functionality and Curation Support in the ADS"
+        },
+        "scix:ANT0-SZYB-9631": {
+            "authors": [
+                "Accomazzi, A",
+                "Bohlen, E",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 6.0,
+            "title": "myADS-arXiv: A fully customized, open access virtual journal"
+        },
+        "scix:AS9X-KBF8-CCZB": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 12,
+            "read_count": 15.0,
+            "title": "Worldwide Use and Impact of the NASA Astrophysics Data System Digital Library"
+        },
+        "scix:AT1E-2Z04-32VU": {
+            "authors": [
+                "Accomazzi, A",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "The Recent Data Explosion in the ADS"
+        },
+        "scix:ATBB-0706-N81J": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 4.0,
+            "title": "On-line Literature Search and Full Articles in the NASA ADS"
+        },
+        "scix:AYR7-8221-VRQY": {
+            "authors": [
+                "Accomazzi, A",
+                "Castelaz, M",
+                "Cline, J",
+                "Cudworth, K",
+                "Griffin, R",
+                "Grindlay, J",
+                "Henden, A",
+                "Osborn, W",
+                "Rees, R",
+                "Templeton, M"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Making Archival Data Available for Research in the Next Decade and Beyond"
+        },
+        "scix:AZTZ-3GR3-5N21": {
+            "authors": [
+                "Accomazzi, A"
+            ],
+            "citation_count": 0,
+            "read_count": 0,
+            "title": "Syntactic approach to the segmentation and classification of morphological features of galaxies"
+        },
+        "scix:B166-CNAP-6VRS": {
+            "authors": [
+                "Accomazzi, A",
+                "Murtagh, F",
+                "Rasmussen, B"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "Information Retrieval Tools and Techniques"
+        },
+        "scix:B32C-1WNN-TX01": {
+            "authors": [
+                "Accomazzi, A",
+                "Demleitner, M",
+                "Eichhorn, G",
+                "Grant, C",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 2.0,
+            "title": "A Model for Readership of Astronomical Journals, From an Analysis of ADS Readership"
+        },
+        "scix:B3PT-HJCP-8474": {
+            "authors": [
+                "Accomazzi, A",
+                "Bergstrom, C",
+                "Bohlen, E",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Rosvall, M",
+                "Thompson, D"
+            ],
+            "citation_count": 1,
+            "read_count": 0,
+            "title": "Mapping The Astronomy Literature"
+        },
+        "scix:B6F6-ZKQ5-VAFA": {
+            "authors": [
+                "Accomazzi, A",
+                "Erdmann, C",
+                "Henneken, E",
+                "Rots, A"
+            ],
+            "citation_count": 1,
+            "read_count": 23.0,
+            "title": "Telescope bibliographies: an essential component of archival data management and operations"
+        },
+        "scix:B7EF-0EQJ-CJN9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 1,
+            "read_count": 6.0,
+            "title": "Intelligent Information Retrieval"
+        },
+        "scix:B81N-HN9A-YM9Y": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "References and Citations in the ADS Abstract Service"
+        },
+        "scix:B8NC-4Y2J-JRC9": {
+            "authors": [
+                "Accomazzi, A",
+                "Eichhorn, G",
+                "Grant, C",
+                "Henneken, E",
+                "Kurtz, M",
+                "Murray, S",
+                "Thompson, D"
+            ],
+            "citation_count": 0,
+            "read_count": 3.0,
+            "title": "Google The ADS"
+        }
+    },
+    "link_data": [
+        [
+            24,
+            48,
+            32.029761904761905
+        ],
+        [
+            41,
+            66,
+            32.029761904761905
+        ],
+        [
+            41,
+            67,
+            32.029761904761905
+        ],
+        [
+            66,
+            67,
+            32.029761904761905
+        ],
+        [
+            66,
+            122,
+            34.583333333333336
+        ]
+    ],
+    "root": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "citation_count": 0,
+                        "name": "Rey Bacaicoa, V",
+                        "numberName": 0,
+                        "papers": [
+                            "scix:1PA9-TFNB-0S8H",
+                            "scix:9X6F-WTS0-ZADU"
+                        ],
+                        "read_count": 0,
+                        "size": 6.040970723198951
+                    },
+                    {
+                        "citation_count": 301,
+                        "name": "Murray, S",
+                        "numberName": 2,
+                        "papers": [
+                            "scix:9V3D-WDSZ-FWTV",
+                            "scix:7TV0-WH8B-D1D8",
+                            "scix:95TW-CKSV-FWX9",
+                            "scix:7HSD-FJ34-39VK",
+                            "scix:8KHN-ZT8D-G5D9",
+                            "scix:15PC-DA7V-W95D",
+                            "scix:AS9X-KBF8-CCZB",
+                            "scix:19F0-39MH-609K",
+                            "scix:1VP0-ZQ3P-ZT9U",
+                            "scix:0A8E-Q6H7-7MZX",
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:8WNP-8H7D-0041",
+                            "scix:9YT7-G9FE-MA5N",
+                            "scix:AH8F-QDZF-KKN0",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:4Q2R-M3W6-49TK",
+                            "scix:8ZVG-815H-SGQF",
+                            "scix:9JWP-S4H1-QRQQ",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:341D-91CG-X14Q",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:4R9C-74KF-74P9",
+                            "scix:1S1B-8QRK-7EN3",
+                            "scix:671X-HS8P-D6G5",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:30QJ-KVB7-XAB1",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:1Z83-Q054-W6QB",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B7EF-0EQJ-CJN9",
+                            "scix:9THJ-GH5T-D5XY",
+                            "scix:0VFS-MVM8-PG3A",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:4WZH-YPXJ-782A",
+                            "scix:5TDW-JZGR-0HKB",
+                            "scix:277R-R1VC-8WVQ",
+                            "scix:8XJJ-74BW-5Q1E",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:2JP6-BAD8-VZJM",
+                            "scix:7E4P-AB9W-QSE0",
+                            "scix:4G5P-M3SE-K1CX",
+                            "scix:7MAV-XXHJ-DHXV",
+                            "scix:2RQK-6JJ6-B2H8",
+                            "scix:5TZ5-92VX-RYJP",
+                            "scix:1PA9-TFNB-0S8H",
+                            "scix:30CY-SD7Z-1865",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:7KW9-4AVB-5W82",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:3G1N-0TWE-QB77",
+                            "scix:0J70-8D8D-ZABB",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:1KQD-EW1D-XQQW",
+                            "scix:2D7W-DCH9-69BJ",
+                            "scix:567B-NFQT-ZFBS",
+                            "scix:13D3-M376-G108",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:8963-Y09S-PQEX",
+                            "scix:AT1E-2Z04-32VU",
+                            "scix:8SYA-9E5F-FWRU",
+                            "scix:1FBK-SDFD-47ZM",
+                            "scix:8818-DVY1-0ND0",
+                            "scix:9XBM-5A3W-T86Z",
+                            "scix:419F-H0SC-15C2",
+                            "scix:AERT-TKTF-4VAU",
+                            "scix:A890-GFQZ-4JYM",
+                            "scix:9X6F-WTS0-ZADU",
+                            "scix:1PP6-PNGE-VZKD",
+                            "scix:59JY-T7EW-50ME",
+                            "scix:7DKS-QB2H-SKSG",
+                            "scix:221A-BPQ4-06WN",
+                            "scix:4P2D-1AT9-ZTG0",
+                            "scix:4YXJ-TAP6-G1MK",
+                            "scix:9JD3-BYSY-26AG",
+                            "scix:056E-BHSW-ZMSE",
+                            "scix:9TMA-07CS-VGEZ",
+                            "scix:8G7D-K9SM-EFHH",
+                            "scix:094S-2MP5-924D",
+                            "scix:4RKA-9V2Y-Q9C2",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:560G-68WM-KE4Z",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:7B2F-66HJ-H71T",
+                            "scix:8DMS-S3TE-G810",
+                            "scix:5TDG-Z2EQ-ABQJ",
+                            "scix:8YZ3-WYJF-95P0",
+                            "scix:6J3J-X93V-PZ81",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:7T13-E6B7-6ZA9",
+                            "scix:3E5H-ACPH-2MXR",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:66ZQ-V6JD-JM32",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:38HK-1F86-CB2H",
+                            "scix:9P8H-Y47E-XT22",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:ATBB-0706-N81J",
+                            "scix:B32C-1WNN-TX01",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:6Z8C-1RA1-V0BW",
+                            "scix:9069-FF3H-BDTG",
+                            "scix:4HS2-HK6R-TB38",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:B81N-HN9A-YM9Y",
+                            "scix:8N16-G12D-AE2H",
+                            "scix:89MF-71P7-RWSD",
+                            "scix:0BFR-KQFM-4E0V",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:4Z1B-BD1H-ZVP4",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:60MA-XXBX-G04J",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:063A-D8A1-W80N",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:8GDV-KY4H-FQGW",
+                            "scix:6AV6-3Q7N-30ZH",
+                            "scix:AM5Q-59FH-VJNX",
+                            "scix:5WWZ-97M2-WMQS",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 564.0,
+                        "size": 98.69397442583058
+                    },
+                    {
+                        "citation_count": 4,
+                        "name": "Luker, J",
+                        "numberName": 9,
+                        "papers": [
+                            "scix:8F4P-644H-Y72P",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 35.0,
+                        "size": 8.007248755908082
+                    },
+                    {
+                        "citation_count": 2,
+                        "name": "Bergstrom, C",
+                        "numberName": 16,
+                        "papers": [
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:70QT-8ZY5-54FP"
+                        ],
+                        "read_count": 0,
+                        "size": 6.040970723198951
+                    },
+                    {
+                        "citation_count": 305,
+                        "name": "Grant, C",
+                        "numberName": 19,
+                        "papers": [
+                            "scix:9V3D-WDSZ-FWTV",
+                            "scix:7TV0-WH8B-D1D8",
+                            "scix:95TW-CKSV-FWX9",
+                            "scix:7HSD-FJ34-39VK",
+                            "scix:8KHN-ZT8D-G5D9",
+                            "scix:15PC-DA7V-W95D",
+                            "scix:AS9X-KBF8-CCZB",
+                            "scix:19F0-39MH-609K",
+                            "scix:1VP0-ZQ3P-ZT9U",
+                            "scix:0A8E-Q6H7-7MZX",
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:8WNP-8H7D-0041",
+                            "scix:9YT7-G9FE-MA5N",
+                            "scix:AH8F-QDZF-KKN0",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:4Q2R-M3W6-49TK",
+                            "scix:8ZVG-815H-SGQF",
+                            "scix:9JWP-S4H1-QRQQ",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:341D-91CG-X14Q",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:4R9C-74KF-74P9",
+                            "scix:8RCH-G40K-29DB",
+                            "scix:1S1B-8QRK-7EN3",
+                            "scix:5WW3-1Q4A-K34V",
+                            "scix:671X-HS8P-D6G5",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:30QJ-KVB7-XAB1",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B7EF-0EQJ-CJN9",
+                            "scix:9THJ-GH5T-D5XY",
+                            "scix:0VFS-MVM8-PG3A",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:5TDW-JZGR-0HKB",
+                            "scix:277R-R1VC-8WVQ",
+                            "scix:8XJJ-74BW-5Q1E",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:2JP6-BAD8-VZJM",
+                            "scix:7E4P-AB9W-QSE0",
+                            "scix:4G5P-M3SE-K1CX",
+                            "scix:8PKW-MNYX-DBHX",
+                            "scix:86R4-KKQ9-60PZ",
+                            "scix:7MCB-HT2T-4H08",
+                            "scix:2RQK-6JJ6-B2H8",
+                            "scix:5TZ5-92VX-RYJP",
+                            "scix:1PA9-TFNB-0S8H",
+                            "scix:30CY-SD7Z-1865",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:7KW9-4AVB-5W82",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:3G1N-0TWE-QB77",
+                            "scix:0J70-8D8D-ZABB",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:1KQD-EW1D-XQQW",
+                            "scix:2D7W-DCH9-69BJ",
+                            "scix:567B-NFQT-ZFBS",
+                            "scix:13D3-M376-G108",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:8963-Y09S-PQEX",
+                            "scix:AT1E-2Z04-32VU",
+                            "scix:8SYA-9E5F-FWRU",
+                            "scix:8VPW-8EKQ-5FE2",
+                            "scix:1FBK-SDFD-47ZM",
+                            "scix:8818-DVY1-0ND0",
+                            "scix:9XBM-5A3W-T86Z",
+                            "scix:419F-H0SC-15C2",
+                            "scix:AERT-TKTF-4VAU",
+                            "scix:A890-GFQZ-4JYM",
+                            "scix:9X6F-WTS0-ZADU",
+                            "scix:1PP6-PNGE-VZKD",
+                            "scix:59JY-T7EW-50ME",
+                            "scix:7DKS-QB2H-SKSG",
+                            "scix:221A-BPQ4-06WN",
+                            "scix:4P2D-1AT9-ZTG0",
+                            "scix:4YXJ-TAP6-G1MK",
+                            "scix:9JD3-BYSY-26AG",
+                            "scix:056E-BHSW-ZMSE",
+                            "scix:9TMA-07CS-VGEZ",
+                            "scix:8G7D-K9SM-EFHH",
+                            "scix:094S-2MP5-924D",
+                            "scix:4RKA-9V2Y-Q9C2",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:560G-68WM-KE4Z",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:7B2F-66HJ-H71T",
+                            "scix:8DMS-S3TE-G810",
+                            "scix:5TDG-Z2EQ-ABQJ",
+                            "scix:8YZ3-WYJF-95P0",
+                            "scix:6J3J-X93V-PZ81",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:7T13-E6B7-6ZA9",
+                            "scix:3E5H-ACPH-2MXR",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:66ZQ-V6JD-JM32",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:38HK-1F86-CB2H",
+                            "scix:9P8H-Y47E-XT22",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:ATBB-0706-N81J",
+                            "scix:B32C-1WNN-TX01",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:6Z8C-1RA1-V0BW",
+                            "scix:9069-FF3H-BDTG",
+                            "scix:4HS2-HK6R-TB38",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:B81N-HN9A-YM9Y",
+                            "scix:8N16-G12D-AE2H",
+                            "scix:89MF-71P7-RWSD",
+                            "scix:0BFR-KQFM-4E0V",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:4Z1B-BD1H-ZVP4",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:60MA-XXBX-G04J",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:063A-D8A1-W80N",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:8GDV-KY4H-FQGW",
+                            "scix:6AV6-3Q7N-30ZH",
+                            "scix:AM5Q-59FH-VJNX",
+                            "scix:5WWZ-97M2-WMQS",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 565.0,
+                        "size": 101.1229061132948
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Rey Bakaikoa, V",
+                        "numberName": 31,
+                        "papers": [
+                            "scix:2RQK-6JJ6-B2H8",
+                            "scix:419F-H0SC-15C2",
+                            "scix:4YXJ-TAP6-G1MK",
+                            "scix:66ZQ-V6JD-JM32"
+                        ],
+                        "read_count": 5.0,
+                        "size": 7.428931687464219
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Blom, H",
+                        "numberName": 32,
+                        "papers": [
+                            "scix:3XVY-2ASK-3TN0"
+                        ],
+                        "read_count": 4.0,
+                        "size": 6.040970723198951
+                    },
+                    {
+                        "citation_count": 8,
+                        "name": "Di Milia, G",
+                        "numberName": 39,
+                        "papers": [
+                            "scix:8F4P-644H-Y72P",
+                            "scix:5WW3-1Q4A-K34V",
+                            "scix:4F9H-BHM9-ZMGD",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:2WDF-DEGV-VT0V"
+                        ],
+                        "read_count": 17.0,
+                        "size": 9.418342402911104
+                    },
+                    {
+                        "citation_count": 65,
+                        "name": "Henneken, E",
+                        "numberName": 41,
+                        "papers": [
+                            "scix:15PC-DA7V-W95D",
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:5WW3-1Q4A-K34V",
+                            "scix:3H9E-2XZJ-AWGZ",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:03G7-GNSF-JTCF",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B7EF-0EQJ-CJN9",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:B6F6-ZKQ5-VAFA",
+                            "scix:8K3X-78EY-JEH0",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:7KW9-4AVB-5W82",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:0J70-8D8D-ZABB",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:8963-Y09S-PQEX",
+                            "scix:AT1E-2Z04-32VU",
+                            "scix:9TMA-07CS-VGEZ",
+                            "scix:8G7D-K9SM-EFHH",
+                            "scix:094S-2MP5-924D",
+                            "scix:4RKA-9V2Y-Q9C2",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:B81N-HN9A-YM9Y",
+                            "scix:89MF-71P7-RWSD",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:8GDV-KY4H-FQGW",
+                            "scix:AM5Q-59FH-VJNX",
+                            "scix:5WWZ-97M2-WMQS",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 419.0,
+                        "size": 44.095886161286295
+                    },
+                    {
+                        "citation_count": 311,
+                        "name": "Kurtz, M",
+                        "numberName": 48,
+                        "papers": [
+                            "scix:9V3D-WDSZ-FWTV",
+                            "scix:7TV0-WH8B-D1D8",
+                            "scix:95TW-CKSV-FWX9",
+                            "scix:7HSD-FJ34-39VK",
+                            "scix:8KHN-ZT8D-G5D9",
+                            "scix:15PC-DA7V-W95D",
+                            "scix:AS9X-KBF8-CCZB",
+                            "scix:19F0-39MH-609K",
+                            "scix:1VP0-ZQ3P-ZT9U",
+                            "scix:0A8E-Q6H7-7MZX",
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:8WNP-8H7D-0041",
+                            "scix:9YT7-G9FE-MA5N",
+                            "scix:AH8F-QDZF-KKN0",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:4Q2R-M3W6-49TK",
+                            "scix:8ZVG-815H-SGQF",
+                            "scix:9JWP-S4H1-QRQQ",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:341D-91CG-X14Q",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:4R9C-74KF-74P9",
+                            "scix:8RCH-G40K-29DB",
+                            "scix:1S1B-8QRK-7EN3",
+                            "scix:5WW3-1Q4A-K34V",
+                            "scix:671X-HS8P-D6G5",
+                            "scix:3H9E-2XZJ-AWGZ",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:30QJ-KVB7-XAB1",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:1Z83-Q054-W6QB",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B7EF-0EQJ-CJN9",
+                            "scix:9THJ-GH5T-D5XY",
+                            "scix:0VFS-MVM8-PG3A",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:4WZH-YPXJ-782A",
+                            "scix:5TDW-JZGR-0HKB",
+                            "scix:277R-R1VC-8WVQ",
+                            "scix:8XJJ-74BW-5Q1E",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:2JP6-BAD8-VZJM",
+                            "scix:7E4P-AB9W-QSE0",
+                            "scix:4G5P-M3SE-K1CX",
+                            "scix:8PKW-MNYX-DBHX",
+                            "scix:7MAV-XXHJ-DHXV",
+                            "scix:9FKH-NKGJ-TJMR",
+                            "scix:7MCB-HT2T-4H08",
+                            "scix:2RQK-6JJ6-B2H8",
+                            "scix:5TZ5-92VX-RYJP",
+                            "scix:1PA9-TFNB-0S8H",
+                            "scix:30CY-SD7Z-1865",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:7KW9-4AVB-5W82",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:3G1N-0TWE-QB77",
+                            "scix:0J70-8D8D-ZABB",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:1KQD-EW1D-XQQW",
+                            "scix:2D7W-DCH9-69BJ",
+                            "scix:567B-NFQT-ZFBS",
+                            "scix:13D3-M376-G108",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:8963-Y09S-PQEX",
+                            "scix:AT1E-2Z04-32VU",
+                            "scix:9ANY-RDG6-DVRN",
+                            "scix:8SYA-9E5F-FWRU",
+                            "scix:8VPW-8EKQ-5FE2",
+                            "scix:1FBK-SDFD-47ZM",
+                            "scix:8818-DVY1-0ND0",
+                            "scix:9XBM-5A3W-T86Z",
+                            "scix:419F-H0SC-15C2",
+                            "scix:AERT-TKTF-4VAU",
+                            "scix:A890-GFQZ-4JYM",
+                            "scix:9X6F-WTS0-ZADU",
+                            "scix:1PP6-PNGE-VZKD",
+                            "scix:59JY-T7EW-50ME",
+                            "scix:7DKS-QB2H-SKSG",
+                            "scix:221A-BPQ4-06WN",
+                            "scix:4P2D-1AT9-ZTG0",
+                            "scix:4YXJ-TAP6-G1MK",
+                            "scix:9JD3-BYSY-26AG",
+                            "scix:056E-BHSW-ZMSE",
+                            "scix:9TMA-07CS-VGEZ",
+                            "scix:8G7D-K9SM-EFHH",
+                            "scix:094S-2MP5-924D",
+                            "scix:4RKA-9V2Y-Q9C2",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:560G-68WM-KE4Z",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:7B2F-66HJ-H71T",
+                            "scix:8DMS-S3TE-G810",
+                            "scix:5TDG-Z2EQ-ABQJ",
+                            "scix:8YZ3-WYJF-95P0",
+                            "scix:6J3J-X93V-PZ81",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:7T13-E6B7-6ZA9",
+                            "scix:3E5H-ACPH-2MXR",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:66ZQ-V6JD-JM32",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:38HK-1F86-CB2H",
+                            "scix:9P8H-Y47E-XT22",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:ATBB-0706-N81J",
+                            "scix:B32C-1WNN-TX01",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:6Z8C-1RA1-V0BW",
+                            "scix:9069-FF3H-BDTG",
+                            "scix:4HS2-HK6R-TB38",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:B81N-HN9A-YM9Y",
+                            "scix:8N16-G12D-AE2H",
+                            "scix:89MF-71P7-RWSD",
+                            "scix:0BFR-KQFM-4E0V",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:4Z1B-BD1H-ZVP4",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:60MA-XXBX-G04J",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:063A-D8A1-W80N",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:8GDV-KY4H-FQGW",
+                            "scix:6AV6-3Q7N-30ZH",
+                            "scix:AM5Q-59FH-VJNX",
+                            "scix:5WWZ-97M2-WMQS",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 585.0,
+                        "size": 106.49810039308574
+                    },
+                    {
+                        "citation_count": 34,
+                        "name": "Bohlen, E",
+                        "numberName": 51,
+                        "papers": [
+                            "scix:613D-QZ86-XKMK",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:881X-ZG8S-MRNM"
+                        ],
+                        "read_count": 98.0,
+                        "size": 18.643325811831332
+                    },
+                    {
+                        "citation_count": 64,
+                        "name": "Demleitner, M",
+                        "numberName": 57,
+                        "papers": [
+                            "scix:7TV0-WH8B-D1D8",
+                            "scix:15PC-DA7V-W95D",
+                            "scix:AS9X-KBF8-CCZB",
+                            "scix:1VP0-ZQ3P-ZT9U",
+                            "scix:1S1B-8QRK-7EN3",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:8XJJ-74BW-5Q1E",
+                            "scix:13D3-M376-G108",
+                            "scix:8818-DVY1-0ND0",
+                            "scix:056E-BHSW-ZMSE",
+                            "scix:7B2F-66HJ-H71T",
+                            "scix:8YZ3-WYJF-95P0",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:9P8H-Y47E-XT22",
+                            "scix:B32C-1WNN-TX01",
+                            "scix:063A-D8A1-W80N"
+                        ],
+                        "read_count": 98.0,
+                        "size": 15.153595387392944
+                    },
+                    {
+                        "citation_count": 2,
+                        "name": "Rosvall, M",
+                        "numberName": 71,
+                        "papers": [
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:70QT-8ZY5-54FP"
+                        ],
+                        "read_count": 0,
+                        "size": 6.040970723198951
+                    },
+                    {
+                        "citation_count": 43,
+                        "name": "Thompson, D",
+                        "numberName": 100,
+                        "papers": [
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:7B13-EGSD-8815",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:8F4P-644H-Y72P",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:7THT-3X9Y-Y5P5",
+                            "scix:7E1T-EX7P-PNX1",
+                            "scix:B3PT-HJCP-8474",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:01YR-4ESM-PCPU",
+                            "scix:70QT-8ZY5-54FP",
+                            "scix:0FSC-9BG1-0AVW",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:6Y6E-MVJR-6E9P",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:AT1E-2Z04-32VU",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:90Y5-00VX-JMKG",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:3E5H-ACPH-2MXR",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:127S-JYYY-EWG4",
+                            "scix:05CN-C6E5-YXWY",
+                            "scix:7BEF-1HAN-7C62",
+                            "scix:8BHF-EFVG-QV7C",
+                            "scix:60MA-XXBX-G04J",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:AM5Q-59FH-VJNX",
+                            "scix:5WWZ-97M2-WMQS",
+                            "scix:2WDF-DEGV-VT0V",
+                            "scix:A6P0-W8D5-N0QU"
+                        ],
+                        "read_count": 191.0,
+                        "size": 29.82963025001689
+                    },
+                    {
+                        "citation_count": 298,
+                        "name": "Eichhorn, G",
+                        "numberName": 122,
+                        "papers": [
+                            "scix:9V3D-WDSZ-FWTV",
+                            "scix:7TV0-WH8B-D1D8",
+                            "scix:95TW-CKSV-FWX9",
+                            "scix:7HSD-FJ34-39VK",
+                            "scix:8KHN-ZT8D-G5D9",
+                            "scix:15PC-DA7V-W95D",
+                            "scix:AS9X-KBF8-CCZB",
+                            "scix:19F0-39MH-609K",
+                            "scix:1VP0-ZQ3P-ZT9U",
+                            "scix:0A8E-Q6H7-7MZX",
+                            "scix:9KBT-0W6H-KM45",
+                            "scix:8WNP-8H7D-0041",
+                            "scix:9YT7-G9FE-MA5N",
+                            "scix:425H-154D-N5VM",
+                            "scix:AH8F-QDZF-KKN0",
+                            "scix:613D-QZ86-XKMK",
+                            "scix:4Q2R-M3W6-49TK",
+                            "scix:8ZVG-815H-SGQF",
+                            "scix:9JWP-S4H1-QRQQ",
+                            "scix:91X3-TT9E-CMVF",
+                            "scix:341D-91CG-X14Q",
+                            "scix:81DJ-NE5B-7F61",
+                            "scix:4R9C-74KF-74P9",
+                            "scix:8RCH-G40K-29DB",
+                            "scix:1S1B-8QRK-7EN3",
+                            "scix:671X-HS8P-D6G5",
+                            "scix:5G23-Y6XT-K2WV",
+                            "scix:30QJ-KVB7-XAB1",
+                            "scix:2JZH-RT5X-9AWU",
+                            "scix:6R11-5TG3-53FR",
+                            "scix:B7EF-0EQJ-CJN9",
+                            "scix:9THJ-GH5T-D5XY",
+                            "scix:0VFS-MVM8-PG3A",
+                            "scix:4WZH-YPXJ-782A",
+                            "scix:5TDW-JZGR-0HKB",
+                            "scix:277R-R1VC-8WVQ",
+                            "scix:8XJJ-74BW-5Q1E",
+                            "scix:9159-CFC5-TSZ7",
+                            "scix:7GXC-8EV7-B1A9",
+                            "scix:8E69-DYHK-K2K8",
+                            "scix:2JP6-BAD8-VZJM",
+                            "scix:7E4P-AB9W-QSE0",
+                            "scix:4G5P-M3SE-K1CX",
+                            "scix:8PKW-MNYX-DBHX",
+                            "scix:86R4-KKQ9-60PZ",
+                            "scix:7MCB-HT2T-4H08",
+                            "scix:2RQK-6JJ6-B2H8",
+                            "scix:5TZ5-92VX-RYJP",
+                            "scix:1PA9-TFNB-0S8H",
+                            "scix:30CY-SD7Z-1865",
+                            "scix:7KW9-4AVB-5W82",
+                            "scix:2CG5-2KW6-XRMZ",
+                            "scix:3G1N-0TWE-QB77",
+                            "scix:0J70-8D8D-ZABB",
+                            "scix:07YB-NWA3-CFBM",
+                            "scix:1KQD-EW1D-XQQW",
+                            "scix:2D7W-DCH9-69BJ",
+                            "scix:567B-NFQT-ZFBS",
+                            "scix:13D3-M376-G108",
+                            "scix:63P7-NTZ1-F5N8",
+                            "scix:3CZD-BZBM-XX4H",
+                            "scix:8R2K-FX9Y-1KFW",
+                            "scix:8963-Y09S-PQEX",
+                            "scix:8SYA-9E5F-FWRU",
+                            "scix:8VPW-8EKQ-5FE2",
+                            "scix:1FBK-SDFD-47ZM",
+                            "scix:8818-DVY1-0ND0",
+                            "scix:9XBM-5A3W-T86Z",
+                            "scix:419F-H0SC-15C2",
+                            "scix:AERT-TKTF-4VAU",
+                            "scix:A890-GFQZ-4JYM",
+                            "scix:9X6F-WTS0-ZADU",
+                            "scix:1PP6-PNGE-VZKD",
+                            "scix:59JY-T7EW-50ME",
+                            "scix:7DKS-QB2H-SKSG",
+                            "scix:221A-BPQ4-06WN",
+                            "scix:4P2D-1AT9-ZTG0",
+                            "scix:4YXJ-TAP6-G1MK",
+                            "scix:9JD3-BYSY-26AG",
+                            "scix:056E-BHSW-ZMSE",
+                            "scix:9TMA-07CS-VGEZ",
+                            "scix:8G7D-K9SM-EFHH",
+                            "scix:094S-2MP5-924D",
+                            "scix:4RKA-9V2Y-Q9C2",
+                            "scix:ACAP-HZPM-AA8F",
+                            "scix:560G-68WM-KE4Z",
+                            "scix:3XVY-2ASK-3TN0",
+                            "scix:7B2F-66HJ-H71T",
+                            "scix:8DMS-S3TE-G810",
+                            "scix:5TDG-Z2EQ-ABQJ",
+                            "scix:8YZ3-WYJF-95P0",
+                            "scix:6J3J-X93V-PZ81",
+                            "scix:0XXW-JX3Z-Y45Y",
+                            "scix:7T13-E6B7-6ZA9",
+                            "scix:3E5H-ACPH-2MXR",
+                            "scix:3G03-PQ0R-H4W0",
+                            "scix:0HBG-G4NY-N442",
+                            "scix:B8NC-4Y2J-JRC9",
+                            "scix:66ZQ-V6JD-JM32",
+                            "scix:4BHQ-BBJC-7QAM",
+                            "scix:38HK-1F86-CB2H",
+                            "scix:9P8H-Y47E-XT22",
+                            "scix:8X21-ZGKW-82JA",
+                            "scix:9FSV-AYS1-BW7K",
+                            "scix:ATBB-0706-N81J",
+                            "scix:B32C-1WNN-TX01",
+                            "scix:633T-EDE0-NQHA",
+                            "scix:A4XH-K0JM-T40R",
+                            "scix:8ANB-658B-V330",
+                            "scix:6Z8C-1RA1-V0BW",
+                            "scix:9069-FF3H-BDTG",
+                            "scix:4HS2-HK6R-TB38",
+                            "scix:B81N-HN9A-YM9Y",
+                            "scix:8N16-G12D-AE2H",
+                            "scix:AE0F-3YY8-ZKBU",
+                            "scix:89MF-71P7-RWSD",
+                            "scix:0BFR-KQFM-4E0V",
+                            "scix:4Z1B-BD1H-ZVP4",
+                            "scix:60MA-XXBX-G04J",
+                            "scix:7J5X-17S7-TH2N",
+                            "scix:ANT0-SZYB-9631",
+                            "scix:063A-D8A1-W80N",
+                            "scix:881X-ZG8S-MRNM",
+                            "scix:8GDV-KY4H-FQGW",
+                            "scix:6AV6-3Q7N-30ZH"
+                        ],
+                        "read_count": 517.0,
+                        "size": 97.46628990624835
+                    }
+                ],
+                "name": 1
+            },
+            {
+                "children": [
+                    {
+                        "citation_count": 0,
+                        "name": "Soles, J",
+                        "numberName": 22,
+                        "papers": [
+                            "scix:11KJ-8A2A-GR0G",
+                            "scix:5Y2B-7MT5-ZAJD"
+                        ],
+                        "read_count": 44.0,
+                        "size": 6.635811136455494
+                    },
+                    {
+                        "citation_count": 8,
+                        "name": "Gray, N",
+                        "numberName": 36,
+                        "papers": [
+                            "scix:0E8Q-M797-DETB",
+                            "scix:1VJ5-GZNR-Q07U",
+                            "scix:11KJ-8A2A-GR0G",
+                            "scix:1HGX-GG1R-FWKM",
+                            "scix:5Y2B-7MT5-ZAJD",
+                            "scix:0940-9K5B-RZFM"
+                        ],
+                        "read_count": 214.0,
+                        "size": 8.763509537719285
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Biemesderfer, C",
+                        "numberName": 37,
+                        "papers": [
+                            "scix:11KJ-8A2A-GR0G",
+                            "scix:5Y2B-7MT5-ZAJD",
+                            "scix:0940-9K5B-RZFM"
+                        ],
+                        "read_count": 60.0,
+                        "size": 7.6767818596544455
+                    },
+                    {
+                        "citation_count": 1,
+                        "name": "Erdmann, C",
+                        "numberName": 67,
+                        "papers": [
+                            "scix:B6F6-ZKQ5-VAFA",
+                            "scix:11KJ-8A2A-GR0G",
+                            "scix:5Y2B-7MT5-ZAJD"
+                        ],
+                        "read_count": 67.0,
+                        "size": 7.6767818596544455
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Frey, K",
+                        "numberName": 123,
+                        "papers": [
+                            "scix:5Y2B-7MT5-ZAJD"
+                        ],
+                        "read_count": 42.0,
+                        "size": 6.040970723198951
+                    }
+                ],
+                "name": 2
+            },
+            {
+                "children": [
+                    {
+                        "citation_count": 0,
+                        "name": "Mussio, P",
+                        "numberName": 24,
+                        "papers": [
+                            "scix:ABR5-AN6J-1W01",
+                            "scix:2YX9-YZ7Y-BCDD",
+                            "scix:2K98-XKSF-G1N7",
+                            "scix:9ANY-RDG6-DVRN"
+                        ],
+                        "read_count": 2.0,
+                        "size": 8.608698507089697
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Rampini, A",
+                        "numberName": 98,
+                        "papers": [
+                            "scix:ABR5-AN6J-1W01",
+                            "scix:2YX9-YZ7Y-BCDD",
+                            "scix:2K98-XKSF-G1N7"
+                        ],
+                        "read_count": 2.0,
+                        "size": 7.567727783890746
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Bordogna, G",
+                        "numberName": 99,
+                        "papers": [
+                            "scix:ABR5-AN6J-1W01",
+                            "scix:2YX9-YZ7Y-BCDD",
+                            "scix:2K98-XKSF-G1N7"
+                        ],
+                        "read_count": 2.0,
+                        "size": 7.567727783890746
+                    }
+                ],
+                "name": 3
+            },
+            {
+                "children": [
+                    {
+                        "citation_count": 0,
+                        "name": "Rasmussen, B",
+                        "numberName": 105,
+                        "papers": [
+                            "scix:B166-CNAP-6VRS"
+                        ],
+                        "read_count": 2.0,
+                        "size": 6.040970723198951
+                    },
+                    {
+                        "citation_count": 0,
+                        "name": "Murtagh, F",
+                        "numberName": 116,
+                        "papers": [
+                            "scix:B166-CNAP-6VRS"
+                        ],
+                        "read_count": 2.0,
+                        "size": 6.040970723198951
+                    }
+                ],
+                "name": 4
+            },
+            {
+                "children": [
+                    {
+                        "citation_count": 3,
+                        "name": "Rots, A",
+                        "numberName": 66,
+                        "papers": [
+                            "scix:9159-CFC5-TSZ7",
+                            "scix:1W18-DYJT-4DCA",
+                            "scix:B6F6-ZKQ5-VAFA",
+                            "scix:8M26-Z4KB-KVJX",
+                            "scix:AE0F-3YY8-ZKBU"
+                        ],
+                        "read_count": 38.0,
+                        "size": 8.955688748156014
+                    }
+                ],
+                "name": 5
+            },
+            {
+                "children": [
+                    {
+                        "citation_count": 0,
+                        "name": "Dave, R",
+                        "numberName": 54,
+                        "papers": [],
+                        "read_count": 0,
+                        "size": 6.734951205331585
+                    }
+                ],
+                "name": 6
+            }
+        ],
+        "name": [
+            {
+                "delete": true,
+                "nodeName": "Accomazzi, A",
+                "nodeWeight": 150.0
+            }
+        ]
+    }
+}

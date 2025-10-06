@@ -1,1 +1,3221 @@
-[{"read_count": 0.0, "bibcode": "2002ASPC..281..471R", "pubdate": "2002-00-00", "title": ["Managing the ADS Citation Database"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Rey-Bakaikoa, V"]}, {"read_count": 3.0, "bibcode": "2009ASPC..410..160O", "pubdate": "2009-08-00", "title": ["Making Archival Data Available for Research in the Next Decade and Beyond"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Castelaz, M", "Cline, J", "Cudworth, K", "Griffin, R", "Grindlay, J", "Henden, A", "Osborn, W", "Rees, R", "Templeton, M"]}, {"read_count": 0.0, "bibcode": "2009ASPC..411..384H", "pubdate": "2009-09-00", "title": ["Exploring the Astronomy Literature Landscape"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2009arad.workE..32A", "pubdate": "2009-00-00", "title": ["Towards a Resource-Centric Data Network for Astronomy"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "1995IntR....5...25N", "pubdate": "1995-00-00", "title": ["The NASA Technical Report Server"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Beaumont, C", "Bianco, D", "Binkley, R", "Gottlich, G", "Kellogg, Y", "Kurtz, M", "Nelson, M", "Paulson, S", "Schmunk, R", "Syed, O"]}, {"read_count": 2.0, "bibcode": "1995VA.....39..235A", "pubdate": "1995-00-00", "title": ["Information Retrieval Tools and Techniques"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Murtagh, F", "Rasmussen, B"]}, {"read_count": 3.0, "bibcode": "1997AGAb...13..149E", "pubdate": "1997-09-00", "title": ["NASA's Astrophysics Data System: new abstract service and article service features."], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"]}, {"read_count": 0.0, "bibcode": "1995ASPC...77...36A", "pubdate": "1995-00-00", "title": ["ADS Abstract Service Enhancements"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2002AAS...200.5807E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "pubdate": "2002-06-00", "title": ["Advanced Retrieval Options in the Astrophysics Data System (ADS)"]}, {"read_count": 0.0, "bibcode": "2002AAS...201.0904K", "pubdate": "2002-12-00", "title": ["The NASA Astrophysics Data System: Bibliometrics Investigations"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2002AGUSMED22C..07E", "pubdate": "2002-05-00", "title": ["The ADS Abstract Service: A Free Search System for Literature in Astronomy, Planetary Sciences, Physics, Geophysics, and Instrumentation."], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaicoa, V"]}, {"read_count": 0.0, "bibcode": "2007DPS....39.2708H", "pubdate": "2007-10-00", "title": ["Staying Up-to-date In The Planetary Sciences With myADS"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "1995DPS....27.3609E", "pubdate": "1995-06-00", "title": ["Astrophysics Data System (ADS) Abstracts and Articles On-line through the World Wide Web"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2012AGUFMED21A0703H", "pubdate": "2012-12-00", "title": ["Search the AGU journals in the ADS Full Text Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Henneken, E"]}, {"read_count": 0.0, "bibcode": "2009AGUFM.P43B1437H", "author_norm": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"], "pubdate": "2009-12-00", "title": ["Access to the Online Planetary Research Literature"]}, {"read_count": 0.0, "bibcode": "2009AAS...21347302H", "pubdate": "2009-01-00", "title": ["A Tool to Explore the Landscape of Astronomy Literature"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2009LPI....40.1873H", "pubdate": "2009-03-00", "title": ["The SAO/NASA Astrophysics Data System: A Gateway to the Planetary Sciences Literature"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "2003LPI....34.1949E", "pubdate": "2003-03-00", "title": ["Expanded Citations Database in the NASA ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2004ASPC..314..181A", "pubdate": "2004-07-00", "title": ["Publishing Links to Astronomical Data On-line"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Eichhorn, G"]}, {"read_count": 2.0, "bibcode": "2006AAS...20921808E", "pubdate": "2006-12-00", "title": ["New Searching Capability and OpenURL Linking in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 6.0, "bibcode": "2006ASPC..351..653K", "pubdate": "2006-07-00", "title": ["Intelligent Information Retrieval"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2003ASSL..285..157E", "pubdate": "2003-03-00", "title": ["The Development of the Astronomy Digital Library"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2003DPS....35.3302E", "pubdate": "2003-05-00", "title": ["What's New in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2004LPI....35.1602T", "pubdate": "2004-03-00", "title": ["The NASA ADS: Searching, Linking and More"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "1997LPI....28..325E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1997-03-00", "title": ["Planetary Sciences References in the ADS Abstract Service"]}, {"read_count": 0.0, "bibcode": "1997AAS...191.1701K", "pubdate": "1997-12-00", "title": ["The Relative Effectiveness of Astronomy Journals"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "1997DPS....29.2704E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Hughes, J", "Kurtz, M", "McMahon, S", "Mortellaro, J", "Murray, S"], "pubdate": "1997-07-00", "title": ["Connecting the Astrophysics Data System and Planetary Data System"]}, {"read_count": 0.0, "bibcode": "1989daa..conf..245A", "pubdate": "1989-00-00", "title": ["Rule-Based Description and Plausible Classification of Objects in Digitized Astronomical Images"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bordogna, G", "Mussio, P", "Rampini, A"]}, {"read_count": 0.0, "bibcode": "1988spta.conf.1601A", "pubdate": "1988-00-00", "title": ["A Structural Method for Celestial Object Extraction in Digitized Astronomical Images"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bordogna, G", "Fresta, F", "Mussio, P", "Rampini, A"]}, {"read_count": 0.0, "bibcode": "2003ASPC..295..309A", "pubdate": "2003-00-00", "title": ["ADS Web Services for the Discovery and Linking of Bibliographic Records"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2000ASPC..216..255E", "pubdate": "2000-00-00", "title": ["XML in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2005DPS....37.1302E", "pubdate": "2005-08-00", "title": ["Customizations of the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2005AGUFMIN33A1162E", "pubdate": "2005-12-00", "title": ["Customized Open Access Journal for Astronomy and Physics/Geosciences"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2011AAS...21711608H", "pubdate": "2011-01-00", "title": ["Automatic Recommendation of Astronomy Literature"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2011AAS...21714501C", "pubdate": "2011-01-00", "title": ["The Astronomer's H-R diagram"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Conti, A", "Di Milia, G", "Lowe, S"]}, {"read_count": 0.0, "bibcode": "2011ASPC..442.....E", "pubdate": "2011-07-00", "title": ["Astronomical Data Analysis Software and Systems XX (ADASSXX)"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Evans, I", "Mink, D", "Rots, A"]}, {"read_count": 0.0, "bibcode": "2005AAS...207.3404E", "pubdate": "2005-12-00", "title": ["Enhancements to the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2004AGUFMED13D0746E", "pubdate": "2004-12-00", "title": ["New Features in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2003AfrSk...8....7E", "pubdate": "2003-10-00", "title": ["The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through E-mail"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2007AAS...211.4731G", "pubdate": "2007-12-00", "title": ["The Recent Data Explosion in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "1989LNP...329..191A", "pubdate": "1989-00-00", "title": ["An Approach to Heuristic Exploitation of Astronomers Knowledge in Automatic Interpretation of Optical Pictures"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bordogna, G", "Mussio, P", "Rampini, A"]}, {"read_count": 0.0, "bibcode": "1992ASSL..178..459A", "pubdate": "1992-00-00", "title": ["Towards a Precise Definition of the Morphological Structure of Galaxies as a Basis for their Automatic Classification"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Delfini, D", "Kurtz, M", "Mussio, P"]}, {"read_count": 2.0, "bibcode": "1998LPI....29.1514E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1998-03-00", "title": ["Planetary Literature in the ADS Abstract Service"]}, {"read_count": 0.0, "bibcode": "1998BAAS...30.1080E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"], "pubdate": "1998-09-00", "title": ["Accessing the Planetary Literature through the ADS Abstract and Article Services"]}, {"read_count": 0.0, "bibcode": "1998ASPC..145..395A", "pubdate": "1998-00-00", "title": ["Mirroring the ADS Bibliographic Databases"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "1999AAS...19410305D", "pubdate": "1999-05-00", "title": ["ADS in a Nutshell"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2001AAS...198.0307E", "pubdate": "2001-05-00", "title": ["Second Order Operators in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2001AAS...199.1001E", "pubdate": "2001-12-00", "title": ["From the Literature to the Data: Linking to On-line Data from the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"]}, {"read_count": 0.0, "bibcode": "1999AAS...194.1004E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1999-05-00", "title": ["All AAS Journals On-Line from Volume 1 to the Present"]}, {"read_count": 0.0, "bibcode": "2001DPS....33.1316E", "pubdate": "2001-11-00", "title": ["New Features in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "ReyBacaicoa, V"]}, {"read_count": 0.0, "bibcode": "2002LPI....33.1298E", "pubdate": "2002-03-00", "title": ["New Data and Search Features in the NASA ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaicoa, V"]}, {"read_count": 2.0, "bibcode": "1998AAS...19312004E", "pubdate": "1998-12-00", "title": ["Astronomical Journal On-line Back to Volume 1; 1849"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1998AAS...192.3801E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1998-05-00", "title": ["New Data and Features in the ADS Abstract and Article Services"]}, {"read_count": 2.0, "bibcode": "1998AAS...193.1311K", "pubdate": "1998-12-00", "title": ["ADS on WWW: Doubling Yearly for Five Years"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "1998ASPC..145..478K", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1998-00-00", "title": ["Keeping Bibliographies using ADS"]}, {"read_count": 2.0, "bibcode": "1997ASPC..125..357A", "pubdate": "1997-00-00", "title": ["Astronomical Information Discovery and Access: Design and Implementation of the ADS Bibliographic Services"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1997AAS...191.3502E", "pubdate": "1997-12-00", "title": ["Historical Literature in the ADS"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"]}, {"read_count": 2.0, "bibcode": "1997AAS...190.1403E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1997-05-00", "title": ["New Features of the ADS Abstract Service"]}, {"read_count": 3.0, "bibcode": "2001AAS...199.1002R", "pubdate": "2001-12-00", "title": ["Physical Review Journals in ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"]}, {"read_count": 2.0, "bibcode": "1997DPS....29.2705K", "pubdate": "1997-07-00", "title": ["The IAU Circulars and Minor Planet Electronic Circulars are Now Available Through the NASA Astrophysics Data System"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Green, D", "Kurtz, M", "Marsden, B", "Murray, S", "Williams, G"]}, {"read_count": 2.0, "bibcode": "1998ASPC..145..378E", "pubdate": "1998-00-00", "title": ["New Capabilities of the ADS Abstract and Article Service"], "citation_count": 5, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1999AAS...195.8209D", "pubdate": "1999-12-00", "title": ["Looking at 3,000,000 References Without Growing Grey Hair"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1999AAS...19510005E", "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1999-12-00", "title": ["The Astrophysics Data System Web Services"]}, {"read_count": 4.0, "bibcode": "2001ASPC..238..321D", "pubdate": "2001-00-00", "title": ["ADS's Dexter Data Extraction Applet"], "citation_count": 22, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2003AAS...203.2006H", "pubdate": "2003-12-00", "title": ["Searching the full text in the ADS article service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2003AAS...203.2005K", "pubdate": "2003-12-00", "title": ["The myADS Update Service"], "citation_count": 4, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "2003AAS...203.2004E", "pubdate": "2003-12-00", "title": ["Improving Linking from the Literature to On-line Data"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2003AGUFMED32C1207E", "pubdate": "2003-12-00", "title": ["Sophisticated Search Capabilities in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2003EAEJA....12295E", "pubdate": "2003-04-00", "title": ["Combined Searching of Astronomy, Physics and Instrumentation Literature in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2006LPI....37.1691E", "pubdate": "2006-03-00", "title": ["New Capabilities of the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2007AAS...211.4730K", "pubdate": "2007-12-00", "title": ["Mapping The Astronomy Literature"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Bergstrom, C", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Rosvall, M", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2007LPI....38.1240E", "pubdate": "2007-03-00", "title": ["The ADS for Planetary Sciences"], "citation_count": 2, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "1998HiA....11..516E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1998-00-00", "title": ["Connectivity in the Astronomy Digital Library through the ADS"]}, {"read_count": 4.0, "bibcode": "2011AAS...21813102E", "pubdate": "2011-05-00", "title": ["Full-text Indexing Of All Springer Astronomy And Physics Journals In The ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Blom, H", "Eichhorn, G"]}, {"read_count": 2.0, "bibcode": "2013AAS...22124028G", "pubdate": "2013-01-00", "title": ["Creation and Maintenance of a Unified Astronomy Thesaurus"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Biemesderfer, C", "Cassar, M", "Erdmann, C", "Gray, N", "McCann, G", "Soles, J"]}, {"read_count": 0.0, "bibcode": "2012LPI....43.1022H", "pubdate": "2012-03-00", "title": ["Online Discovery: Search Paradigms and the Art of Literature Exploration"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thiell, B", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "1995VA.....39..217E", "pubdate": "1995-00-00", "title": ["Access to the Astrophysics Science Information and Abstract System"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2000AAS...196.5301E", "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "2000-05-00", "title": ["NASA Astrophysics Data System's New Data"]}, {"read_count": 0.0, "bibcode": "1995AAS...186.0202K", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1995-05-00", "title": ["Enhancements to the NASA Astrophysics Science Information and Abstract Service"]}, {"read_count": 0.0, "bibcode": "1996dkcw.proc..123K", "pubdate": "1996-00-00", "title": ["The NASA Astrophysics Data System: A Heterogeneous Distributed Data Environment"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2000AAS...19712008E", "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "2000-12-00", "title": ["Facilitating Astronomy Research in Developing Countries through Improved Literature Access"]}, {"read_count": 2.0, "bibcode": "2014AAS...22325525A", "pubdate": "2014-01-00", "title": ["You've Written a Cool Astronomy Code! Now What Do You Do with It?"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Allen, A", "Berriman, G", "DuPrie, K", "Hanisch, R", "Mink, J", "Nemiroff, R", "Shamir, L", "Shortridge, K", "Taylor, M", "Teuben, P", "Wallin, J"]}, {"read_count": 2.0, "bibcode": "1995ASSL..203..175M", "pubdate": "1995-00-00", "title": ["Data holdings in the ADS."], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Kurtz, M", "Murray, S", "Stern Grant, C"]}, {"read_count": 4.0, "bibcode": "2013ASPC..475....7M", "pubdate": "2013-10-00", "title": ["Astronomy and Computing: A New Journal for the Astronomical Computing Community"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Budavari, T", "Fluke, C", "Gray, N", "Mann, R", "O'Mullane, W", "Wicenec, A", "Wise, M"]}, {"read_count": 2.0, "bibcode": "1995ASPC...77...32G", "pubdate": "1995-00-00", "title": ["Development of an ADS Data Dictionary Standard"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1995VA.....39...63A", "pubdate": "1995-00-00", "title": ["The Astrophysics Data System Abstract and Article Services"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 4.0, "bibcode": "1996AAS...188.8508E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1996-05-00", "title": ["New Data in the ADS Abstract and Article Service"]}, {"read_count": 3.0, "bibcode": "2004LPI....35.1267E", "pubdate": "2004-03-00", "title": ["Full Text Searching and Customization in the NASA ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2002AAS...201.0903E", "pubdate": "2002-12-00", "title": ["Linking From the ADS to Other On-line Resources"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2002AAS...201.7602T", "pubdate": "2002-12-00", "title": ["Observatory Publications in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2005AAS...207.3405K", "pubdate": "2005-12-00", "title": ["The significance of e-printed papers in Astronomy and Physics"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2005LPI....36.1207E", "pubdate": "2005-03-00", "title": ["New Features in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "2006DPS....38.4605E", "pubdate": "2006-09-00", "title": ["Google The ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2001AAS...199.0108E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bakaikoa, V"], "pubdate": "2001-12-00", "title": ["Current and Future Holdings of the Historical Literature in the ADS"]}, {"read_count": 8.0, "bibcode": "2006ASPC..351..715A", "pubdate": "2006-07-00", "title": ["Bibliographic Classification using the ADS Databases"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2002DPS....34.3210E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "2002-09-00", "title": ["Formatting and Retrieval Options in the Astrophysics Data System (ADS)"]}, {"read_count": 2.0, "bibcode": "2000DPS....32.2702E", "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "2000-10-00", "title": ["Access to Journal Information in the Planetary Sciences through the Astrophysical Data System (ADS)"]}, {"read_count": 3.0, "bibcode": "2006AAS...20917302H", "pubdate": "2006-12-00", "title": ["Finding Astronomical Communities Through Co-readership Analysis"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 4.0, "bibcode": "2006AAS...20921809K", "pubdate": "2006-12-00", "title": ["The New Physics and Astronomy Education Portal of the Smithsonian/NASA Astrophysics Data System"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 4.0, "bibcode": "2001LPI....32.1139E", "pubdate": "2001-03-00", "title": ["On-line Literature Search and Full Articles in the NASA ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "1999AAS...194.4407K", "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1999-05-00", "title": ["A Model for Readership of Astronomical Journals, From an Analysis of ADS Readership"]}, {"read_count": 4.0, "bibcode": "2004ccdm.conf..521D", "pubdate": "2004-00-00", "title": ["Automated resolution of noisy bibliographic references"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 13.0, "bibcode": "2007ASPC..376..467A", "pubdate": "2007-10-00", "title": ["Closing the Loop: Linking Datasets to Publications and Back"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Rots, A"]}, {"read_count": 8.0, "bibcode": "2007ASPC..377...23K", "pubdate": "2007-10-00", "title": ["The Future of Technical Libraries"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 8.0, "bibcode": "2007ASPC..377...36E", "pubdate": "2007-10-00", "title": ["Connectivity in the Astronomy Digital Library"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 10.0, "bibcode": "2007ASPC..377...69A", "pubdate": "2007-10-00", "title": ["Creation and Use of Citations in the ADS"], "citation_count": 2, "author_norm": ["Accomazzi, A", "Bohlen, E", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 6.0, "bibcode": "2007ASPC..377...93E", "pubdate": "2007-10-00", "title": ["Full Text Searching in the Astrophysics Data System"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 7.0, "bibcode": "2007ASPC..377..106H", "pubdate": "2007-10-00", "title": ["myADS-arXiv -- a Tailor-made, Open Access, Virtual Journal"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 4.0, "bibcode": "2007ASPC..377...97G", "pubdate": "2007-10-00", "title": ["Data in the ADS -- Understanding How to Use it Better"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 5.0, "bibcode": "2007ASPC..377..102T", "pubdate": "2007-10-00", "title": ["Paper to Screen: Processing Historical Scans in the ADS"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 8.0, "bibcode": "2010ASPC..434..155K", "pubdate": "2010-12-00", "title": ["Using Multipartite Graphs for Recommendation and Discovery"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M"]}, {"read_count": 6.0, "bibcode": "2010ASPC..433..273A", "pubdate": "2010-10-00", "title": ["Astronomy 3.0 Style"], "citation_count": 2, "author_norm": ["Accomazzi, A"]}, {"read_count": 42.0, "bibcode": "2014ASPC..485..461A", "pubdate": "2014-05-00", "title": ["The Unified Astronomy Thesaurus"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Biemesderfer, C", "Erdmann, C", "Frey, K", "Gray, N", "Soles, J"]}, {"read_count": 5.0, "bibcode": "1994AAS...185.4102A", "pubdate": "1994-12-00", "title": ["The World Wide Web and ADS Services"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 125.0, "bibcode": "2012ASPC..461..763H", "pubdate": "2012-09-00", "title": ["Linking to Data: Effect on Citation Rates in Astronomy"], "citation_count": 2, "author_norm": ["Accomazzi, A", "Henneken, E"]}, {"read_count": 16.0, "bibcode": "2012ASPC..461..867A", "pubdate": "2012-09-00", "title": ["Why Don't We Already Have an Integrated Framework for the Publication and Preservation of All Data Products?"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Biemesderfer, C", "Derriere, S", "Gray, N"]}, {"read_count": 4.0, "bibcode": "1994AAS...185.4104E", "pubdate": "1994-12-00", "title": ["Full Journal Articles in the ADS Astrophysics Science Information and Abstract Service"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 5.0, "bibcode": "1995AAS...186.0203E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "1995-05-00", "title": ["The Astrophysical Journal On-line in the Astrophysics Science Information and Abstract Service (ASIAS)"]}, {"read_count": 4.0, "bibcode": "1995ASPC...77...28E", "pubdate": "1995-00-00", "title": ["The New Astrophysics Data System"], "citation_count": 11, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "1996AAS...189.0601E", "pubdate": "1996-12-00", "title": ["It's All Done With Mirrors: Improving Information Access"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Egret, D", "Eichhorn, G", "Genova, F", "Grant, C", "Kurtz, M", "Lesteven, S", "Murray, S", "Wenger, M"]}, {"read_count": 4.0, "bibcode": "1996AAS...189.0607K", "pubdate": "1996-12-00", "title": ["Journal Citations: An ADS-AAS Collaboration"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 4.0, "bibcode": "1996ASPC..101..558A", "pubdate": "1996-00-00", "title": ["The ADS Article Service Data Holdings and Access Methods"], "citation_count": 4, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 4.0, "bibcode": "1996ASPC..101..569E", "pubdate": "1996-00-00", "title": ["Various Access Methods to the Abstracts in the Astrophysics Data System"], "citation_count": 8, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2009astro2010P..44O", "pubdate": "2009-00-00", "title": ["Making Archival Data Available for Research in the Next Decade and Beyond"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Castelaz, M", "Cline, J", "Cudworth, K", "Griffin, R", "Grindlay, J", "Henden, A", "Osborn, W", "Rees, R", "Templeton, M"]}, {"read_count": 0.0, "bibcode": "2009astro2010P..64W", "pubdate": "2009-00-00", "title": ["The High Impact of Astronomical Data Archives"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Berriman, G", "Fabbiano, G", "Madore, B", "Mazzarella, J", "Rots, A", "Smale, A", "Storrie, L", "White, R", "Winkelman, S"]}, {"read_count": 0.0, "bibcode": "2009astro2010P..34L", "pubdate": "2009-00-00", "title": ["The Astronomical Information Sciences: A Keystone for 21st-Century Astronomy"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bloom, J", "Borne, K", "Brunner, R", "Burke, D", "Butler, N", "Chernoff, D", "Connolly, A", "Connolly, B", "Cutler, C", "Desai, S", "Djorgovski, G", "Loredo, T"]}, {"read_count": 0.0, "bibcode": "2002SPIE.4846...81E", "pubdate": "2002-12-00", "title": ["Access to the Astrophysics Data System: What, how, who, and where"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2009AAS...21347301A", "pubdate": "2009-01-00", "title": ["Goal-Oriented Subject Search in the NASA Astrophysics Data System"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 4.0, "bibcode": "2003lisa.conf..173E", "pubdate": "2003-00-00", "title": ["Access to the Astronomical Literature through the NASA Astrophysics Data System from Developing Countries"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2003APS..MARX31001E", "pubdate": "2003-03-00", "title": ["References and Citations in the ADS Abstract Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2004tivo.conf..267E", "pubdate": "2004-00-00", "title": ["The Astronomy Digital Library and the VO"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2004tivo.conf..294M", "pubdate": "2004-00-00", "title": ["Building Interoperable NASA Archives"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Berriman, B", "Borne, K", "Eichhorn, G", "Good, J", "Kimball, T", "Mazzerella, J", "McGlynn, T", "Rots, A", "Thomas, B"]}, {"read_count": 0.0, "bibcode": "2004DPS....36.1314E", "pubdate": "2004-12-00", "title": ["New Features in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2005Msngr.119...50D", "pubdate": "2005-03-00", "title": ["The ESO Telescope Bibliography Web Interface - Linking Publications and Observations"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Delmotte, N", "Grothkopf, U", "Micol, A", "Treumann, A"]}, {"read_count": 0.0, "bibcode": "2005coas.conf...80E", "pubdate": "2005-00-00", "title": ["The Astrophysics Data System: Discovery Tool and Literature Archive"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Rey Bacaico, V"]}, {"read_count": 0.0, "bibcode": "2011AAS...21813105A", "pubdate": "2011-05-00", "title": ["Introducing ADS Labs"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}, {"read_count": 5.0, "bibcode": "2012opsa.book..253H", "pubdate": "2012-08-00", "title": ["The ADS in the Information Age - Impact on Discovery"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Henneken, E", "Kurtz, M"]}, {"read_count": 4.0, "bibcode": "2014AAS...22325503A", "pubdate": "2014-01-00", "title": ["Introducing ADS 2.0"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2003lisa.conf..145E", "pubdate": "2003-00-00", "title": ["Current and Future Holdings of the Historical Literature in the ADS"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "1992SPIE.1657..535A", "author_norm": ["Accomazzi, A"], "pubdate": "1992-05-00", "title": ["Syntactic approach to the segmentation and classification of morphological features of galaxies"]}, {"read_count": 0.0, "bibcode": "2003lisa.conf..223K", "pubdate": "2003-00-00", "title": ["The NASA Astrophysics Data System: Obsolescence of Reads and Cites"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "1998ASPC..153..277E", "pubdate": "1998-00-00", "title": ["The Astrophysics Data System"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M"]}, {"read_count": 4.0, "bibcode": "1999ASPC..172..291A", "pubdate": "1999-00-00", "title": ["The ADS Bibliographic Reference Resolver"], "citation_count": 6, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 7.0, "bibcode": "2000A&AS..143..111G", "pubdate": "2000-04-00", "title": ["The NASA Astrophysics Data System: Data holdings"], "citation_count": 20, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 5.0, "bibcode": "2002rict.confE..17E", "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"], "pubdate": "2002-00-00", "title": ["The Digital Library in Astronomy: an Example of a Worldwide Collaboration of Information Providers."]}, {"read_count": 2.0, "bibcode": "2002SPIE.4847..238K", "pubdate": "2002-12-00", "title": ["Second order bibliometric operators in the Astrophysics Data System"], "citation_count": 7, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2007AAS...211.4732A", "pubdate": "2007-12-00", "title": ["The Astronomical Literature in its Full Glory"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 3.0, "bibcode": "2007BASI...35..717E", "pubdate": "2007-12-00", "title": ["Access to the literature and connection to on-line data"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2007HiA....14..605E", "pubdate": "2007-08-00", "title": ["Connecting the literature with on-line data"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 6.0, "bibcode": "2007APS..MARU20009K", "pubdate": "2007-03-00", "title": ["myADS-arXiv: A fully customized, open access virtual journal"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 7.0, "bibcode": "2011ApSSP...1..135A", "pubdate": "2011-00-00", "title": ["Linking Literature and Data: Status Report and Future Efforts"], "citation_count": 3, "author_norm": ["Accomazzi, A"]}, {"read_count": 7.0, "bibcode": "2011ApSSP...1..125H", "pubdate": "2011-00-00", "title": ["Finding Your Literature Match - A Recommender System"], "citation_count": 4, "author_norm": ["Accomazzi, A", "Bohlen, E", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2011ApSSP...1.....A", "pubdate": "2011-00-00", "title": ["Future Professional Communication in Astronomy II"], "citation_count": 0, "author_norm": ["Accomazzi, A"]}, {"read_count": 2.0, "bibcode": "1999Dlib....5.....K", "pubdate": "1999-11-00", "title": ["The NASA ADS Abstract Service and the Distributed Astronomy Digital Library"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 0.0, "bibcode": "2010ihy..work..141H", "pubdate": "2010-00-00", "title": ["How the Literature is Used A View Through Citation and Usage Statistics of the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 18.0, "bibcode": "2000A&AS..143...41K", "pubdate": "2000-04-00", "title": ["The NASA Astrophysics Data System: Overview"], "citation_count": 60, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Watson, J"]}, {"read_count": 98.0, "bibcode": "2000A&AS..143...61E", "pubdate": "2000-04-00", "title": ["The NASA Astrophysics Data System: The search engine and its user interface"], "citation_count": 17, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2002Ap&SS.282..299E", "pubdate": "2002-10-00", "title": ["The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through Email"], "citation_count": 3, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 18.0, "bibcode": "2000A&AS..143...85A", "pubdate": "2000-04-00", "title": ["The NASA Astrophysics Data System: Architecture"], "citation_count": 20, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 3.0, "bibcode": "2003IAUSS...4E...7E", "pubdate": "2003-00-00", "title": ["Access to the Astronomical Literature Through the NASA ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 34.0, "bibcode": "2005IPM....41.1395K", "pubdate": "2005-03-00", "title": ["The Effect of Use and Access on Citations"], "citation_count": 15, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S"]}, {"read_count": 15.0, "bibcode": "2005JASIS..56...36K", "pubdate": "2005-00-00", "title": ["Worldwide Use and Impact of the NASA Astrophysics Data System Digital Library"], "citation_count": 12, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S"]}, {"read_count": 10.0, "bibcode": "2005JASIS..56..111K", "pubdate": "2005-00-00", "title": ["The Bibliometric Properties of Article Readership Information"], "citation_count": 9, "author_norm": ["Accomazzi, A", "Demleitner, M", "Eichhorn, G", "Elwell, B", "Grant, C", "Kurtz, M", "Martimbeau, N", "Murray, S"]}, {"read_count": 15.0, "bibcode": "2013A&C.....1....1A", "pubdate": "2013-02-00", "title": ["Astronomy and Computing: A new journal for the astronomical computing community"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Budavari, T", "Fluke, C", "Gray, N", "Mann, R", "O'Mullane, W", "Wicenec, A", "Wise, M"]}, {"read_count": 24.0, "bibcode": "2006JEPub...9....2H", "pubdate": "2006-08-00", "title": ["Effect of E-printing on Citation Rates in Astronomy and Physics"], "citation_count": 8, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2002APS..APRI11007E", "pubdate": "2002-04-00", "title": ["The ADS Abstract Service: A Free NASA Service"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Eichhorn, G", "Grant, C", "Kurtz, M", "Murray, S", "Reybacaicoa, V"]}, {"read_count": 12.0, "bibcode": "2007LePub..20...16H", "pubdate": "2007-01-00", "title": ["E-prints and journal articles in astronomy: a productive co-existence"], "citation_count": 4, "author_norm": ["Accomazzi, A", "Bohlen, E", "Eichhorn, G", "Ginsparg, P", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D", "Warner, S"]}, {"read_count": 27.0, "bibcode": "2009JInfo...3....1H", "pubdate": "2009-00-00", "title": ["Use of astronomical literature - A report on usage patterns"], "citation_count": 5, "author_norm": ["Accomazzi, A", "Bohlen, E", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 135.0, "bibcode": "2009astro2010P...6B", "pubdate": "2009-00-00", "title": ["Astroinformatics: A 21st Century Approach to Astronomy"], "citation_count": 7, "author_norm": ["Accomazzi, A", "Anderes, E", "Babu, J", "Becla, J", "Berger, J", "Bickel, P", "Bloom, J", "Borne, K", "Brunner, R", "Burke, D", "Butler, N", "Chernoff, D", "Clyde, M", "Connolly, A", "Connolly, B", "Connors, A", "Cutler, C", "Davidson, I", "Desai, S", "Djorgovski, G", "Eastman, T", "Efron, B", "Feigelson, E", "Finn, L", "Freeman, P", "Genovese, C", "Graham, M", "Gray, A", "Gray, N", "Graziani, C", "Guinan, E", "Hakkila, J", "Jacoby, S", "Jang, W", "Jefferys, W", "Kashyap,", "Kelly, B", "Knuth, K", "Kolaczyk, E", "Kubica, J", "Lamb, D", "Lee, H", "Loh, J", "Loredo, T", "Mahabal, A", "Mateo, M", "McCollum, B", "Meng, X", "Moore, A", "Morris, R", "Muench, A", "Park, T", "Pesenson, M", "Petrosian, V", "Pike, R", "Primini, F", "Protopapas, P", "Ptak, A", "Quashnock, J", "Raddick, M", "Rice, J", "Richards, J", "Rocha, G", "Ross, N", "Rottler, L", "Ruppert, D", "Saito, N", "Scargle, J", "Schafer, C", "Siemiginowska, A", "Song, I", "Stark, P", "Stein, M", "Sun, J", "Szalay, A", "Tyson, J", "Vestrand, T", "Wallin, J", "Wandelt, B", "Wang, D", "Wang, Z", "Wasserman, I", "Wasserman, L", "Way, M", "Wegman, E", "Weinberg, M", "Willett, R", "Wolpert, R", "Woodroofe, M", "Zezas, A", "van Dyk, D"]}, {"read_count": 13.0, "bibcode": "2009astro2010P..28K", "pubdate": "2009-00-00", "title": ["The Smithsonian/NASA Astrophysics Data System (ADS) Decennial Report"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Kurtz, M", "Murray, S"]}, {"read_count": 2.0, "bibcode": "2015AAS...22533655A", "pubdate": "2015-01-00", "title": ["Improved Functionality and Curation Support in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Holachek, A", "Kurtz, M", "Murray, S", "Sudilovsky, V", "Thompson, D"]}, {"read_count": 0.0, "bibcode": "2015AAS...22533656H", "pubdate": "2015-01-00", "title": ["Online Activity Around Scholarly Astronomy Literature - A Discussion of Altmetrics"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Grant, C", "Henneken, E", "Kurtz, M", "Murray, S", "Thompson, D"]}, {"read_count": 2.0, "bibcode": "2013AAS...22124030A", "pubdate": "2013-01-00", "title": ["New Features in ADS Labs"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Di Milia, G", "Grant, C", "Henneken, E", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}, {"read_count": 23.0, "bibcode": "2012SPIE.8448E..0KA", "pubdate": "2012-09-00", "title": ["Telescope bibliographies: an essential component of archival data management and operations"], "citation_count": 1, "author_norm": ["Accomazzi, A", "Erdmann, C", "Henneken, E", "Rots, A"]}, {"read_count": 22.0, "bibcode": "2014arXiv1406.4542H", "pubdate": "2014-06-00", "title": ["Computing and Using Metrics in the ADS"], "citation_count": 0, "author_norm": ["Accomazzi, A", "Chyla, R", "Grant, C", "Henneken, E", "Holachek, A", "Kurtz, M", "Luker, J", "Murray, S", "Thompson, D"]}]
+[
+    {
+        "read_count": 0.0,
+        "bibcode": "2002ASPC..281..471R",
+        "pubdate": "2002-00-00",
+        "title": [
+            "Managing the ADS Citation Database"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Rey-Bakaikoa, V"
+        ],
+        "scix_id": "scix:86R4-KKQ9-60PZ"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2009ASPC..410..160O",
+        "pubdate": "2009-08-00",
+        "title": [
+            "Making Archival Data Available for Research in the Next Decade and Beyond"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Castelaz, M",
+            "Cline, J",
+            "Cudworth, K",
+            "Griffin, R",
+            "Grindlay, J",
+            "Henden, A",
+            "Osborn, W",
+            "Rees, R",
+            "Templeton, M"
+        ],
+        "scix_id": "scix:AYR7-8221-VRQY"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009ASPC..411..384H",
+        "pubdate": "2009-09-00",
+        "title": [
+            "Exploring the Astronomy Literature Landscape"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bergstrom, C",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Rosvall, M",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7THT-3X9Y-Y5P5"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009arad.workE..32A",
+        "pubdate": "2009-00-00",
+        "title": [
+            "Towards a Resource-Centric Data Network for Astronomy"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:1Z83-Q054-W6QB"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1995IntR....5...25N",
+        "pubdate": "1995-00-00",
+        "title": [
+            "The NASA Technical Report Server"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Beaumont, C",
+            "Bianco, D",
+            "Binkley, R",
+            "Gottlich, G",
+            "Kellogg, Y",
+            "Kurtz, M",
+            "Nelson, M",
+            "Paulson, S",
+            "Schmunk, R",
+            "Syed, O"
+        ],
+        "scix_id": "scix:9FKH-NKGJ-TJMR"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1995VA.....39..235A",
+        "pubdate": "1995-00-00",
+        "title": [
+            "Information Retrieval Tools and Techniques"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Murtagh, F",
+            "Rasmussen, B"
+        ],
+        "scix_id": "scix:B166-CNAP-6VRS"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "1997AGAb...13..149E",
+        "pubdate": "1997-09-00",
+        "title": [
+            "NASA's Astrophysics Data System: new abstract service and article service features."
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M"
+        ],
+        "scix_id": "scix:7MCB-HT2T-4H08"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1995ASPC...77...36A",
+        "pubdate": "1995-00-00",
+        "title": [
+            "ADS Abstract Service Enhancements"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:9YT7-G9FE-MA5N"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2002AAS...200.5807E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bakaikoa, V"
+        ],
+        "pubdate": "2002-06-00",
+        "title": [
+            "Advanced Retrieval Options in the Astrophysics Data System (ADS)"
+        ],
+        "scix_id": "scix:2RQK-6JJ6-B2H8"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2002AAS...201.0904K",
+        "pubdate": "2002-12-00",
+        "title": [
+            "The NASA Astrophysics Data System: Bibliometrics Investigations"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:5TZ5-92VX-RYJP"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2002AGUSMED22C..07E",
+        "pubdate": "2002-05-00",
+        "title": [
+            "The ADS Abstract Service: A Free Search System for Literature in Astronomy, Planetary Sciences, Physics, Geophysics, and Instrumentation."
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bacaicoa, V"
+        ],
+        "scix_id": "scix:1PA9-TFNB-0S8H"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2007DPS....39.2708H",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Staying Up-to-date In The Planetary Sciences With myADS"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7E1T-EX7P-PNX1"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1995DPS....27.3609E",
+        "pubdate": "1995-06-00",
+        "title": [
+            "Astrophysics Data System (ADS) Abstracts and Articles On-line through the World Wide Web"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:30CY-SD7Z-1865"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2012AGUFMED21A0703H",
+        "pubdate": "2012-12-00",
+        "title": [
+            "Search the AGU journals in the ADS Full Text Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Henneken, E"
+        ],
+        "scix_id": "scix:8K3X-78EY-JEH0"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009AGUFM.P43B1437H",
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "pubdate": "2009-12-00",
+        "title": [
+            "Access to the Online Planetary Research Literature"
+        ],
+        "scix_id": "scix:01YR-4ESM-PCPU"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009AAS...21347302H",
+        "pubdate": "2009-01-00",
+        "title": [
+            "A Tool to Explore the Landscape of Astronomy Literature"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bergstrom, C",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Rosvall, M",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:70QT-8ZY5-54FP"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009LPI....40.1873H",
+        "pubdate": "2009-03-00",
+        "title": [
+            "The SAO/NASA Astrophysics Data System: A Gateway to the Planetary Sciences Literature"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:0FSC-9BG1-0AVW"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003LPI....34.1949E",
+        "pubdate": "2003-03-00",
+        "title": [
+            "Expanded Citations Database in the NASA ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7KW9-4AVB-5W82"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2004ASPC..314..181A",
+        "pubdate": "2004-07-00",
+        "title": [
+            "Publishing Links to Astronomical Data On-line"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G"
+        ],
+        "scix_id": "scix:425H-154D-N5VM"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2006AAS...20921808E",
+        "pubdate": "2006-12-00",
+        "title": [
+            "New Searching Capability and OpenURL Linking in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:2CG5-2KW6-XRMZ"
+    },
+    {
+        "read_count": 6.0,
+        "bibcode": "2006ASPC..351..653K",
+        "pubdate": "2006-07-00",
+        "title": [
+            "Intelligent Information Retrieval"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:B7EF-0EQJ-CJN9"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2003ASSL..285..157E",
+        "pubdate": "2003-03-00",
+        "title": [
+            "The Development of the Astronomy Digital Library"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:3G1N-0TWE-QB77"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2003DPS....35.3302E",
+        "pubdate": "2003-05-00",
+        "title": [
+            "What's New in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:0J70-8D8D-ZABB"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2004LPI....35.1602T",
+        "pubdate": "2004-03-00",
+        "title": [
+            "The NASA ADS: Searching, Linking and More"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:07YB-NWA3-CFBM"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1997LPI....28..325E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1997-03-00",
+        "title": [
+            "Planetary Sciences References in the ADS Abstract Service"
+        ],
+        "scix_id": "scix:1KQD-EW1D-XQQW"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1997AAS...191.1701K",
+        "pubdate": "1997-12-00",
+        "title": [
+            "The Relative Effectiveness of Astronomy Journals"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:9THJ-GH5T-D5XY"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1997DPS....29.2704E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Hughes, J",
+            "Kurtz, M",
+            "McMahon, S",
+            "Mortellaro, J",
+            "Murray, S"
+        ],
+        "pubdate": "1997-07-00",
+        "title": [
+            "Connecting the Astrophysics Data System and Planetary Data System"
+        ],
+        "scix_id": "scix:2D7W-DCH9-69BJ"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1989daa..conf..245A",
+        "pubdate": "1989-00-00",
+        "title": [
+            "Rule-Based Description and Plausible Classification of Objects in Digitized Astronomical Images"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bordogna, G",
+            "Mussio, P",
+            "Rampini, A"
+        ],
+        "scix_id": "scix:ABR5-AN6J-1W01"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1988spta.conf.1601A",
+        "pubdate": "1988-00-00",
+        "title": [
+            "A Structural Method for Celestial Object Extraction in Digitized Astronomical Images"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bordogna, G",
+            "Fresta, F",
+            "Mussio, P",
+            "Rampini, A"
+        ],
+        "scix_id": "scix:2YX9-YZ7Y-BCDD"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2003ASPC..295..309A",
+        "pubdate": "2003-00-00",
+        "title": [
+            "ADS Web Services for the Discovery and Linking of Bibliographic Records"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:567B-NFQT-ZFBS"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2000ASPC..216..255E",
+        "pubdate": "2000-00-00",
+        "title": [
+            "XML in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:13D3-M376-G108"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2005DPS....37.1302E",
+        "pubdate": "2005-08-00",
+        "title": [
+            "Customizations of the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:63P7-NTZ1-F5N8"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2005AGUFMIN33A1162E",
+        "pubdate": "2005-12-00",
+        "title": [
+            "Customized Open Access Journal for Astronomy and Physics/Geosciences"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:3CZD-BZBM-XX4H"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2011AAS...21711608H",
+        "pubdate": "2011-01-00",
+        "title": [
+            "Automatic Recommendation of Astronomy Literature"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:6Y6E-MVJR-6E9P"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2011AAS...21714501C",
+        "pubdate": "2011-01-00",
+        "title": [
+            "The Astronomer's H-R diagram"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Conti, A",
+            "Di Milia, G",
+            "Lowe, S"
+        ],
+        "scix_id": "scix:4F9H-BHM9-ZMGD"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2011ASPC..442.....E",
+        "pubdate": "2011-07-00",
+        "title": [
+            "Astronomical Data Analysis Software and Systems XX (ADASSXX)"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Evans, I",
+            "Mink, D",
+            "Rots, A"
+        ],
+        "scix_id": "scix:8M26-Z4KB-KVJX"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2005AAS...207.3404E",
+        "pubdate": "2005-12-00",
+        "title": [
+            "Enhancements to the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8R2K-FX9Y-1KFW"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2004AGUFMED13D0746E",
+        "pubdate": "2004-12-00",
+        "title": [
+            "New Features in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8963-Y09S-PQEX"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2003AfrSk...8....7E",
+        "pubdate": "2003-10-00",
+        "title": [
+            "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through E-mail"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:0VFS-MVM8-PG3A"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2007AAS...211.4731G",
+        "pubdate": "2007-12-00",
+        "title": [
+            "The Recent Data Explosion in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:AT1E-2Z04-32VU"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1989LNP...329..191A",
+        "pubdate": "1989-00-00",
+        "title": [
+            "An Approach to Heuristic Exploitation of Astronomers Knowledge in Automatic Interpretation of Optical Pictures"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bordogna, G",
+            "Mussio, P",
+            "Rampini, A"
+        ],
+        "scix_id": "scix:2K98-XKSF-G1N7"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1992ASSL..178..459A",
+        "pubdate": "1992-00-00",
+        "title": [
+            "Towards a Precise Definition of the Morphological Structure of Galaxies as a Basis for their Automatic Classification"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Delfini, D",
+            "Kurtz, M",
+            "Mussio, P"
+        ],
+        "scix_id": "scix:9ANY-RDG6-DVRN"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1998LPI....29.1514E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1998-03-00",
+        "title": [
+            "Planetary Literature in the ADS Abstract Service"
+        ],
+        "scix_id": "scix:8SYA-9E5F-FWRU"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1998BAAS...30.1080E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M"
+        ],
+        "pubdate": "1998-09-00",
+        "title": [
+            "Accessing the Planetary Literature through the ADS Abstract and Article Services"
+        ],
+        "scix_id": "scix:8VPW-8EKQ-5FE2"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1998ASPC..145..395A",
+        "pubdate": "1998-00-00",
+        "title": [
+            "Mirroring the ADS Bibliographic Databases"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:1FBK-SDFD-47ZM"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1999AAS...19410305D",
+        "pubdate": "1999-05-00",
+        "title": [
+            "ADS in a Nutshell"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8818-DVY1-0ND0"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2001AAS...198.0307E",
+        "pubdate": "2001-05-00",
+        "title": [
+            "Second Order Operators in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:9XBM-5A3W-T86Z"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2001AAS...199.1001E",
+        "pubdate": "2001-12-00",
+        "title": [
+            "From the Literature to the Data: Linking to On-line Data from the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bakaikoa, V"
+        ],
+        "scix_id": "scix:419F-H0SC-15C2"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1999AAS...194.1004E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1999-05-00",
+        "title": [
+            "All AAS Journals On-Line from Volume 1 to the Present"
+        ],
+        "scix_id": "scix:AERT-TKTF-4VAU"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2001DPS....33.1316E",
+        "pubdate": "2001-11-00",
+        "title": [
+            "New Features in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "ReyBacaicoa, V"
+        ],
+        "scix_id": "scix:A890-GFQZ-4JYM"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2002LPI....33.1298E",
+        "pubdate": "2002-03-00",
+        "title": [
+            "New Data and Search Features in the NASA ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bacaicoa, V"
+        ],
+        "scix_id": "scix:9X6F-WTS0-ZADU"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1998AAS...19312004E",
+        "pubdate": "1998-12-00",
+        "title": [
+            "Astronomical Journal On-line Back to Volume 1; 1849"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:1PP6-PNGE-VZKD"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1998AAS...192.3801E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1998-05-00",
+        "title": [
+            "New Data and Features in the ADS Abstract and Article Services"
+        ],
+        "scix_id": "scix:59JY-T7EW-50ME"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1998AAS...193.1311K",
+        "pubdate": "1998-12-00",
+        "title": [
+            "ADS on WWW: Doubling Yearly for Five Years"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7DKS-QB2H-SKSG"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "1998ASPC..145..478K",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1998-00-00",
+        "title": [
+            "Keeping Bibliographies using ADS"
+        ],
+        "scix_id": "scix:221A-BPQ4-06WN"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1997ASPC..125..357A",
+        "pubdate": "1997-00-00",
+        "title": [
+            "Astronomical Information Discovery and Access: Design and Implementation of the ADS Bibliographic Services"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4R9C-74KF-74P9"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1997AAS...191.3502E",
+        "pubdate": "1997-12-00",
+        "title": [
+            "Historical Literature in the ADS"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M"
+        ],
+        "scix_id": "scix:8RCH-G40K-29DB"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1997AAS...190.1403E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1997-05-00",
+        "title": [
+            "New Features of the ADS Abstract Service"
+        ],
+        "scix_id": "scix:4P2D-1AT9-ZTG0"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2001AAS...199.1002R",
+        "pubdate": "2001-12-00",
+        "title": [
+            "Physical Review Journals in ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bakaikoa, V"
+        ],
+        "scix_id": "scix:4YXJ-TAP6-G1MK"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1997DPS....29.2705K",
+        "pubdate": "1997-07-00",
+        "title": [
+            "The IAU Circulars and Minor Planet Electronic Circulars are Now Available Through the NASA Astrophysics Data System"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Green, D",
+            "Kurtz, M",
+            "Marsden, B",
+            "Murray, S",
+            "Williams, G"
+        ],
+        "scix_id": "scix:9JD3-BYSY-26AG"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1998ASPC..145..378E",
+        "pubdate": "1998-00-00",
+        "title": [
+            "New Capabilities of the ADS Abstract and Article Service"
+        ],
+        "citation_count": 5,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:9JWP-S4H1-QRQQ"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1999AAS...195.8209D",
+        "pubdate": "1999-12-00",
+        "title": [
+            "Looking at 3,000,000 References Without Growing Grey Hair"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:1S1B-8QRK-7EN3"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1999AAS...19510005E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1999-12-00",
+        "title": [
+            "The Astrophysics Data System Web Services"
+        ],
+        "scix_id": "scix:056E-BHSW-ZMSE"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2001ASPC..238..321D",
+        "pubdate": "2001-00-00",
+        "title": [
+            "ADS's Dexter Data Extraction Applet"
+        ],
+        "citation_count": 22,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7TV0-WH8B-D1D8"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003AAS...203.2006H",
+        "pubdate": "2003-12-00",
+        "title": [
+            "Searching the full text in the ADS article service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:9TMA-07CS-VGEZ"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2003AAS...203.2005K",
+        "pubdate": "2003-12-00",
+        "title": [
+            "The myADS Update Service"
+        ],
+        "citation_count": 4,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:91X3-TT9E-CMVF"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003AAS...203.2004E",
+        "pubdate": "2003-12-00",
+        "title": [
+            "Improving Linking from the Literature to On-line Data"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8G7D-K9SM-EFHH"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2003AGUFMED32C1207E",
+        "pubdate": "2003-12-00",
+        "title": [
+            "Sophisticated Search Capabilities in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:094S-2MP5-924D"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003EAEJA....12295E",
+        "pubdate": "2003-04-00",
+        "title": [
+            "Combined Searching of Astronomy, Physics and Instrumentation Literature in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4RKA-9V2Y-Q9C2"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2006LPI....37.1691E",
+        "pubdate": "2006-03-00",
+        "title": [
+            "New Capabilities of the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:ACAP-HZPM-AA8F"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2007AAS...211.4730K",
+        "pubdate": "2007-12-00",
+        "title": [
+            "Mapping The Astronomy Literature"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bergstrom, C",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Rosvall, M",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:B3PT-HJCP-8474"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2007LPI....38.1240E",
+        "pubdate": "2007-03-00",
+        "title": [
+            "The ADS for Planetary Sciences"
+        ],
+        "citation_count": 2,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:2JZH-RT5X-9AWU"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "1998HiA....11..516E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1998-00-00",
+        "title": [
+            "Connectivity in the Astronomy Digital Library through the ADS"
+        ],
+        "scix_id": "scix:560G-68WM-KE4Z"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2011AAS...21813102E",
+        "pubdate": "2011-05-00",
+        "title": [
+            "Full-text Indexing Of All Springer Astronomy And Physics Journals In The ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Blom, H",
+            "Eichhorn, G"
+        ],
+        "scix_id": "scix:3XVY-2ASK-3TN0"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2013AAS...22124028G",
+        "pubdate": "2013-01-00",
+        "title": [
+            "Creation and Maintenance of a Unified Astronomy Thesaurus"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Biemesderfer, C",
+            "Cassar, M",
+            "Erdmann, C",
+            "Gray, N",
+            "McCann, G",
+            "Soles, J"
+        ],
+        "scix_id": "scix:11KJ-8A2A-GR0G"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2012LPI....43.1022H",
+        "pubdate": "2012-03-00",
+        "title": [
+            "Online Discovery: Search Paradigms and the Art of Literature Exploration"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thiell, B",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:90Y5-00VX-JMKG"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1995VA.....39..217E",
+        "pubdate": "1995-00-00",
+        "title": [
+            "Access to the Astrophysics Science Information and Abstract System"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:AH8F-QDZF-KKN0"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2000AAS...196.5301E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "2000-05-00",
+        "title": [
+            "NASA Astrophysics Data System's New Data"
+        ],
+        "scix_id": "scix:7B2F-66HJ-H71T"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1995AAS...186.0202K",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1995-05-00",
+        "title": [
+            "Enhancements to the NASA Astrophysics Science Information and Abstract Service"
+        ],
+        "scix_id": "scix:8DMS-S3TE-G810"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1996dkcw.proc..123K",
+        "pubdate": "1996-00-00",
+        "title": [
+            "The NASA Astrophysics Data System: A Heterogeneous Distributed Data Environment"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:5TDG-Z2EQ-ABQJ"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2000AAS...19712008E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "2000-12-00",
+        "title": [
+            "Facilitating Astronomy Research in Developing Countries through Improved Literature Access"
+        ],
+        "scix_id": "scix:8YZ3-WYJF-95P0"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2014AAS...22325525A",
+        "pubdate": "2014-01-00",
+        "title": [
+            "You've Written a Cool Astronomy Code! Now What Do You Do with It?"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Allen, A",
+            "Berriman, G",
+            "DuPrie, K",
+            "Hanisch, R",
+            "Mink, J",
+            "Nemiroff, R",
+            "Shamir, L",
+            "Shortridge, K",
+            "Taylor, M",
+            "Teuben, P",
+            "Wallin, J"
+        ],
+        "scix_id": "scix:5DNN-F0QZ-7M8V"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1995ASSL..203..175M",
+        "pubdate": "1995-00-00",
+        "title": [
+            "Data holdings in the ADS."
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Kurtz, M",
+            "Murray, S",
+            "Stern Grant, C"
+        ],
+        "scix_id": "scix:4WZH-YPXJ-782A"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2013ASPC..475....7M",
+        "pubdate": "2013-10-00",
+        "title": [
+            "Astronomy and Computing: A New Journal for the Astronomical Computing Community"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Budavari, T",
+            "Fluke, C",
+            "Gray, N",
+            "Mann, R",
+            "O'Mullane, W",
+            "Wicenec, A",
+            "Wise, M"
+        ],
+        "scix_id": "scix:1HGX-GG1R-FWKM"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1995ASPC...77...32G",
+        "pubdate": "1995-00-00",
+        "title": [
+            "Development of an ADS Data Dictionary Standard"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:5TDW-JZGR-0HKB"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1995VA.....39...63A",
+        "pubdate": "1995-00-00",
+        "title": [
+            "The Astrophysics Data System Abstract and Article Services"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:277R-R1VC-8WVQ"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1996AAS...188.8508E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1996-05-00",
+        "title": [
+            "New Data in the ADS Abstract and Article Service"
+        ],
+        "scix_id": "scix:6J3J-X93V-PZ81"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2004LPI....35.1267E",
+        "pubdate": "2004-03-00",
+        "title": [
+            "Full Text Searching and Customization in the NASA ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:0XXW-JX3Z-Y45Y"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2002AAS...201.0903E",
+        "pubdate": "2002-12-00",
+        "title": [
+            "Linking From the ADS to Other On-line Resources"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7T13-E6B7-6ZA9"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2002AAS...201.7602T",
+        "pubdate": "2002-12-00",
+        "title": [
+            "Observatory Publications in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:3E5H-ACPH-2MXR"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2005AAS...207.3405K",
+        "pubdate": "2005-12-00",
+        "title": [
+            "The significance of e-printed papers in Astronomy and Physics"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:3G03-PQ0R-H4W0"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2005LPI....36.1207E",
+        "pubdate": "2005-03-00",
+        "title": [
+            "New Features in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:0HBG-G4NY-N442"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2006DPS....38.4605E",
+        "pubdate": "2006-09-00",
+        "title": [
+            "Google The ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:B8NC-4Y2J-JRC9"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2001AAS...199.0108E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bakaikoa, V"
+        ],
+        "pubdate": "2001-12-00",
+        "title": [
+            "Current and Future Holdings of the Historical Literature in the ADS"
+        ],
+        "scix_id": "scix:66ZQ-V6JD-JM32"
+    },
+    {
+        "read_count": 8.0,
+        "bibcode": "2006ASPC..351..715A",
+        "pubdate": "2006-07-00",
+        "title": [
+            "Bibliographic Classification using the ADS Databases"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4BHQ-BBJC-7QAM"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2002DPS....34.3210E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "2002-09-00",
+        "title": [
+            "Formatting and Retrieval Options in the Astrophysics Data System (ADS)"
+        ],
+        "scix_id": "scix:38HK-1F86-CB2H"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2000DPS....32.2702E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "2000-10-00",
+        "title": [
+            "Access to Journal Information in the Planetary Sciences through the Astrophysical Data System (ADS)"
+        ],
+        "scix_id": "scix:9P8H-Y47E-XT22"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2006AAS...20917302H",
+        "pubdate": "2006-12-00",
+        "title": [
+            "Finding Astronomical Communities Through Co-readership Analysis"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8X21-ZGKW-82JA"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2006AAS...20921809K",
+        "pubdate": "2006-12-00",
+        "title": [
+            "The New Physics and Astronomy Education Portal of the Smithsonian/NASA Astrophysics Data System"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:9FSV-AYS1-BW7K"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2001LPI....32.1139E",
+        "pubdate": "2001-03-00",
+        "title": [
+            "On-line Literature Search and Full Articles in the NASA ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:ATBB-0706-N81J"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1999AAS...194.4407K",
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1999-05-00",
+        "title": [
+            "A Model for Readership of Astronomical Journals, From an Analysis of ADS Readership"
+        ],
+        "scix_id": "scix:B32C-1WNN-TX01"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2004ccdm.conf..521D",
+        "pubdate": "2004-00-00",
+        "title": [
+            "Automated resolution of noisy bibliographic references"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8XJJ-74BW-5Q1E"
+    },
+    {
+        "read_count": 13.0,
+        "bibcode": "2007ASPC..376..467A",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Closing the Loop: Linking Datasets to Publications and Back"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Rots, A"
+        ],
+        "scix_id": "scix:9159-CFC5-TSZ7"
+    },
+    {
+        "read_count": 8.0,
+        "bibcode": "2007ASPC..377...23K",
+        "pubdate": "2007-10-00",
+        "title": [
+            "The Future of Technical Libraries"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:633T-EDE0-NQHA"
+    },
+    {
+        "read_count": 8.0,
+        "bibcode": "2007ASPC..377...36E",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Connectivity in the Astronomy Digital Library"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7GXC-8EV7-B1A9"
+    },
+    {
+        "read_count": 10.0,
+        "bibcode": "2007ASPC..377...69A",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Creation and Use of Citations in the ADS"
+        ],
+        "citation_count": 2,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:6R11-5TG3-53FR"
+    },
+    {
+        "read_count": 6.0,
+        "bibcode": "2007ASPC..377...93E",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Full Text Searching in the Astrophysics Data System"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:A4XH-K0JM-T40R"
+    },
+    {
+        "read_count": 7.0,
+        "bibcode": "2007ASPC..377..106H",
+        "pubdate": "2007-10-00",
+        "title": [
+            "myADS-arXiv -- a Tailor-made, Open Access, Virtual Journal"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:613D-QZ86-XKMK"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2007ASPC..377...97G",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Data in the ADS -- Understanding How to Use it Better"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8ANB-658B-V330"
+    },
+    {
+        "read_count": 5.0,
+        "bibcode": "2007ASPC..377..102T",
+        "pubdate": "2007-10-00",
+        "title": [
+            "Paper to Screen: Processing Historical Scans in the ADS"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8E69-DYHK-K2K8"
+    },
+    {
+        "read_count": 8.0,
+        "bibcode": "2010ASPC..434..155K",
+        "pubdate": "2010-12-00",
+        "title": [
+            "Using Multipartite Graphs for Recommendation and Discovery"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M"
+        ],
+        "scix_id": "scix:5WW3-1Q4A-K34V"
+    },
+    {
+        "read_count": 6.0,
+        "bibcode": "2010ASPC..433..273A",
+        "pubdate": "2010-10-00",
+        "title": [
+            "Astronomy 3.0 Style"
+        ],
+        "citation_count": 2,
+        "author_norm": [
+            "Accomazzi, A"
+        ],
+        "scix_id": "scix:8PPN-F53F-5WE9"
+    },
+    {
+        "read_count": 42.0,
+        "bibcode": "2014ASPC..485..461A",
+        "pubdate": "2014-05-00",
+        "title": [
+            "The Unified Astronomy Thesaurus"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Biemesderfer, C",
+            "Erdmann, C",
+            "Frey, K",
+            "Gray, N",
+            "Soles, J"
+        ],
+        "scix_id": "scix:5Y2B-7MT5-ZAJD"
+    },
+    {
+        "read_count": 5.0,
+        "bibcode": "1994AAS...185.4102A",
+        "pubdate": "1994-12-00",
+        "title": [
+            "The World Wide Web and ADS Services"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:671X-HS8P-D6G5"
+    },
+    {
+        "read_count": 125.0,
+        "bibcode": "2012ASPC..461..763H",
+        "pubdate": "2012-09-00",
+        "title": [
+            "Linking to Data: Effect on Citation Rates in Astronomy"
+        ],
+        "citation_count": 2,
+        "author_norm": [
+            "Accomazzi, A",
+            "Henneken, E"
+        ],
+        "scix_id": "scix:03G7-GNSF-JTCF"
+    },
+    {
+        "read_count": 16.0,
+        "bibcode": "2012ASPC..461..867A",
+        "pubdate": "2012-09-00",
+        "title": [
+            "Why Don't We Already Have an Integrated Framework for the Publication and Preservation of All Data Products?"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Biemesderfer, C",
+            "Derriere, S",
+            "Gray, N"
+        ],
+        "scix_id": "scix:0940-9K5B-RZFM"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1994AAS...185.4104E",
+        "pubdate": "1994-12-00",
+        "title": [
+            "Full Journal Articles in the ADS Astrophysics Science Information and Abstract Service"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4Q2R-M3W6-49TK"
+    },
+    {
+        "read_count": 5.0,
+        "bibcode": "1995AAS...186.0203E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "1995-05-00",
+        "title": [
+            "The Astrophysical Journal On-line in the Astrophysics Science Information and Abstract Service (ASIAS)"
+        ],
+        "scix_id": "scix:6Z8C-1RA1-V0BW"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1995ASPC...77...28E",
+        "pubdate": "1995-00-00",
+        "title": [
+            "The New Astrophysics Data System"
+        ],
+        "citation_count": 11,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:19F0-39MH-609K"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "1996AAS...189.0601E",
+        "pubdate": "1996-12-00",
+        "title": [
+            "It's All Done With Mirrors: Improving Information Access"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Egret, D",
+            "Eichhorn, G",
+            "Genova, F",
+            "Grant, C",
+            "Kurtz, M",
+            "Lesteven, S",
+            "Murray, S",
+            "Wenger, M"
+        ],
+        "scix_id": "scix:9069-FF3H-BDTG"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1996AAS...189.0607K",
+        "pubdate": "1996-12-00",
+        "title": [
+            "Journal Citations: An ADS-AAS Collaboration"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:2JP6-BAD8-VZJM"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1996ASPC..101..558A",
+        "pubdate": "1996-00-00",
+        "title": [
+            "The ADS Article Service Data Holdings and Access Methods"
+        ],
+        "citation_count": 4,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:341D-91CG-X14Q"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1996ASPC..101..569E",
+        "pubdate": "1996-00-00",
+        "title": [
+            "Various Access Methods to the Abstracts in the Astrophysics Data System"
+        ],
+        "citation_count": 8,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:0A8E-Q6H7-7MZX"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2009astro2010P..44O",
+        "pubdate": "2009-00-00",
+        "title": [
+            "Making Archival Data Available for Research in the Next Decade and Beyond"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Castelaz, M",
+            "Cline, J",
+            "Cudworth, K",
+            "Griffin, R",
+            "Grindlay, J",
+            "Henden, A",
+            "Osborn, W",
+            "Rees, R",
+            "Templeton, M"
+        ],
+        "scix_id": "scix:9NT9-P3X9-B0E3"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009astro2010P..64W",
+        "pubdate": "2009-00-00",
+        "title": [
+            "The High Impact of Astronomical Data Archives"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Berriman, G",
+            "Fabbiano, G",
+            "Madore, B",
+            "Mazzarella, J",
+            "Rots, A",
+            "Smale, A",
+            "Storrie, L",
+            "White, R",
+            "Winkelman, S"
+        ],
+        "scix_id": "scix:1W18-DYJT-4DCA"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009astro2010P..34L",
+        "pubdate": "2009-00-00",
+        "title": [
+            "The Astronomical Information Sciences: A Keystone for 21st-Century Astronomy"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bloom, J",
+            "Borne, K",
+            "Brunner, R",
+            "Burke, D",
+            "Butler, N",
+            "Chernoff, D",
+            "Connolly, A",
+            "Connolly, B",
+            "Cutler, C",
+            "Desai, S",
+            "Djorgovski, G",
+            "Loredo, T"
+        ],
+        "scix_id": "scix:5YTW-V75D-WH1Y"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2002SPIE.4846...81E",
+        "pubdate": "2002-12-00",
+        "title": [
+            "Access to the Astrophysics Data System: What, how, who, and where"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4HS2-HK6R-TB38"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2009AAS...21347301A",
+        "pubdate": "2009-01-00",
+        "title": [
+            "Goal-Oriented Subject Search in the NASA Astrophysics Data System"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:127S-JYYY-EWG4"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2003lisa.conf..173E",
+        "pubdate": "2003-00-00",
+        "title": [
+            "Access to the Astronomical Literature through the NASA Astrophysics Data System from Developing Countries"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7E4P-AB9W-QSE0"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003APS..MARX31001E",
+        "pubdate": "2003-03-00",
+        "title": [
+            "References and Citations in the ADS Abstract Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:B81N-HN9A-YM9Y"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2004tivo.conf..267E",
+        "pubdate": "2004-00-00",
+        "title": [
+            "The Astronomy Digital Library and the VO"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8N16-G12D-AE2H"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2004tivo.conf..294M",
+        "pubdate": "2004-00-00",
+        "title": [
+            "Building Interoperable NASA Archives"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Berriman, B",
+            "Borne, K",
+            "Eichhorn, G",
+            "Good, J",
+            "Kimball, T",
+            "Mazzerella, J",
+            "McGlynn, T",
+            "Rots, A",
+            "Thomas, B"
+        ],
+        "scix_id": "scix:AE0F-3YY8-ZKBU"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2004DPS....36.1314E",
+        "pubdate": "2004-12-00",
+        "title": [
+            "New Features in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:89MF-71P7-RWSD"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2005Msngr.119...50D",
+        "pubdate": "2005-03-00",
+        "title": [
+            "The ESO Telescope Bibliography Web Interface - Linking Publications and Observations"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Delmotte, N",
+            "Grothkopf, U",
+            "Micol, A",
+            "Treumann, A"
+        ],
+        "scix_id": "scix:6ZYC-W5AZ-T5M3"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2005coas.conf...80E",
+        "pubdate": "2005-00-00",
+        "title": [
+            "The Astrophysics Data System: Discovery Tool and Literature Archive"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Rey Bacaico, V"
+        ],
+        "scix_id": "scix:0BFR-KQFM-4E0V"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2011AAS...21813105A",
+        "pubdate": "2011-05-00",
+        "title": [
+            "Introducing ADS Labs"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:05CN-C6E5-YXWY"
+    },
+    {
+        "read_count": 5.0,
+        "bibcode": "2012opsa.book..253H",
+        "pubdate": "2012-08-00",
+        "title": [
+            "The ADS in the Information Age - Impact on Discovery"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Henneken, E",
+            "Kurtz, M"
+        ],
+        "scix_id": "scix:3H9E-2XZJ-AWGZ"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "2014AAS...22325503A",
+        "pubdate": "2014-01-00",
+        "title": [
+            "Introducing ADS 2.0"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Chyla, R",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7BEF-1HAN-7C62"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2003lisa.conf..145E",
+        "pubdate": "2003-00-00",
+        "title": [
+            "Current and Future Holdings of the Historical Literature in the ADS"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:4G5P-M3SE-K1CX"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "1992SPIE.1657..535A",
+        "author_norm": [
+            "Accomazzi, A"
+        ],
+        "pubdate": "1992-05-00",
+        "title": [
+            "Syntactic approach to the segmentation and classification of morphological features of galaxies"
+        ],
+        "scix_id": "scix:AZTZ-3GR3-5N21"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2003lisa.conf..223K",
+        "pubdate": "2003-00-00",
+        "title": [
+            "The NASA Astrophysics Data System: Obsolescence of Reads and Cites"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:5G23-Y6XT-K2WV"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "1998ASPC..153..277E",
+        "pubdate": "1998-00-00",
+        "title": [
+            "The Astrophysics Data System"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M"
+        ],
+        "scix_id": "scix:8PKW-MNYX-DBHX"
+    },
+    {
+        "read_count": 4.0,
+        "bibcode": "1999ASPC..172..291A",
+        "pubdate": "1999-00-00",
+        "title": [
+            "The ADS Bibliographic Reference Resolver"
+        ],
+        "citation_count": 6,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8ZVG-815H-SGQF"
+    },
+    {
+        "read_count": 7.0,
+        "bibcode": "2000A&AS..143..111G",
+        "pubdate": "2000-04-00",
+        "title": [
+            "The NASA Astrophysics Data System: Data holdings"
+        ],
+        "citation_count": 20,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:95TW-CKSV-FWX9"
+    },
+    {
+        "read_count": 5.0,
+        "bibcode": "2002rict.confE..17E",
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "pubdate": "2002-00-00",
+        "title": [
+            "The Digital Library in Astronomy: an Example of a Worldwide Collaboration of Information Providers."
+        ],
+        "scix_id": "scix:4Z1B-BD1H-ZVP4"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2002SPIE.4847..238K",
+        "pubdate": "2002-12-00",
+        "title": [
+            "Second order bibliometric operators in the Astrophysics Data System"
+        ],
+        "citation_count": 7,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8WNP-8H7D-0041"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2007AAS...211.4732A",
+        "pubdate": "2007-12-00",
+        "title": [
+            "The Astronomical Literature in its Full Glory"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8BHF-EFVG-QV7C"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2007BASI...35..717E",
+        "pubdate": "2007-12-00",
+        "title": [
+            "Access to the literature and connection to on-line data"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:60MA-XXBX-G04J"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2007HiA....14..605E",
+        "pubdate": "2007-08-00",
+        "title": [
+            "Connecting the literature with on-line data"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7J5X-17S7-TH2N"
+    },
+    {
+        "read_count": 6.0,
+        "bibcode": "2007APS..MARU20009K",
+        "pubdate": "2007-03-00",
+        "title": [
+            "myADS-arXiv: A fully customized, open access virtual journal"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:ANT0-SZYB-9631"
+    },
+    {
+        "read_count": 7.0,
+        "bibcode": "2011ApSSP...1..135A",
+        "pubdate": "2011-00-00",
+        "title": [
+            "Linking Literature and Data: Status Report and Future Efforts"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A"
+        ],
+        "scix_id": "scix:3Q58-K3M2-63N2"
+    },
+    {
+        "read_count": 7.0,
+        "bibcode": "2011ApSSP...1..125H",
+        "pubdate": "2011-00-00",
+        "title": [
+            "Finding Your Literature Match - A Recommender System"
+        ],
+        "citation_count": 4,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:8F4P-644H-Y72P"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2011ApSSP...1.....A",
+        "pubdate": "2011-00-00",
+        "title": [
+            "Future Professional Communication in Astronomy II"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A"
+        ],
+        "scix_id": "scix:2T8F-B7YM-CZA7"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "1999Dlib....5.....K",
+        "pubdate": "1999-11-00",
+        "title": [
+            "The NASA ADS Abstract Service and the Distributed Astronomy Digital Library"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:063A-D8A1-W80N"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2010ihy..work..141H",
+        "pubdate": "2010-00-00",
+        "title": [
+            "How the Literature is Used A View Through Citation and Usage Statistics of the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:881X-ZG8S-MRNM"
+    },
+    {
+        "read_count": 18.0,
+        "bibcode": "2000A&AS..143...41K",
+        "pubdate": "2000-04-00",
+        "title": [
+            "The NASA Astrophysics Data System: Overview"
+        ],
+        "citation_count": 60,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Watson, J"
+        ],
+        "scix_id": "scix:9V3D-WDSZ-FWTV"
+    },
+    {
+        "read_count": 98.0,
+        "bibcode": "2000A&AS..143...61E",
+        "pubdate": "2000-04-00",
+        "title": [
+            "The NASA Astrophysics Data System: The search engine and its user interface"
+        ],
+        "citation_count": 17,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8KHN-ZT8D-G5D9"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2002Ap&SS.282..299E",
+        "pubdate": "2002-10-00",
+        "title": [
+            "The NASA Astrophysics Data System: Free Access to the Astronomical Literature On-line and through Email"
+        ],
+        "citation_count": 3,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:30QJ-KVB7-XAB1"
+    },
+    {
+        "read_count": 18.0,
+        "bibcode": "2000A&AS..143...85A",
+        "pubdate": "2000-04-00",
+        "title": [
+            "The NASA Astrophysics Data System: Architecture"
+        ],
+        "citation_count": 20,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7HSD-FJ34-39VK"
+    },
+    {
+        "read_count": 3.0,
+        "bibcode": "2003IAUSS...4E...7E",
+        "pubdate": "2003-00-00",
+        "title": [
+            "Access to the Astronomical Literature Through the NASA ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:8GDV-KY4H-FQGW"
+    },
+    {
+        "read_count": 34.0,
+        "bibcode": "2005IPM....41.1395K",
+        "pubdate": "2005-03-00",
+        "title": [
+            "The Effect of Use and Access on Citations"
+        ],
+        "citation_count": 15,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:15PC-DA7V-W95D"
+    },
+    {
+        "read_count": 15.0,
+        "bibcode": "2005JASIS..56...36K",
+        "pubdate": "2005-00-00",
+        "title": [
+            "Worldwide Use and Impact of the NASA Astrophysics Data System Digital Library"
+        ],
+        "citation_count": 12,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:AS9X-KBF8-CCZB"
+    },
+    {
+        "read_count": 10.0,
+        "bibcode": "2005JASIS..56..111K",
+        "pubdate": "2005-00-00",
+        "title": [
+            "The Bibliometric Properties of Article Readership Information"
+        ],
+        "citation_count": 9,
+        "author_norm": [
+            "Accomazzi, A",
+            "Demleitner, M",
+            "Eichhorn, G",
+            "Elwell, B",
+            "Grant, C",
+            "Kurtz, M",
+            "Martimbeau, N",
+            "Murray, S"
+        ],
+        "scix_id": "scix:1VP0-ZQ3P-ZT9U"
+    },
+    {
+        "read_count": 15.0,
+        "bibcode": "2013A&C.....1....1A",
+        "pubdate": "2013-02-00",
+        "title": [
+            "Astronomy and Computing: A new journal for the astronomical computing community"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Budavari, T",
+            "Fluke, C",
+            "Gray, N",
+            "Mann, R",
+            "O'Mullane, W",
+            "Wicenec, A",
+            "Wise, M"
+        ],
+        "scix_id": "scix:1VJ5-GZNR-Q07U"
+    },
+    {
+        "read_count": 24.0,
+        "bibcode": "2006JEPub...9....2H",
+        "pubdate": "2006-08-00",
+        "title": [
+            "Effect of E-printing on Citation Rates in Astronomy and Physics"
+        ],
+        "citation_count": 8,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:9KBT-0W6H-KM45"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2002APS..APRI11007E",
+        "pubdate": "2002-04-00",
+        "title": [
+            "The ADS Abstract Service: A Free NASA Service"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Eichhorn, G",
+            "Grant, C",
+            "Kurtz, M",
+            "Murray, S",
+            "Reybacaicoa, V"
+        ],
+        "scix_id": "scix:6AV6-3Q7N-30ZH"
+    },
+    {
+        "read_count": 12.0,
+        "bibcode": "2007LePub..20...16H",
+        "pubdate": "2007-01-00",
+        "title": [
+            "E-prints and journal articles in astronomy: a productive co-existence"
+        ],
+        "citation_count": 4,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Eichhorn, G",
+            "Ginsparg, P",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D",
+            "Warner, S"
+        ],
+        "scix_id": "scix:81DJ-NE5B-7F61"
+    },
+    {
+        "read_count": 27.0,
+        "bibcode": "2009JInfo...3....1H",
+        "pubdate": "2009-00-00",
+        "title": [
+            "Use of astronomical literature - A report on usage patterns"
+        ],
+        "citation_count": 5,
+        "author_norm": [
+            "Accomazzi, A",
+            "Bohlen, E",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:7B13-EGSD-8815"
+    },
+    {
+        "read_count": 135.0,
+        "bibcode": "2009astro2010P...6B",
+        "pubdate": "2009-00-00",
+        "title": [
+            "Astroinformatics: A 21st Century Approach to Astronomy"
+        ],
+        "citation_count": 7,
+        "author_norm": [
+            "Accomazzi, A",
+            "Anderes, E",
+            "Babu, J",
+            "Becla, J",
+            "Berger, J",
+            "Bickel, P",
+            "Bloom, J",
+            "Borne, K",
+            "Brunner, R",
+            "Burke, D",
+            "Butler, N",
+            "Chernoff, D",
+            "Clyde, M",
+            "Connolly, A",
+            "Connolly, B",
+            "Connors, A",
+            "Cutler, C",
+            "Davidson, I",
+            "Desai, S",
+            "Djorgovski, G",
+            "Eastman, T",
+            "Efron, B",
+            "Feigelson, E",
+            "Finn, L",
+            "Freeman, P",
+            "Genovese, C",
+            "Graham, M",
+            "Gray, A",
+            "Gray, N",
+            "Graziani, C",
+            "Guinan, E",
+            "Hakkila, J",
+            "Jacoby, S",
+            "Jang, W",
+            "Jefferys, W",
+            "Kashyap,",
+            "Kelly, B",
+            "Knuth, K",
+            "Kolaczyk, E",
+            "Kubica, J",
+            "Lamb, D",
+            "Lee, H",
+            "Loh, J",
+            "Loredo, T",
+            "Mahabal, A",
+            "Mateo, M",
+            "McCollum, B",
+            "Meng, X",
+            "Moore, A",
+            "Morris, R",
+            "Muench, A",
+            "Park, T",
+            "Pesenson, M",
+            "Petrosian, V",
+            "Pike, R",
+            "Primini, F",
+            "Protopapas, P",
+            "Ptak, A",
+            "Quashnock, J",
+            "Raddick, M",
+            "Rice, J",
+            "Richards, J",
+            "Rocha, G",
+            "Ross, N",
+            "Rottler, L",
+            "Ruppert, D",
+            "Saito, N",
+            "Scargle, J",
+            "Schafer, C",
+            "Siemiginowska, A",
+            "Song, I",
+            "Stark, P",
+            "Stein, M",
+            "Sun, J",
+            "Szalay, A",
+            "Tyson, J",
+            "Vestrand, T",
+            "Wallin, J",
+            "Wandelt, B",
+            "Wang, D",
+            "Wang, Z",
+            "Wasserman, I",
+            "Wasserman, L",
+            "Way, M",
+            "Wegman, E",
+            "Weinberg, M",
+            "Willett, R",
+            "Wolpert, R",
+            "Woodroofe, M",
+            "Zezas, A",
+            "van Dyk, D"
+        ],
+        "scix_id": "scix:0E8Q-M797-DETB"
+    },
+    {
+        "read_count": 13.0,
+        "bibcode": "2009astro2010P..28K",
+        "pubdate": "2009-00-00",
+        "title": [
+            "The Smithsonian/NASA Astrophysics Data System (ADS) Decennial Report"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Kurtz, M",
+            "Murray, S"
+        ],
+        "scix_id": "scix:7MAV-XXHJ-DHXV"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2015AAS...22533655A",
+        "pubdate": "2015-01-00",
+        "title": [
+            "Improved Functionality and Curation Support in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Chyla, R",
+            "Grant, C",
+            "Henneken, E",
+            "Holachek, A",
+            "Kurtz, M",
+            "Murray, S",
+            "Sudilovsky, V",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:AM5Q-59FH-VJNX"
+    },
+    {
+        "read_count": 0.0,
+        "bibcode": "2015AAS...22533656H",
+        "pubdate": "2015-01-00",
+        "title": [
+            "Online Activity Around Scholarly Astronomy Literature - A Discussion of Altmetrics"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:5WWZ-97M2-WMQS"
+    },
+    {
+        "read_count": 2.0,
+        "bibcode": "2013AAS...22124030A",
+        "pubdate": "2013-01-00",
+        "title": [
+            "New Features in ADS Labs"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Di Milia, G",
+            "Grant, C",
+            "Henneken, E",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:2WDF-DEGV-VT0V"
+    },
+    {
+        "read_count": 23.0,
+        "bibcode": "2012SPIE.8448E..0KA",
+        "pubdate": "2012-09-00",
+        "title": [
+            "Telescope bibliographies: an essential component of archival data management and operations"
+        ],
+        "citation_count": 1,
+        "author_norm": [
+            "Accomazzi, A",
+            "Erdmann, C",
+            "Henneken, E",
+            "Rots, A"
+        ],
+        "scix_id": "scix:B6F6-ZKQ5-VAFA"
+    },
+    {
+        "read_count": 22.0,
+        "bibcode": "2014arXiv1406.4542H",
+        "pubdate": "2014-06-00",
+        "title": [
+            "Computing and Using Metrics in the ADS"
+        ],
+        "citation_count": 0,
+        "author_norm": [
+            "Accomazzi, A",
+            "Chyla, R",
+            "Grant, C",
+            "Henneken, E",
+            "Holachek, A",
+            "Kurtz, M",
+            "Luker, J",
+            "Murray, S",
+            "Thompson, D"
+        ],
+        "scix_id": "scix:A6P0-W8D5-N0QU"
+    }
+]
