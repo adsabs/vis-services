@@ -201,9 +201,9 @@ class TestAppLogic(TestCase):
     def test_paper_helper_functions(self):
         import vis_services.lib.paper_network as PN
         # Check that the 'get_paper_data' function returns a bibcode-keyed data dictionary
-        data = [{'bibcode':'a','title':'foo'}, {'bibcode':'b','title':'bar'}]
+        data = [{'bibcode':'a','scix_id':'scix:a', 'title':'foo'}, {'bibcode':'b', 'scix_id':'scix:b', 'title':'bar'}]
         res = PN._get_paper_data(data)
-        expected = {'a': {'bibcode': 'a', 'title': 'foo'}, 'b': {'bibcode': 'b', 'title': 'bar'}}
+        expected = {'scix:a': {'bibcode': 'a', 'scix_id': 'scix:a', 'title': 'foo'}, 'scix:b': {'bibcode': 'b', 'scix_id': 'scix:b', 'title': 'bar'}}
         self.assertEqual(res, expected)
         # A result dictionary with less that 'cutoff' entries should be returned untouched
         test_dict = {'a':1.0, 'b':0.75, 'c':3.3}
