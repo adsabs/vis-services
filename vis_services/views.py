@@ -18,31 +18,36 @@ class QueryException(Exception):
 def make_request(request, service_string, required_fields):
     bibcodes = []
     query = None
-    if 'bibcodes' in request.json:
+    if 'bibcodes' in request.json or 'identifiers' in request.json:
+        # The test below seems a bit pedantic. We can just ignore the 'query' part
+        # if that is included in addition to identifiers
         if 'query' in request.json and request.json['query']:
             raise QueryException('Cannot send both bibcodes and query')
 
-        bibcodes = list(map(str, request.json['bibcodes']))
+        if 'bibcodes' in request.json:
+            identifiers = list(map(str, request.json['bibcodes']))
+        else:
+            identifiers = list(map(str, request.json['identifiers']))
 
-        if len(bibcodes) > current_app.config.get("VIS_SERVICE_" + service_string + "_MAX_RECORDS"):
-            raise QueryException('No results: number of submitted bibcodes exceeds maximum number')
+        if len(identifiers) > current_app.config.get("VIS_SERVICE_" + service_string + "_MAX_RECORDS"):
+            raise QueryException('No results: number of submitted identifiers exceeds maximum number')
 
-        elif len(bibcodes) == 0:
-            raise QueryException('No bibcodes found in POST body')
+        elif len(identifiers) == 0:
+            raise QueryException('No identifiers found in POST body')
 
-        #we have bibcodes, which might be up to 1000 ( too long for solr using GET),
+        #we have identifiers, which might be up to 1000 ( too long for solr using GET),
         #so use bigquery
         headers = {
             'X-Forwarded-Authorization' : request.headers.get('Authorization'),
             'Content-Type': 'big-query/csv',
             'Authorization': request.headers.get('X-Forwarded-Authorization', request.headers.get('Authorization', ''))
         }
-        big_query_params = {'q':'*:*', 'wt':'json', 'fl': required_fields, 'fq': '{!bitset}', 'rows' : len(bibcodes)}
+        big_query_params = {'q':'*:*', 'wt':'json', 'fl': required_fields, 'fq': '{!bitset}', 'rows' : len(identifiers)}
 
         response = client().post(   current_app.config.get("VIS_SERVICE_BIGQUERY_PATH"),
                                     params = big_query_params,
                                     headers = headers,
-                                    data = 'bibcode\n' + '\n'.join(bibcodes)
+                                    data = 'identifier\n' + '\n'.join(identifiers)
                                 )
         return response
 
@@ -118,7 +123,7 @@ class AuthorNetwork(Resource):
 
     def post(self):
         try:
-            required_fields = ['author_norm', 'title', 'citation_count', 'read_count','bibcode', 'pubdate']
+            required_fields = ['author_norm', 'title', 'citation_count', 'read_count', 'scix_id', 'bibcode', 'pubdate']
             response = make_request(request, "AN", required_fields)
         except QueryException as error:
             return {'Error' : 'there was a problem with your request', 'Error Info': str(error)}, 403
@@ -151,7 +156,7 @@ class PaperNetwork(Resource):
     def post(self):
 
         try:
-            required_fields = ['bibcode,title,first_author,year,citation_count,read_count,reference']
+            required_fields = ['bibcode,scix_id,title,first_author,year,citation_count,read_count,reference']
             response = make_request(request, "PN", required_fields)
         except QueryException as error:
             return {'Error' : 'there was a problem with your request', 'Error Info': str(error)}, 403

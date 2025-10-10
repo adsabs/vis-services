@@ -78,7 +78,7 @@ def augment_graph_data(author_graph, data):
         return {"fullGraph" : author_graph}
 
     # make two dicts: a dict with all info for a certain paper (bib_dict)
-    # and a dict for each author that lists all bibcodes they helped write
+    # and a dict for each author that lists all identifiers they helped write
     name_dict = defaultdict(list)
     bib_dict= {}
 
@@ -90,12 +90,12 @@ def augment_graph_data(author_graph, data):
         read_count = d.get("read_count")
         if not read_count:
             read_count = 0
-        bib_dict[d.get("bibcode")] = {"title" : d.get("title", [""])[0],
+        bib_dict[d.get("scix_id")] = {"title" : d.get("title", [""])[0],
                                         "citation_count": citation_count,
                                         "read_count": read_count,
                                         "authors" : d.get("author_norm", [])}
         for author in d.get("author_norm", []):
-            name_dict[author].append(d.get("bibcode"))
+            name_dict[author].append(d.get("scix_id"))
     #don't allow any more author nodes than max_num_auth_nodes
     if len(author_graph['nodes'])>max_num_auth_nodes:
         node_cutoff = sorted([d["nodeWeight"] for d in author_graph['nodes']], reverse=True)[:max_num_auth_nodes+1][-1]
@@ -147,8 +147,8 @@ def augment_graph_data(author_graph, data):
                 name = G.nodes[child].get("nodeName")
                 size = G.nodes[child].get("nodeWeight")
                 bibs = sorted(name_dict[name], key=lambda x:bib_dict[x]["citation_count"], reverse=True)
-                total_citations = sum([bib_dict[bibcode]["citation_count"] for bibcode in name_dict[name]])
-                total_reads = sum([bib_dict[bibcode]["read_count"] for bibcode in name_dict[name]])
+                total_citations = sum([bib_dict[scix_id]["citation_count"] for scix_id in name_dict[name]])
+                total_reads = sum([bib_dict[scix_id]["read_count"] for scix_id in name_dict[name]])
                 children.append({"name":name, "size": size, "papers":bibs, "citation_count" : total_citations, "read_count" : total_reads, "numberName" : child})
             else:
                 G.remove_node(child)
