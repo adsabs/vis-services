@@ -14,6 +14,7 @@ import httpretty
 
 STUBDATA_DIR = PROJECT_HOME + "/vis_services/tests/stubdata"
 solr_data = json.load(open(STUBDATA_DIR + "/test_input/paper_network_before_groups_func_large.json"))
+solr_data_err = json.load(open(STUBDATA_DIR + "/test_input/paper_network_without_cocitations.json"))
 wordcloud = json.load(open(STUBDATA_DIR + "/test_output/wordcloud.json"))
 
 class TestExpectedResults(TestCase):
@@ -166,6 +167,24 @@ class TestExpectedResults(TestCase):
                     data=json.dumps(query_params))
         
         self.assertTrue(r.status_code == 200)
+
+    @httpretty.activate
+    def test_paper_network_empty(self):
+        '''test query for generating a paper network'''
+        SOLRQUERY_URL = self.app.config.get("VIS_SERVICE_BIGQUERY_PATH")
+        query_params = {'bibcodes': ['2025Meas..25618270J', '2025EPJQT..12...30B', '2025TUSTI.16406865Y', '2025OptL...50.5961A', '2025ThApC.156..514I']}
+        httpretty.register_uri(
+                    httpretty.POST, SOLRQUERY_URL,
+                    content_type='application/json',
+                    status=200,
+                    body='%s'%json.dumps(solr_data_err))
+        r = self.client.post(
+                    url_for('papernetwork'),
+                    content_type='application/json',
+                    data=json.dumps(query_params))
+        expected_output = {'Error': 'Empty network.'}
+        self.assertTrue(r.status_code == 200)
+        self.assertTrue(r.json == expected_output)
 
     @httpretty.activate
     def test_paper_network_solr_error(self):
