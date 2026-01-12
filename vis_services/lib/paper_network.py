@@ -252,6 +252,9 @@ def get_papernetwork(solr_data, max_groups, weighted=True, equalization=False, d
     del R
     # In practice we don't need to fill the diagonal with zeros, because we won't be using it
     fill_diagonal(C, 0)
+    # If the matrix C is all zeros, we there is no co-citation network
+    if ((C == 0).all()):
+        return None
     # Compile the list of links
     links = []
     link_dict = {}

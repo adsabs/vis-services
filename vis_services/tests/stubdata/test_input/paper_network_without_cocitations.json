@@ -1,0 +1,137 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 43,
+        "params": {
+            "q": "*:*",
+            "fl": "bibcode,scix_id,title,first_author,year,citation_count,read_count,reference",
+            "start": "0",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6900db96-51632fd74232f4175843bd71",
+            "fq": "{!bitset}",
+            "rows": "2000",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 5,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+            {
+                "bibcode": "2025EPJQT..12...30B",
+                "read_count": 0,
+                "reference": [
+                    "2014EPJQT...1....1M",
+                    "2014EPJQT...1...10J",
+                    "2015EPJQT...2...19T",
+                    "2015EPJQT...2...23H",
+                    "2016EPJQT...3....5K",
+                    "2020EPJQT...7....6E",
+                    "2021EPJQT...8....6C",
+                    "2021EPJQT...8...24K",
+                    "2024EPJQT..11...86L",
+                    "2025EPJQT..12...16B"
+                ],
+                "citation_count": 0,
+                "first_author": "Bongs, Kai",
+                "title": [
+                    "Celebrating the International Year of Quantum Science and Technology"
+                ],
+                "year": "2025",
+                "scix_id": "scix:5YAQ-6RW3-9ZAQ"
+            },
+            {
+                "bibcode": "2025Meas..25618270J",
+                "first_author": "Jin, Xingyun",
+                "title": [
+                    "Transverse thermoelectric effect in tilted YBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-\u03b4</SUB> films: Towards high-power, high-frequency pulsed-laser detection"
+                ],
+                "year": "2025",
+                "read_count": 0,
+                "reference": [
+                    "1990ApPhL..56.1914S",
+                    "1992ApPhL..60..501L",
+                    "2012ApSS..258.7330W",
+                    "2014ApPhA.114.1075M",
+                    "2020ApPhL.117l3902S",
+                    "2020JMemS..29...36T",
+                    "2022ApPhL.121t4102C",
+                    "2022Senso..22.5294L",
+                    "2023FlDy...58..779P",
+                    "2024ApPhL.125d4102S"
+                ],
+                "citation_count": 1,
+                "scix_id": "scix:700N-JRBX-JZQ5"
+            },
+            {
+                "bibcode": "2025ThApC.156..514I",
+                "first_author": "Ibrahim, Rabha W.",
+                "title": [
+                    "A generalized fractional system for modeling climate change and emissions: analysis, numerical solutions with a case study"
+                ],
+                "year": "2025",
+                "read_count": 0,
+                "reference": [
+                    "2022ThApC.148..881H",
+                    "2023IJCli..43.3538L",
+                    "2023JOES....8..308S",
+                    "2023ResPh..5407031C",
+                    "2024CNSNS.12807657C",
+                    "2024ECSS..30208771A",
+                    "2025ClDy...63...86S",
+                    "2025NatSR..1527063A",
+                    "2025PhyS..100a5299S",
+                    "2025ScTEn.96078254M"
+                ],
+                "citation_count": 1,
+                "scix_id": "scix:7B5F-RYSQ-XNB1"
+            },
+            {
+                "bibcode": "2025OptL...50.5961A",
+                "read_count": 0,
+                "reference": [
+                    "2008PhRvL.100r8102C",
+                    "2009PhRvE..80c1403G",
+                    "2012OptLE..50..366G",
+                    "2016AmJPh..84..202G",
+                    "2016NatSR...634383V",
+                    "2016SMat...12.2858V",
+                    "2019ApOpt..58.6549F",
+                    "2021JBO....26i0601H",
+                    "2022iSci...25j5122A",
+                    "2023Meas..21913263N"
+                ],
+                "citation_count": 0,
+                "first_author": "Asghari, Mahsa",
+                "title": [
+                    "Speckle pattern analysis using differential dynamic matrix"
+                ],
+                "year": "2025",
+                "scix_id": "scix:18YE-BSB7-20DE"
+            },
+            {
+                "bibcode": "2025TUSTI.16406865Y",
+                "read_count": 0,
+                "reference": [
+                    "1950PhT.....3d..35R",
+                    "1979JNNFM...5...79R",
+                    "2005JRheo..49..705R",
+                    "2014EngSt..70..218T",
+                    "2015EngSt.101..698T",
+                    "2015MiEng..71..120G",
+                    "2018GmTun..11..236H",
+                    "2020TUSTI..9603212L",
+                    "2022AcRhe..61..163P",
+                    "2024UndSp..14..285Y"
+                ],
+                "citation_count": 0,
+                "first_author": "Yang, Xing",
+                "title": [
+                    "Investigation of synchronous backfill flow behind the segment wall of double-shield TBM utilizing rheological properties of self-compacting concrete backfill material"
+                ],
+                "year": "2025",
+                "scix_id": "scix:7XBC-783C-7XAN"
+            }
+        ]
+    }
+}
